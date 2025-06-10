@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Usuarios - La estación</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-left">
+      <span class="header-title">La estación</span>
+      <button class="icon-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+    <button class="icon-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a2 2 0 100-4 2 2 0 000 4z" />
+      </svg>
+    </button>
+  </header>
+  <nav class="nav">
+    <a href="dashboard.html" class="nav-btn">Dashboard</a>
+    <a href="products.html" class="nav-btn">Productos</a>
+    <a href="inventory.html" class="nav-btn">Inventario</a>
+    <a href="clients.html" class="nav-btn">Clientes</a>
+    <a href="sales.html" class="nav-btn">Ventas</a>
+    <a href="offers.html" class="nav-btn">Ofertas</a>
+    <a href="reports.html" class="nav-btn">Reportes</a>
+    <a href="users.html" class="nav-btn active">Usuarios</a>
+  </nav>
+  <main class="main-content">
+    <h2 class="section-title">Usuarios / Empleados</h2>
+    <div class="flex-between mb-4">
+      <button class="btn-blue">Crear Usuario</button>
+      <input type="text" placeholder="Buscar usuario" class="input">
+    </div>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nombre</th>
+          <th>Rol</th>
+          <th>Última Actividad</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td><td>John Doe</td><td>Admin</td><td>Hace 1 hora</td>
+        </tr>
+        <tr>
+          <td>2</td><td>Jane Smith</td><td>Vendedor</td><td>Hace 1 hora</td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+</body>
+</html>

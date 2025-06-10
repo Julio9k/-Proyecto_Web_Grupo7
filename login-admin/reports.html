@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Reportes - La estación</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-left">
+      <span class="header-title">La estación</span>
+      <button class="icon-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+    <button class="icon-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a2 2 0 100-4 2 2 0 000 4z" />
+      </svg>
+    </button>
+  </header>
+  <nav class="nav">
+    <a href="dashboard.html" class="nav-btn">Dashboard</a>
+    <a href="products.html" class="nav-btn">Productos</a>
+    <a href="inventory.html" class="nav-btn">Inventario</a>
+    <a href="clients.html" class="nav-btn">Clientes</a>
+    <a href="sales.html" class="nav-btn">Ventas</a>
+    <a href="offers.html" class="nav-btn">Ofertas</a>
+    <a href="reports.html" class="nav-btn active">Reportes</a>
+    <a href="users.html" class="nav-btn">Usuarios</a>
+  </nav>
+  <main class="main-content">
+    <h2 class="section-title">Reportes</h2>
+    <div class="flex-between mb-4">
+      <button class="btn-blue">Exportar a Excel</button>
+      <select class="input">
+        <option value="sales">Reporte de Ventas</option>
+        <option value="inventory">Reporte de Inventario</option>
+      </select>
+    </div>
+    <div class="grid-2">
+      <div class="card">
+        <h3 class="card-title">Reporte de Ventas por Fecha</h3>
+        <div class="chart-placeholder"></div>
+      </div>
+      <div class="card">
+        <h3 class="card-title">Reporte de Stock Actual</h3>
+        <div class="chart-placeholder"></div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

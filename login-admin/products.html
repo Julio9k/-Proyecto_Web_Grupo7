@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Productos - La estación</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-left">
+      <span class="header-title">La estación</span>
+      <button class="icon-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+    <button class="icon-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a2 2 0 100-4 2 2 0 000 4z" />
+      </svg>
+    </button>
+  </header>
+  <nav class="nav">
+    <a href="dashboard.html" class="nav-btn">Dashboard</a>
+    <a href="products.html" class="nav-btn active">Productos</a>
+    <a href="inventory.html" class="nav-btn">Inventario</a>
+    <a href="clients.html" class="nav-btn">Clientes</a>
+    <a href="sales.html" class="nav-btn">Ventas</a>
+    <a href="offers.html" class="nav-btn">Ofertas</a>
+    <a href="reports.html" class="nav-btn">Reportes</a>
+    <a href="users.html" class="nav-btn">Usuarios</a>
+  </nav>
+  <main class="main-content">
+    <h2 class="section-title">Productos</h2>
+    <div class="flex-between mb-4">
+      <button class="btn-blue">Agregar Producto</button>
+      <select class="input">
+        <option value="all">Todos los productos</option>
+        <option value="vino">Vinos</option>
+        <option value="cerveza">Cervezas</option>
+      </select>
+    </div>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nombre</th>
+          <th>Categoría</th>
+          <th>Stock</th>
+          <th>Precio</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td><td>Wine Bottle</td><td>Vinos</td><td>50</td><td>$25</td>
+          <td>
+            <button class="btn-yellow">Editar</button>
+            <button class="btn-red">Eliminar</button>
+          </td>
+        </tr>
+        <tr>
+          <td>2</td><td>Beer Can</td><td>Cervezas</td><td>100</td><td>$3</td>
+          <td>
+            <button class="btn-yellow">Editar</button>
+            <button class="btn-red">Eliminar</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+</body>
+</html>

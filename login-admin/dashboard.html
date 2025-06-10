@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard - La estación</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="dashboard-cards.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header-left">
+      <span class="header-title">La estación</span>
+      <button class="icon-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+    <button class="icon-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a2 2 0 100-4 2 2 0 000 4z" />
+      </svg>
+    </button>
+  </header>
+  <!-- Navigation -->
+  <nav class="nav">
+    <a href="dashboard.html" class="nav-btn active">Dashboard</a>
+    <a href="products.html" class="nav-btn">Productos</a>
+    <a href="inventory.html" class="nav-btn">Inventario</a>
+    <a href="clients.html" class="nav-btn">Clientes</a>
+    <a href="sales.html" class="nav-btn">Ventas</a>
+    <a href="offers.html" class="nav-btn">Ofertas</a>
+    <a href="reports.html" class="nav-btn">Reportes</a>
+    <a href="users.html" class="nav-btn">Usuarios</a>
+  </nav>
+  <!-- Main Content -->
+  <main class="main-content">
+    <h2 class="section-title">Dashboard</h2>
+    <div class="dashboard-cards">
+      <div class="dashboard-card">
+        <svg class="icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A13.937 13.937 0 0112 15c2.5 0 4.847.655 6.879 1.804M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+        </svg>
+        <div class="card-info">
+          <span class="card-value">1,359</span>
+          <span class="card-label">Clientes Online</span>
+        </div>
+      </div>
+      <div class="dashboard-card gray">
+        <svg class="icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M7 7h10M7 11h10M7 15h6" />
+        </svg>
+        <div class="card-info">
+          <span class="card-value">$7,349.90</span>
+          <span class="card-label">Ventas de Hoy</span>
+        </div>
+      </div>
+      <div class="dashboard-card">
+        <svg class="icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <rect x="3" y="7" width="18" height="13" rx="2" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M7 13h10M7 17h6" />
+        </svg>
+        <div class="card-info">
+          <span class="card-value">50</span>
+          <span class="card-label">Productos Vendidos</span>
+        </div>
+      </div>
+    </div>
+    <div class="dashboard-main-cards">
+      <div class="main-card white">
+        <h3 class="main-card-title">Productos más vendidos</h3>
+        <ul class="main-card-list">
+          <li>Wine Bottle <span class="main-card-badge">50 unidades</span></li>
+          <li>Beer Can <span class="main-card-badge">100 unidades</span></li>
+        </ul>
+      </div>
+      <div class="main-card white">
+        <h3 class="main-card-title">Alertas de bajo stock</h3>
+        <ul class="main-card-list">
+          <li>Producto A <span class="main-card-badge badge-alert">Stock bajo (5 unidades)</span></li>
+        </ul>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
