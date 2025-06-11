@@ -5,14 +5,7 @@ body {
   color: #222;
 }
 
-.header {
-  background: #4f46e5;
-  color: #fff;
-  padding: 16px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+
 
 .header-left {
   display: flex;
@@ -37,11 +30,6 @@ body {
 .icon {
   width: 24px;
   height: 24px;
-}
-
-.nav {
-  background: #e5e7eb;
-  padding: 16px;
 }
 
 .nav-btn {
