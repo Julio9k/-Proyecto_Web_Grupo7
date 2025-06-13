@@ -102,8 +102,8 @@
 
 														<a href="/my-account/"
 															class="nav-top-link nav-top-not-logged-in is-small"
-															data-open="#login-form-popup"  >
-															<span>Acceder     / Regístrate  </span>
+															data-open=""  >
+															<i class="icon-user" ></i>
 														
 														</a>
 												</li>						
@@ -133,7 +133,7 @@
 								<ul class="nav header-nav header-bottom-nav nav-left  nav-box nav-spacing-large nav-uppercase">
 										<li id="menu-item-390" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3166 menu-item-design-default"><a href="dashboard.html" aria-current="page" class="nav-top-link">DASHBOARD</a></li>
 										<li id="menu-item-3172" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-37 current_page_item menu-item-390 active menu-item-design-default"><a href="products.html" class="nav-top-link">PRODUCTOS<i class="nav-top-link" ></i></a></li>
-										<li id="menu-item-3166" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3166 menu-item-design-default"><a href="inventory.html" class="nav-top-link">INVENTARIO</a></li>
+										
 										<li id="menu-item-3817" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3817 menu-item-design-default"><a href="clients.html" class="nav-top-link">CLIENTES</a></li>
 										<li id="menu-item-3169" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3169 menu-item-design-default"><a href="sales.html" class="nav-top-link">VENTAS</a></li>
                     <li id="menu-item-2782" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2782 menu-item-design-default"><a href="offers.html" class="nav-top-link">OFERTAS</a></li>
@@ -148,43 +148,55 @@
 
 	</div>
   <main class="main-content">
-    <h2 class="section-title">Productos</h2>
-    <div class="flex-between mb-4">
-      <button class="btn-blue">Agregar Producto</button>
-      <select class="input">
-        <option value="all">Todos los productos</option>
-        <option value="vino">Vinos</option>
-        <option value="cerveza">Cervezas</option>
-      </select>
-    </div>
-    <table class="table">
-      <thead>
-        <tr>
-          <th>ID</th>
-          <th>Nombre</th>
-          <th>Categoría</th>
-          <th>Stock</th>
-          <th>Precio</th>
-          <th>Acciones</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>1</td><td>Wine Bottle</td><td>Vinos</td><td>50</td><td>$25</td>
-          <td>
-            <button class="btn-yellow">Editar</button>
-            <button class="btn-red">Eliminar</button>
-          </td>
-        </tr>
-        <tr>
-          <td>2</td><td>Beer Can</td><td>Cervezas</td><td>100</td><td>$3</td>
-          <td>
-            <button class="btn-yellow">Editar</button>
-            <button class="btn-red">Eliminar</button>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-  </main>
+  <h2 class="section-title">Productos</h2>
+  <div class="flex-between mb-4">
+    <button class="btn-blue">Agregar Producto</button>
+    <select class="input">
+      <option value="all">Todos los productos</option>
+      <option value="vino">Vinos</option>
+      <option value="cerveza">Cervezas</option>
+    </select>
+  </div>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Nombre</th>
+        <th>Precio (S/)</th>
+        <th>Imagen</th>
+        <th>Categoría ID</th>
+        <th>Stock</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Evervess Agua Tónica 500 ml</td>
+        <td>3.50</td>
+        <td><img src="imagenes/agua_tonica/evervess.png" alt="Evervess Agua Tónica" width="50"></td>
+        <td>4</td>
+        <td>20</td>
+        <td>
+          <button class="btn-yellow">Editar</button>
+          <button class="btn-red">Eliminar</button>
+        </td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Ginger Ale Fanta 355 ml</td>
+        <td>4.20</td>
+        <td><img src="imagenes/agua_tonica/ginger_ale.png" alt="Ginger Ale Fanta" width="50"></td>
+        <td>4</td>
+        <td>15</td>
+        <td>
+          <button class="btn-yellow">Editar</button>
+          <button class="btn-red">Eliminar</button>
+        </td>
+      </tr>
+      <!-- Agrega más productos aquí siguiendo el mismo formato -->
+    </tbody>
+  </table>
+</main>
 </body>
 </html>

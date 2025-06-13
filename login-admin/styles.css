@@ -92,6 +92,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 10px;
 }
 
 .mb-4 {
@@ -99,18 +100,22 @@ body {
 }
 
 .btn-blue {
-  background: #3b82f6;
+  padding: 4px 12px;
+  font-size: 14px;
+  border-radius: 4px;
+  background: #0074d9;
   color: #fff;
-  padding: 8px 16px;
   border: none;
-  border-radius: 6px;
   cursor: pointer;
-  font-weight: 500;
   transition: background 0.2s;
+  font-weight: 600;
+  box-shadow: none;
+  min-width: 0;
+  height: auto;
 }
 
 .btn-blue:hover {
-  background: #2563eb;
+  background: #005fa3;
 }
 
 .btn-yellow {
@@ -143,10 +148,10 @@ body {
 }
 
 .input {
-  border: 1px solid #d1d5db;
-  border-radius: 6px;
-  padding: 8px;
-  font-size: 1rem;
+  padding: 7px 12px;
+  font-size: 15px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
 }
 
 .table {
