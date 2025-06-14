@@ -81,6 +81,25 @@ INSERT INTO categorias (nombre) VALUES
 ('Agua Tónica'),
 ('Espumante');
 
+CREATE TABLE ventas (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    cliente_id INT,
+    usuario_id INT, -- el que realizó la venta (puede ser un vendedor)
+    fecha TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    total DECIMAL(10,2) NOT NULL,
+    FOREIGN KEY (cliente_id) REFERENCES clientes(id),
+    FOREIGN KEY (usuario_id) REFERENCES usuarios(id)
+);
+
+CREATE TABLE detalle_ventas (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    venta_id INT,
+    producto_id INT,
+    cantidad INT NOT NULL,
+    precio_unitario DECIMAL(10,2) NOT NULL,
+    FOREIGN KEY (venta_id) REFERENCES ventas(id),
+    FOREIGN KEY (producto_id) REFERENCES productos(id)
+);
 -- Insertar usuario administrador
 INSERT INTO usuarios (nombre, correo, contrasena, es_admin) VALUES
 ('Admin', 'admin@licoreria.pe', 'admin123', TRUE);

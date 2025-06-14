@@ -148,31 +148,39 @@
 
 	</div>
   <main class="main-content">
-    <h2 class="section-title">Ventas</h2>
-    <div class="flex-between mb-4">
-      <button class="btn-blue">Registrar Venta</button>
-      <select class="input">
-        <option value="today">Hoy</option>
-        <option value="week">Esta semana</option>
-      </select>
-    </div>
-    <table class="table">
-      <thead>
-        <tr>
-          <th>Fecha</th>
-          <th>Total</th>
-          <th>Productos Vendidos</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>2023-10-01</td><td>$500</td><td>20</td>
-        </tr>
-        <tr>
-          <td>2023-10-02</td><td>$700</td><td>30</td>
-        </tr>
-      </tbody>
-    </table>
-  </main>
+  <h2 class="section-title">Ventas</h2>
+  <div class="flex-between mb-4">
+    <button class="btn-blue">Registrar Venta</button>
+    <input type="text" placeholder="Buscar venta" class="input">
+  </div>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>ID Cliente</th>
+        <th>ID Usuario</th>
+        <th>Fecha</th>
+        <th>Total (S/)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>3</td>
+        <td>2</td>
+        <td>2024-06-14 18:30:00</td>
+        <td>150.00</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>5</td>
+        <td>1</td>
+        <td>2024-06-14 19:10:00</td>
+        <td>75.50</td>
+      </tr>
+      <!-- Agrega más ventas aquí -->
+    </tbody>
+  </table>
+</main>
 </body>
 </html>
