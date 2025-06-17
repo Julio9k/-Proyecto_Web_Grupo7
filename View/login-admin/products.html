@@ -3,13 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <title>Productos - La estación</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="../css/styles.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />		
 		<meta name="description" content="En La estación nos encargamos de entregar los mejores productos para cualquier celebración hasta la puerta de su casa." />
-		<link rel="canonical" href="index.html" />
-		<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="stylopaged.css">
-
+		<link rel="canonical" href="index.php" />
+		<link rel="stylesheet" href="../css/css/style.css">
+		<link rel="stylesheet" href="../css/stylopaged.css">
+		<link rel="stylesheet" href="../css/styles_form.css">
+		
 	<link rel='dns-prefetch' href='/View//fonts.googleapis.com' />
 	<link rel='stylesheet' id='wp-block-library-css' href='/View/wp-includes/css/dist/block-library/style.min.css@ver=6.3.5.css' type='text/css' media='all' />
 	<link rel='stylesheet' id='wc-blocks-vendors-style-css' href='/View/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-vendors-style.css@ver=9.8.4.css' type='text/css' media='all' />
@@ -136,7 +137,7 @@
 										
 										<li id="menu-item-3817" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3817 menu-item-design-default"><a href="clients.html" class="nav-top-link">CLIENTES</a></li>
 										<li id="menu-item-3169" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3169 menu-item-design-default"><a href="sales.html" class="nav-top-link">VENTAS</a></li>
-                    <li id="menu-item-2782" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2782 menu-item-design-default"><a href="offers.html" class="nav-top-link">OFERTAS</a></li>
+                    					<li id="menu-item-2782" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2782 menu-item-design-default"><a href="offers.html" class="nav-top-link">OFERTAS</a></li>
 										<li id="menu-item-3167" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-3167 menu-item-design-default has-dropdown"><a href="users.html" class="nav-top-link">USUARIOS<i class="nav-top-link" ></i></a></li>
 																		</ul>
 							</div>					
@@ -150,7 +151,7 @@
   <main class="main-content">
   <h2 class="section-title">Productos</h2>
   <div class="flex-between mb-4">
-    <button class="btn-blue">Agregar Producto</button>
+    <button class="btn-blue" id="openModal">Agregar Producto</button>
     <select class="input">
       <option value="all">Todos los productos</option>
       <option value="vino">Vinos</option>
@@ -198,5 +199,80 @@
     </tbody>
   </table>
 </main>
+
+<!-- Botón para abrir el modal -->
+<div id="overlay" class="hidden">
+
+<!-- Formulario modal -->
+<div class="product-modal">
+  <h1 class="product-form-title">Registro de Productos</h1>
+  <form class="product-form-container" autocomplete="off">
+    <div class="product-form-group">
+      <label for="product-nombre">Nombre del Producto *</label>
+      <input type="text" id="product-nombre" name="product-nombre" required>
+    </div>
+    <div class="product-form-group">
+      <label for="product-precio">Precio *</label>
+      <input type="number" step="0.01" id="product-precio" name="product-precio" required>
+    </div>
+    <div class="product-form-group">
+      <label for="product-imagen-url">URL de la Imagen</label>
+      <input type="url" id="product-imagen-url" name="product-imagen-url">
+      <input type="file" id="product-imagen-file" accept="image/*" style="display:none;">
+      <button type="button" class="product-btn-upload" onclick="document.getElementById('product-imagen-file').click();">Subir Imagen</button>
+    </div>
+    <div class="product-form-group">
+      <label for="product-categoria">Categoría *</label>
+      <select id="product-categoria" name="product-categoria" required>
+        <option value="">Selecciona una categoría</option>
+        <option value="1">Electrónica</option>
+        <option value="2">Ropa</option>
+        <option value="3">Hogar</option>
+        <option value="4">Juguetes</option>
+      </select>
+    </div>
+    <div class="product-form-group">
+      <label for="product-stock">Stock *</label>
+      <input type="number" id="product-stock" name="product-stock" required>
+    </div>
+    <button type="submit" class="product-btn-submit">Registrar Producto</button>
+  </form>
+ 
+</div>
+ <button id="product-close-modal" class="product-close-button">&times;</button>
+
+</div>
+
+<script>
+  const openModalButton = document.getElementById('openModal');
+  const closeModalButton = document.getElementById('product-close-modal');
+  const overlay = document.getElementById('overlay');
+
+  // Abrir modal
+  openModalButton.addEventListener('click', () => {
+    overlay.classList.add('active');
+    overlay.classList.remove('hidden');
+  });
+
+  // Cerrar modal
+  closeModalButton.addEventListener('click', () => {
+    overlay.classList.remove('active');
+    overlay.classList.add('hidden');
+  });
+
+  // Imagen preview al seleccionar archivo
+  document.getElementById('product-imagen-file').addEventListener('change', function(event) {
+    const file = event.target.files[0];
+    if (file) {
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        document.getElementById('product-imagen-url').value = e.target.result;
+      };
+      reader.readAsDataURL(file);
+    }
+  });
+</script>
+
+
 </body>
 </html>

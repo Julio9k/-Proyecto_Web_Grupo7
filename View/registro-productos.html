@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Registro de Productos</title>
+  <link rel="stylesheet" href="registro-productos.css">
+</head>
+<body>
+  <div class="flex-col-center min-h-screen bg-gray-100">
+    <h1 class="form-title">Registro de Productos</h1>
+    <form class="form-container" autocomplete="off">
+      <div class="form-group">
+        <label for="nombre">Nombre del Producto *</label>
+        <input type="text" id="nombre" name="nombre" required>
+      </div>
+      <div class="form-group">
+        <label for="precio">Precio *</label>
+        <input type="number" step="0.01" id="precio" name="precio" required>
+      </div>
+      <div class="form-group">
+        <label for="imagen_url">URL de la Imagen</label>
+        <input type="url" id="imagen_url" name="imagen_url">
+        <input type="file" id="imagen_file" accept="image/*" style="display:none;">
+        <button type="button" class="btn-upload" onclick="document.getElementById('imagen_file').click();">Subir Imagen</button>
+      </div>
+      <div class="form-group">
+        <label for="categoria_id">Categoría *</label>
+        <select id="categoria_id" name="categoria_id" required>
+          <option value="">Selecciona una categoría</option>
+          <option value="1">Electrónica</option>
+          <option value="2">Ropa</option>
+          <option value="3">Hogar</option>
+          <option value="4">Juguetes</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="stock">Stock *</label>
+        <input type="number" id="stock" name="stock" required>
+      </div>
+      <button type="submit" class="btn-submit">Registrar Producto</button>
+    </form>
+  </div>
+  <script>
+    document.getElementById('imagen_file').addEventListener('change', function(event) {
+      const file = event.target.files[0];
+      if (file) {
+        const reader = new FileReader();
+        reader.onload = function(e) {
+          document.getElementById('imagen_url').value = e.target.result;
+        };
+        reader.readAsDataURL(file);
+      }
+    });
+  </script>
+</body>
+</html>

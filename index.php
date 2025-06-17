@@ -1,15 +1,14 @@
 <?php
 
-$controlador = $_GET['controlador'] ?? 'producto';
-$accion = $_GET['accion'] ?? 'listar';
+$controlador = $_GET['controlador'] ?? 'inicio';
+$accion = $_GET['accion'] ?? 'mostrarInicio';
 
-// Cargar el controlador
-require_once "controladores/" . ucfirst($controlador) . "Controlador.php";
 
+require_once "Controller/" . $controlador . "Controller.php";
 // Crear instancia del controlador
-$nombreClase = ucfirst($controlador) . "Controlador";
+$nombreClase = $controlador . "Controller";
 $instancia = new $nombreClase();
-
+// Verificar si la acción existe en el controlador
 // Ejecutar la acción
 if (method_exists($instancia, $accion)) {
     $instancia->$accion();

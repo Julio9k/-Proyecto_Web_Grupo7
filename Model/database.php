@@ -2,7 +2,7 @@
 
 class Database
 {
-    private $host = "localhost:8081";
+    private $host = "localhost:3309";
     private $db_name = "licoreria_estacion";
     private $username = "root";
     private $password = "";

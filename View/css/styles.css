@@ -112,6 +112,7 @@ body {
   box-shadow: none;
   min-width: 0;
   height: auto;
+  text-transform: capitalize;
 }
 
 .btn-blue:hover {
@@ -127,6 +128,7 @@ body {
   cursor: pointer;
   margin-right: 4px;
   font-size: 0.95rem;
+  text-transform: capitalize;
 }
 
 .btn-yellow:hover {
@@ -141,6 +143,7 @@ body {
   border-radius: 6px;
   cursor: pointer;
   font-size: 0.95rem;
+  text-transform: capitalize;
 }
 
 .btn-red:hover {

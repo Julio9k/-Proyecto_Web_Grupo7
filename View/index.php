@@ -8,7 +8,7 @@
 	
 	<title>La estación</title>
 	<meta name="description" content="En La estación nos encargamos de entregar los mejores productos para cualquier celebración hasta la puerta de su casa." />
-	<link rel="canonical" href="index.html" />
+	<link rel="canonical" href="index.php" />
 	<link rel="stylesheet" href="css/style.css">
 
 <link rel='dns-prefetch' href='/View/fonts.googleapis.com' />
@@ -289,7 +289,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <!-- Logo -->
           <div id="logo" class="flex-col logo">
             <!-- Header logo -->
-<a href="index.html" title="La estación - Licores en Oferta" rel="home">
+<a href="index.php" title="La estación - Licores en Oferta" rel="home">
     <img width="150" height="113" src="/View/wp-content/uploads/2023/04/Logo1.png" class="header_logo header-logo" alt="La estación"/><img  width="150" height="113" src="/View/wp-content/uploads/2023/04/Logo1.png" class="header-logo-dark" alt="La estación"/></a>
           </div>
 
@@ -347,7 +347,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				</li>
 
 				<li class="header-divider"></li> <li class="cart-item has-icon has-dropdown">
-					<a href="/View/cart/index.html" title="Carrito" class="header-cart-link is-small">
+					<a href="/View/cart/index.php" title="Carrito" class="header-cart-link is-small">
 					<span class="header-cart-title">Carrito     </span>
 
 						<i class="icon-shopping-cart"
@@ -364,7 +364,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <ul class="mobile-nav nav nav-right ">
                 <li class="cart-item has-icon">
 
-					<a href="/View/cart/index.html" class="header-cart-link off-canvas-toggle nav-top-link is-small"  data-class="off-canvas-cart" title="Carrito" data-pos="right">
+					<a href="/View/cart/index.php" class="header-cart-link off-canvas-toggle nav-top-link is-small"  data-class="off-canvas-cart" title="Carrito" data-pos="right">
 		
 					<i class="icon-shopping-cart" data-icon-label="0"></i>
 					</a>
@@ -386,23 +386,26 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
                         <div class="flex-col hide-for-medium flex-left">
                 <ul class="nav header-nav header-bottom-nav nav-left  nav-box nav-spacing-large nav-uppercase">
-                    <li id="menu-item-390" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-37 current_page_item menu-item-390 active menu-item-design-default"><a href="index.html" aria-current="page" class="nav-top-link">INICIO</a></li>
-<li id="menu-item-3172" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3172 menu-item-design-default has-dropdown"><a href="/View/product-category/vinos/index.html" class="nav-top-link">VINOS<i class="nav-top-link" ></i></a></li>
-<li id="menu-item-3166" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3166 menu-item-design-default"><a href="/View/product-category/licores/index.html" class="nav-top-link">LICORES</a></li>
-<li id="menu-item-3817" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3817 menu-item-design-default"><a href="/View/product-category/agua-tonica/index.html" class="nav-top-link">AGUA TÓNICA</a></li>
-<li id="menu-item-3169" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3169 menu-item-design-default"><a href="/View/product-category/cerveza/index.html" class="nav-top-link">CERVEZA</a></li>
-<li id="menu-item-3167" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-3167 menu-item-design-default has-dropdown"><a href="/View/product-category/espumantes/" class="nav-top-link">ESPUMANTES<i class="nav-top-link" ></i></a></li>
-<li id="menu-item-2782" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2782 menu-item-design-default"><a href="/View/ofertas/index.html" class="nav-top-link">OFERTAS</a></li>
+                    <li id="menu-item-390" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-37 current_page_item menu-item-390 active menu-item-design-default"><a href="index.php?controlador=inicio&accion=mostrarInicio" aria-current="page" class="nav-top-link">INICIO</a></li>
+					<li id="menu-item-3172" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3172 menu-item-design-default has-dropdown"><a href="/View/product-category/vinos/index.php" class="nav-top-link">VINOS<i class="nav-top-link" ></i></a></li>
+					<li id="menu-item-3166" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3166 menu-item-design-default"><a href="/View/product-category/licores/index.php" class="nav-top-link">LICORES</a></li>
+					<li id="menu-item-3817" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3817 menu-item-design-default"><a href="/View/product-category/agua-tonica/index.php" class="nav-top-link">AGUA TÓNICA</a></li>
+					<li id="menu-item-3169" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3169 menu-item-design-default"><a href="/View/product-category/cerveza/index.php" class="nav-top-link">CERVEZA</a></li>
+					<li id="menu-item-3167" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-3167 menu-item-design-default has-dropdown"><a href="/View/product-category/espumantes/" class="nav-top-link">ESPUMANTES<i class="nav-top-link" ></i></a></li>
+					<li id="menu-item-2782" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2782 menu-item-design-default"><a href="/View/ofertas/index.php" class="nav-top-link">OFERTAS</a></li>
 
                 </ul>
             </div>
             
             
-                        <div class="flex-col hide-for-medium flex-right flex-grow">
-              <ul class="nav header-nav header-bottom-nav nav-right  nav-box nav-spacing-large nav-uppercase">
-                   <li class="html header-social-icons ml-0">
-	<div class="social-icons follow-icons" ><a href="https://www.facebook.com/La estaciónEIRL/" target="_blank" data-label="Facebook"  rel="noopener noreferrer nofollow" class="icon plain facebook tooltip" title="Síguenos en Facebook"><i class="icon-facebook" ></i></a><a href="https://www.instagram.com/La estación.EIRL/" target="_blank" rel="noopener noreferrer nofollow" data-label="Instagram" class="icon plain  instagram tooltip" title="Síguenos en Instagram"><i class="icon-instagram" ></i></a><a href="mailto:Laestacion@gmail.com" data-label="E-mail"  rel="nofollow" class="icon plain  email tooltip" title="Envíanos un email"><i class="icon-envelop" ></i></a></div></li>              </ul>
-            </div>
+                    <div class="flex-col hide-for-medium flex-right flex-grow">
+						<ul class="nav header-nav header-bottom-nav nav-right  nav-box nav-spacing-large nav-uppercase">
+							<li class="html header-social-icons ml-0">
+									<div class="social-icons follow-icons" ><a href="https://www.facebook.com/La estaciónEIRL/" target="_blank" data-label="Facebook"  rel="noopener noreferrer nofollow" class="icon plain facebook tooltip" title="Síguenos en Facebook"><i class="icon-facebook" ></i></a><a href="https://www.instagram.com/La estación.EIRL/" target="_blank" rel="noopener noreferrer nofollow" data-label="Instagram" class="icon plain  instagram tooltip" title="Síguenos en Instagram"><i class="icon-instagram" ></i></a><a href="mailto:Laestacion@gmail.com" data-label="E-mail"  rel="nofollow" class="icon plain  email tooltip" title="Envíanos un email"><i class="icon-envelop" ></i></a>
+									</div>
+								</li>            
+						</ul>
+                   </div>
             
                           <div class="flex-col show-for-medium flex-grow">
                   <ul class="nav header-bottom-nav nav-center mobile-nav  nav-box nav-spacing-large nav-uppercase">
@@ -595,54 +598,89 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   
     <div class="row  equalize-box large-columns-4 medium-columns-3 small-columns-2 row-small slider row-slider slider-nav-simple slider-nav-outside slider-nav-push"  data-flickity-options='{"imagesLoaded": true, "groupCells": "100%", "dragThreshold" : 5, "cellAlign": "left","wrapAround": true,"prevNextButtons": true,"percentPosition": true,"pageDots": false, "rightToLeft": false, "autoPlay" : 4000}'>
 
-  	
+  		<?php foreach ($cerveza as $producto): ?>
+			<div class="product-small col has-hover product type-product post-5329 status-publish last instock product_cat-tintos-espana product_cat-tintos-varietales has-post-thumbnail shipping-taxable purchasable product-type-simple">
+					<div class="col-inner">
+						<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-above_thumb-add-to-cart tinvwl-loop-button-wrapper tinvwl-woocommerce_before_shop_loop_item"
+						data-tinvwl_product_id="5329">
+						<div
+							class="tinvwl-tooltip">
+						</div>
+						</div>
+
+						<div class="badge-container absolute left top z-1">
+						</div>
+
+						<div class="product-small box ">
+								<div class="box-image">
+
+										<div class="image-fade_in_back">
+											<a href="/View/product/vino-dg-familia-fernandez-rivera-x-750-ml/">
+												<img width="300" height="300" src="/View/wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x-300x300.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="DG Familia Fernández Rivera 2019" decoding="async" loading="lazy" src="/View/wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x-300x300.png 300w, /wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x-400x400.png 400w, /wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x-280x280.png 280w, /wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x-768x768.png 768w, /wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x-600x600.png 600w, /wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x-100x100.png 100w, /wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x.png 800w" sizes="(max-width: 300px) 100vw, 300px" />				</a>
+										</div>
+
+										<div class="image-tools is-small top right show-on-hover">
+												<div class="wishlist-icon">
+													<button class="wishlist-button button is-outline circle icon"
+															aria-label="Lista de deseos">
+														<i class="icon-heart-o" ></i>				
+													</button>
+
+													<div class="wishlist-popup dark ">
+
+														<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-shortcode-add-to-cart tinvwl-loop-button-wrapper tinvwl-flatsome_product_box_tools_top"
+															data-tinvwl_product_id="5329">
+
+															<div	class="tinvwl-tooltip"></div>
+
+														</div>
+													</div>
+												</div>
+										</div>
+
+										<div class="image-tools is-small hide-for-small bottom left show-on-hover">
+										</div>
+										
+										<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+										</div>
+								</div>
+
+							<div class="box-text box-text-products text-center grid-style-2">
+									<div class="title-wrapper">		
+										<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+											<?= $producto['categoria_nombre'] ?>	
+										</p>
+
+										<p class="name product-title woocommerce-loop-product__title">
+											<a href="/View/product/vino-dg-familia-fernandez-rivera-x-750-ml/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">	
+												<?= $producto['nombre'] ?>
+											</a>
+										</p>
+									</div>
+
+									<div class="price-wrapper">
+										<span class="price"><span class="woocommerce-Price-amount amount">
+											<bdi>
+											<span class="woocommerce-Price-currencySymbol">S/
+
+											</span>&nbsp;<?= $producto['precio'] ?>
+										</bdi></span></span>
+									</div>
+									
+									<!-- BOTON : Añadir al carrito -->
+									<div class="add-to-cart-button">
+											<a href="?add-to-cart=5329" data-quantity="1" class="primary is-small mb-0 button wp-element-button product_type_simple add_to_cart_button ajax_add_to_cart is-outline" data-product_id="5329" data-product_sku="" aria-label="Añade &ldquo;DG Familia Fernández Rivera&rdquo; a tu carrito" rel="nofollow">
+												Añadir al carrito
+											</a>
+									</div>		
+							</div>
+						</div>
+						</div>
+			</div>
+				<?php endforeach; ?> 
 	     
 					
-<div class="product-small col has-hover product type-product post-6248 status-publish first instock product_cat-ofertas has-post-thumbnail shipping-taxable purchasable product-type-simple">
-	<div class="col-inner">
-	<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-above_thumb-add-to-cart tinvwl-loop-button-wrapper tinvwl-woocommerce_before_shop_loop_item"
-	 data-tinvwl_product_id="6248">
-			<div
-		class="tinvwl-tooltip"></div>
-</div>
 
-<div class="badge-container absolute left top z-1">
-</div>
-	<div class="product-small box ">
-		<div class="box-image">
-			<div class="image-fade_in_back">
-				<a href="/View/product/06-bots-1-bot-vino-phebus-uco-blend-mendoza/">
-					<img width="300" height="300" src="/View/wp-content/uploads/2025/04/Phebus-Uco-Blend-5-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy" src="/View/wp-content/uploads/2025/04/Phebus-Uco-Blend-5-300x300.jpg 300w, /wp-content/uploads/2025/04/Phebus-Uco-Blend-5-400x400.jpg 400w, /wp-content/uploads/2025/04/Phebus-Uco-Blend-5-800x800.jpg 800w, /wp-content/uploads/2025/04/Phebus-Uco-Blend-5-280x280.jpg 280w, /wp-content/uploads/2025/04/Phebus-Uco-Blend-5-768x768.jpg 768w, /wp-content/uploads/2025/04/Phebus-Uco-Blend-5-1536x1536.jpg 1536w, /wp-content/uploads/2025/04/Phebus-Uco-Blend-5-600x600.jpg 600w, /wp-content/uploads/2025/04/Phebus-Uco-Blend-5-100x100.jpg 100w, /wp-content/uploads/2025/04/Phebus-Uco-Blend-5.jpg 1600w" sizes="(max-width: 300px) 100vw, 300px" />				</a>
-			</div>
-			<div class="image-tools is-small top right show-on-hover">
-							<div class="wishlist-icon">
-				<button class="wishlist-button button is-outline circle icon"
-						aria-label="Lista de deseos">
-					<i class="icon-heart-o" ></i>				</button>
-				<div
-					class="wishlist-popup dark ">
-					<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-shortcode-add-to-cart tinvwl-loop-button-wrapper tinvwl-flatsome_product_box_tools_top"
-	 data-tinvwl_product_id="6248">
-			<div
-		class="tinvwl-tooltip"></div>
-</div>
-				</div>
-			</div>
-						</div>
-			<div class="image-tools is-small hide-for-small bottom left show-on-hover">
-							</div>
-			<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
-							</div>
-					</div>
-
-		<div class="box-text box-text-products text-center grid-style-2">
-			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
-			Ofertas		</p>
-	<p class="name product-title woocommerce-loop-product__title"><a href="/View/product/06-bots-1-bot-vino-phebus-uco-blend-mendoza/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">06 Bots. + 1 Bot. Vino Phebus Uco Blend Mendoza</a></p></div><div class="price-wrapper">
-	<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">S/</span>&nbsp;550.00</bdi></span></span>
-</div><div class="add-to-cart-button"><a href="?add-to-cart=6248" data-quantity="1" class="primary is-small mb-0 button wp-element-button product_type_simple add_to_cart_button ajax_add_to_cart is-outline" data-product_id="6248" data-product_sku="" aria-label="Añade &ldquo;06 Bots. + 1 Bot. Vino Phebus Uco Blend Mendoza&rdquo; a tu carrito" rel="nofollow">Añadir al carrito</a></div>		</div>
-	</div>
-		</div>
 </div>
 	            
 					
@@ -653,7 +691,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<div class="col-inner text-center"  >
 			
 			
-<a href="/View/ofertas/index.html" target="_self" class="button primary"  style="border-radius:10px;">
+<a href="/View/ofertas/index.php" target="_self" class="button primary"  style="border-radius:10px;">
     <span>Ver mas</span>
   </a>
 
@@ -755,333 +793,350 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<section class="section" id="section_1010235512">
 		<div class="bg section-bg fill bg-fill  bg-loaded" >
 
-			
-			
-			
-
 		</div>
 
 		<div class="section-content relative">
 			
 	<div id="gap-1323052084" class="gap-element clearfix" style="display:block; height:auto;">
 		
-<style>
-#gap-1323052084 {
-  padding-top: 50px;
-}
-</style>
+		<style>
+		#gap-1323052084 {
+		padding-top: 50px;
+		}
+		</style>
 	</div>
 	
-<div class="container section-title-container" ><h2 class="section-title section-title-normal"><b></b><span class="section-title-main" >Vino</span><b></b></h2></div>
+	<div class="container section-title-container" >
+		<h2 class="section-title section-title-normal"><b></b>
+			<span class="section-title-main" >
+				Vino
+			</span><b></b>
+		</h2>
+	</div>
 
-  
-    <div class="row  equalize-box large-columns-4 medium-columns-3 small-columns-2 row-small slider row-slider slider-nav-simple slider-nav-outside slider-nav-push"  data-flickity-options='{"imagesLoaded": true, "groupCells": "100%", "dragThreshold" : 5, "cellAlign": "left","wrapAround": true,"prevNextButtons": true,"percentPosition": true,"pageDots": false, "rightToLeft": false, "autoPlay" : 4000}'>
-
-  	
-	
-	            
-					
-<div class="product-small col has-hover product type-product post-5329 status-publish last instock product_cat-tintos-espana product_cat-tintos-varietales has-post-thumbnail shipping-taxable purchasable product-type-simple">
-	<div class="col-inner">
-	<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-above_thumb-add-to-cart tinvwl-loop-button-wrapper tinvwl-woocommerce_before_shop_loop_item"
-	 data-tinvwl_product_id="5329">
-	<!-- a role="button" tabindex="0" name="" aria-label="" class="tinvwl_add_to_wishlist_button tinvwl-icon-heart no-txt tinvwl-product-already-on-wishlist  tinvwl-position-above_thumb tinvwl-loop" data-tinv-wl-list="[]" data-tinv-wl-product="5329" data-tinv-wl-productvariation="0" data-tinv-wl-productvariations="[]" data-tinv-wl-producttype="simple" data-tinv-wl-action="add"></a -->		<div
-		class="tinvwl-tooltip"></div>
-</div>
-
-<div class="badge-container absolute left top z-1">
-</div>
-	<div class="product-small box ">
-		<div class="box-image">
-			<div class="image-fade_in_back">
-				<a href="/View/product/vino-dg-familia-fernandez-rivera-x-750-ml/">
-					<img width="300" height="300" src="/View/wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x-300x300.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="DG Familia Fernández Rivera 2019" decoding="async" loading="lazy" src="/View/wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x-300x300.png 300w, /wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x-400x400.png 400w, /wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x-280x280.png 280w, /wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x-768x768.png 768w, /wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x-600x600.png 600w, /wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x-100x100.png 100w, /wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x.png 800w" sizes="(max-width: 300px) 100vw, 300px" />				</a>
-			</div>
-			<div class="image-tools is-small top right show-on-hover">
-							<div class="wishlist-icon">
-				<button class="wishlist-button button is-outline circle icon"
-						aria-label="Lista de deseos">
-					<i class="icon-heart-o" ></i>				</button>
-				<div
-					class="wishlist-popup dark ">
-					<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-shortcode-add-to-cart tinvwl-loop-button-wrapper tinvwl-flatsome_product_box_tools_top"
-	 data-tinvwl_product_id="5329">
-	<!-- a role="button" tabindex="0" name="" aria-label="" class="tinvwl_add_to_wishlist_button tinvwl-icon-heart no-txt tinvwl-product-already-on-wishlist  tinvwl-position-above_thumb tinvwl-loop" data-tinv-wl-list="[]" data-tinv-wl-product="5329" data-tinv-wl-productvariation="0" data-tinv-wl-productvariations="[]" data-tinv-wl-producttype="simple" data-tinv-wl-action="add"></a -->		<div
-		class="tinvwl-tooltip"></div>
-</div>
-				</div>
-			</div>
+	<!-- Contenedor vinos -->
+	<div class="row  equalize-box large-columns-4 medium-columns-3 small-columns-2 row-small slider row-slider slider-nav-simple slider-nav-outside slider-nav-push"  data-flickity-options='{"imagesLoaded": true, "groupCells": "100%", "dragThreshold" : 5, "cellAlign": "left","wrapAround": true,"prevNextButtons": true,"percentPosition": true,"pageDots": false, "rightToLeft": false, "autoPlay" : 4000}'>
+		
+		<?php foreach ($vino as $producto): ?>
+			<div class="product-small col has-hover product type-product post-5329 status-publish last instock product_cat-tintos-espana product_cat-tintos-varietales has-post-thumbnail shipping-taxable purchasable product-type-simple">
+					<div class="col-inner">
+						<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-above_thumb-add-to-cart tinvwl-loop-button-wrapper tinvwl-woocommerce_before_shop_loop_item"
+						data-tinvwl_product_id="5329">
+						<div
+							class="tinvwl-tooltip">
 						</div>
-			<div class="image-tools is-small hide-for-small bottom left show-on-hover">
+						</div>
+
+						<div class="badge-container absolute left top z-1">
+						</div>
+
+						<div class="product-small box ">
+								<div class="box-image">
+
+										<div class="image-fade_in_back">
+											<a href="/View/product/vino-dg-familia-fernandez-rivera-x-750-ml/">
+												<img width="300" height="300" src="/View/wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x-300x300.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="DG Familia Fernández Rivera 2019" decoding="async" loading="lazy" src="/View/wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x-300x300.png 300w, /wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x-400x400.png 400w, /wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x-280x280.png 280w, /wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x-768x768.png 768w, /wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x-600x600.png 600w, /wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x-100x100.png 100w, /wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x.png 800w" sizes="(max-width: 300px) 100vw, 300px" />				</a>
+										</div>
+
+										<div class="image-tools is-small top right show-on-hover">
+												<div class="wishlist-icon">
+													<button class="wishlist-button button is-outline circle icon"
+															aria-label="Lista de deseos">
+														<i class="icon-heart-o" ></i>				
+													</button>
+
+													<div class="wishlist-popup dark ">
+
+														<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-shortcode-add-to-cart tinvwl-loop-button-wrapper tinvwl-flatsome_product_box_tools_top"
+															data-tinvwl_product_id="5329">
+
+															<div	class="tinvwl-tooltip"></div>
+
+														</div>
+													</div>
+												</div>
+										</div>
+
+										<div class="image-tools is-small hide-for-small bottom left show-on-hover">
+										</div>
+										
+										<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+										</div>
+								</div>
+
+							<div class="box-text box-text-products text-center grid-style-2">
+									<div class="title-wrapper">		
+										<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+											<?= $producto['categoria_nombre'] ?>	
+										</p>
+
+										<p class="name product-title woocommerce-loop-product__title">
+											<a href="/View/product/vino-dg-familia-fernandez-rivera-x-750-ml/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">	
+												<?= $producto['nombre'] ?>
+											</a>
+										</p>
+									</div>
+
+									<div class="price-wrapper">
+										<span class="price"><span class="woocommerce-Price-amount amount">
+											<bdi>
+											<span class="woocommerce-Price-currencySymbol">S/
+
+											</span>&nbsp;<?= $producto['precio'] ?>
+										</bdi></span></span>
+									</div>
+									
+									<!-- BOTON : Añadir al carrito -->
+									<div class="add-to-cart-button">
+											<a href="?add-to-cart=5329" data-quantity="1" class="primary is-small mb-0 button wp-element-button product_type_simple add_to_cart_button ajax_add_to_cart is-outline" data-product_id="5329" data-product_sku="" aria-label="Añade &ldquo;DG Familia Fernández Rivera&rdquo; a tu carrito" rel="nofollow">
+												Añadir al carrito
+											</a>
+									</div>		
 							</div>
-			<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
-							</div>
-					</div>
-
-		<div class="box-text box-text-products text-center grid-style-2">
-			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
-			España		</p>
-	<p class="name product-title woocommerce-loop-product__title"><a href="/View/product/vino-dg-familia-fernandez-rivera-x-750-ml/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">DG Familia Fernández Rivera</a></p></div><div class="price-wrapper">
-	<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">S/</span>&nbsp;44.50</bdi></span></span>
-</div><div class="add-to-cart-button"><a href="?add-to-cart=5329" data-quantity="1" class="primary is-small mb-0 button wp-element-button product_type_simple add_to_cart_button ajax_add_to_cart is-outline" data-product_id="5329" data-product_sku="" aria-label="Añade &ldquo;DG Familia Fernández Rivera&rdquo; a tu carrito" rel="nofollow">Añadir al carrito</a></div>		</div>
-	</div>
-		</div>
-</div>
-	            	        </div>
-<div class="row align-middle align-center"  id="row-691143181">
-
-	<div id="col-2088159713" class="col small-12 large-12"  >
-		<div class="col-inner text-center"  >
-			
-			
-<a href="/View/product-category/vinos/index.html" target="_self" class="button primary"  style="border-radius:10px;">
-    <span>Ver mas</span>
-  </a>
-
-		</div>
+						</div>
+						</div>
 			</div>
+		<?php endforeach; ?>         
+    			
+	</div>
 
-	
-</div>
+	<div class="row align-middle align-center"  id="row-691143181">
+
+		<div id="col-2088159713" class="col small-12 large-12"  >
+			<div class="col-inner text-center"  >
+				
+				<a href="/View/product-category/vinos/index.php" target="_self" class="button primary"  style="border-radius:10px;">
+					<span>Ver mas</span>
+				</a>
+
+			</div>
+		</div>
+
+		
+	</div>
 
 
-<div class="container section-title-container" ><h2 class="section-title section-title-normal"><b></b><span class="section-title-main" ><i class="instagram" ></i>Espumante / Champagne</span><b></b></h2></div>
+	<div class="container section-title-container" >	
+		<h2 class="section-title section-title-normal"><b></b>
+			<span class="section-title-main" >	
+				<i class="instagram" ></i>
+				Espumante / Champagne
+			</span><b></b>
+		</h2>
+	</div>
 
   
     <div class="row  equalize-box large-columns-4 medium-columns-3 small-columns-2 row-small slider row-slider slider-nav-simple slider-nav-outside slider-nav-push"  data-flickity-options='{"imagesLoaded": true, "groupCells": "100%", "dragThreshold" : 5, "cellAlign": "left","wrapAround": true,"prevNextButtons": true,"percentPosition": true,"pageDots": false, "rightToLeft": false, "autoPlay" : 5000}'>
 
-  	
-	     
-					
-<div class="product-small col has-hover product type-product post-4355 status-publish first instock product_cat-espumantes product_cat-italia has-post-thumbnail shipping-taxable purchasable product-type-simple">
-	<div class="col-inner">
-	<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-above_thumb-add-to-cart tinvwl-loop-button-wrapper tinvwl-woocommerce_before_shop_loop_item"
-	 data-tinvwl_product_id="4355">
-	<!-- a role="button" tabindex="0" name="" aria-label="" class="tinvwl_add_to_wishlist_button tinvwl-icon-heart no-txt tinvwl-product-already-on-wishlist  tinvwl-position-above_thumb tinvwl-loop" data-tinv-wl-list="[]" data-tinv-wl-product="4355" data-tinv-wl-productvariation="0" data-tinv-wl-productvariations="[]" data-tinv-wl-producttype="simple" data-tinv-wl-action="add"></a -->		<div
-		class="tinvwl-tooltip"></div>
-</div>
-
-<div class="badge-container absolute left top z-1">
-</div>
-	<div class="product-small box ">
-		<div class="box-image">
-			<div class="image-fade_in_back">
-				<a href="/View/product/espumante-asti-riccadonna-dogc-x-750-ml/">
-					<img width="300" height="300" src="/View/wp-content/uploads/2024/01/Asti-Riccadonna-DOGC@05x-300x300.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Asti Riccadonna DOGC" decoding="async" loading="lazy" src="/View/View/wp-content/uploads/2024/01/Asti-Riccadonna-DOGC@05x-300x300.png 300w, /wp-content/uploads/2024/01/Asti-Riccadonna-DOGC@05x-400x400.png 400w, /wp-content/uploads/2024/01/Asti-Riccadonna-DOGC@05x-280x280.png 280w, /wp-content/uploads/2024/01/Asti-Riccadonna-DOGC@05x-768x768.png 768w, /wp-content/uploads/2024/01/Asti-Riccadonna-DOGC@05x-600x600.png 600w, /wp-content/uploads/2024/01/Asti-Riccadonna-DOGC@05x-100x100.png 100w, /wp-content/uploads/2024/01/Asti-Riccadonna-DOGC@05x.png 800w" sizes="(max-width: 300px) 100vw, 300px" />				</a>
-			</div>
-			<div class="image-tools is-small top right show-on-hover">
-							<div class="wishlist-icon">
-				<button class="wishlist-button button is-outline circle icon"
-						aria-label="Lista de deseos">
-					<i class="icon-heart-o" ></i>				</button>
-				<div
-					class="wishlist-popup dark ">
-					<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-shortcode-add-to-cart tinvwl-loop-button-wrapper tinvwl-flatsome_product_box_tools_top"
-	 data-tinvwl_product_id="4355">
-	<!-- a role="button" tabindex="0" name="" aria-label="" class="tinvwl_add_to_wishlist_button tinvwl-icon-heart no-txt tinvwl-product-already-on-wishlist  tinvwl-position-above_thumb tinvwl-loop" data-tinv-wl-list="[]" data-tinv-wl-product="4355" data-tinv-wl-productvariation="0" data-tinv-wl-productvariations="[]" data-tinv-wl-producttype="simple" data-tinv-wl-action="add"></a -->		<div
-		class="tinvwl-tooltip"></div>
-</div>
-				</div>
-			</div>
+				<?php foreach ($espumante as $producto): ?>
+			<div class="product-small col has-hover product type-product post-5329 status-publish last instock product_cat-tintos-espana product_cat-tintos-varietales has-post-thumbnail shipping-taxable purchasable product-type-simple">
+					<div class="col-inner">
+						<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-above_thumb-add-to-cart tinvwl-loop-button-wrapper tinvwl-woocommerce_before_shop_loop_item"
+						data-tinvwl_product_id="5329">
+						<div
+							class="tinvwl-tooltip">
 						</div>
-			<div class="image-tools is-small hide-for-small bottom left show-on-hover">
-							</div>
-			<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
-							</div>
-					</div>
-
-		<div class="box-text box-text-products text-center grid-style-2">
-			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
-			Espumantes		</p>
-	<p class="name product-title woocommerce-loop-product__title"><a href="/View/product/espumante-asti-riccadonna-dogc-x-750-ml/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Espumante Asti Riccadonna DOCG</a></p></div><div class="price-wrapper">
-	<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">S/</span>&nbsp;57.00</bdi></span></span>
-</div><div class="add-to-cart-button"><a href="?add-to-cart=4355" data-quantity="1" class="primary is-small mb-0 button wp-element-button product_type_simple add_to_cart_button ajax_add_to_cart is-outline" data-product_id="4355" data-product_sku="" aria-label="Añade &ldquo;Espumante Asti Riccadonna DOCG&rdquo; a tu carrito" rel="nofollow">Añadir al carrito</a></div>		</div>
-	</div>
-		</div>
-</div>
-	            
-					
-<div class="product-small col has-hover product type-product post-3233 status-publish instock product_cat-espana product_cat-espumantes has-post-thumbnail shipping-taxable purchasable product-type-simple">
-	<div class="col-inner">
-	<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-above_thumb-add-to-cart tinvwl-loop-button-wrapper tinvwl-woocommerce_before_shop_loop_item"
-	 data-tinvwl_product_id="3233">
-	<!-- a role="button" tabindex="0" name="" aria-label="" class="tinvwl_add_to_wishlist_button tinvwl-icon-heart no-txt tinvwl-product-already-on-wishlist  tinvwl-position-above_thumb tinvwl-loop" data-tinv-wl-list="[]" data-tinv-wl-product="3233" data-tinv-wl-productvariation="0" data-tinv-wl-productvariations="[]" data-tinv-wl-producttype="simple" data-tinv-wl-action="add"></a -->		<div
-		class="tinvwl-tooltip"></div>
-</div>
-
-<div class="badge-container absolute left top z-1">
-</div>
-	<div class="product-small box ">
-		<div class="box-image">
-			<div class="image-fade_in_back">
-				<a href="/View/product/cava-juve-camps-cinta-purpura-reserva-2019/">
-					<img width="300" height="300" src="/View/wp-content/uploads/2023/05/Cava-Juve-Camps-Cinta-Purpura-Reserva-2019@05x-1-300x300.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Cava Juvé &amp; Camps Cinta Purpura Reserva 2019" decoding="async" loading="lazy" src="/View/wp-content/uploads/2023/05/Cava-Juve-Camps-Cinta-Purpura-Reserva-2019@05x-1-300x300.png 300w, /wp-content/uploads/2023/05/Cava-Juve-Camps-Cinta-Purpura-Reserva-2019@05x-1-400x400.png 400w, /wp-content/uploads/2023/05/Cava-Juve-Camps-Cinta-Purpura-Reserva-2019@05x-1-280x280.png 280w, /wp-content/uploads/2023/05/Cava-Juve-Camps-Cinta-Purpura-Reserva-2019@05x-1-768x768.png 768w, /wp-content/uploads/2023/05/Cava-Juve-Camps-Cinta-Purpura-Reserva-2019@05x-1-600x600.png 600w, /wp-content/uploads/2023/05/Cava-Juve-Camps-Cinta-Purpura-Reserva-2019@05x-1-100x100.png 100w, /wp-content/uploads/2023/05/Cava-Juve-Camps-Cinta-Purpura-Reserva-2019@05x-1.png 800w" sizes="(max-width: 300px) 100vw, 300px" /><img width="300" height="300" src="/View/wp-content/uploads/2023/05/Cava-Juve-Camps-Cinta-Purpura-Reserva-OCTUBRE-300x300.jpg" class="show-on-hover absolute fill hide-for-small back-image" alt="Cava Juvé &amp; Camps Cinta Purpura Reserva OCTUBRE" decoding="async" loading="lazy" src="/View/wp-content/uploads/2023/05/Cava-Juve-Camps-Cinta-Purpura-Reserva-OCTUBRE-300x300.jpg 300w, /wp-content/uploads/2023/05/Cava-Juve-Camps-Cinta-Purpura-Reserva-OCTUBRE-400x400.jpg 400w, /wp-content/uploads/2023/05/Cava-Juve-Camps-Cinta-Purpura-Reserva-OCTUBRE-800x800.jpg 800w, /wp-content/uploads/2023/05/Cava-Juve-Camps-Cinta-Purpura-Reserva-OCTUBRE-280x280.jpg 280w, /wp-content/uploads/2023/05/Cava-Juve-Camps-Cinta-Purpura-Reserva-OCTUBRE-768x768.jpg 768w, /wp-content/uploads/2023/05/Cava-Juve-Camps-Cinta-Purpura-Reserva-OCTUBRE-1536x1536.jpg 1536w, /wp-content/uploads/2023/05/Cava-Juve-Camps-Cinta-Purpura-Reserva-OCTUBRE-600x600.jpg 600w, /wp-content/uploads/2023/05/Cava-Juve-Camps-Cinta-Purpura-Reserva-OCTUBRE-100x100.jpg 100w, /wp-content/uploads/2023/05/Cava-Juve-Camps-Cinta-Purpura-Reserva-OCTUBRE.jpg 1600w" sizes="(max-width: 300px) 100vw, 300px" />				</a>
-			</div>
-			<div class="image-tools is-small top right show-on-hover">
-							<div class="wishlist-icon">
-				<button class="wishlist-button button is-outline circle icon"
-						aria-label="Lista de deseos">
-					<i class="icon-heart-o" ></i>				</button>
-				<div
-					class="wishlist-popup dark ">
-					<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-shortcode-add-to-cart tinvwl-loop-button-wrapper tinvwl-flatsome_product_box_tools_top"
-	 data-tinvwl_product_id="3233">
-	<!-- a role="button" tabindex="0" name="" aria-label="" class="tinvwl_add_to_wishlist_button tinvwl-icon-heart no-txt tinvwl-product-already-on-wishlist  tinvwl-position-above_thumb tinvwl-loop" data-tinv-wl-list="[]" data-tinv-wl-product="3233" data-tinv-wl-productvariation="0" data-tinv-wl-productvariations="[]" data-tinv-wl-producttype="simple" data-tinv-wl-action="add"></a -->		<div
-		class="tinvwl-tooltip"></div>
-</div>
-				</div>
-			</div>
 						</div>
-			<div class="image-tools is-small hide-for-small bottom left show-on-hover">
-							</div>
-			<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
-							</div>
-					</div>
 
-		<div class="box-text box-text-products text-center grid-style-2">
-			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
-			España		</p>
-	<p class="name product-title woocommerce-loop-product__title"><a href="/View/product/cava-juve-camps-cinta-purpura-reserva-2019/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Cava Juvé &amp; Camps Cinta Purpura Reserva</a></p></div><div class="price-wrapper">
-	<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">S/</span>&nbsp;65.00</bdi></span></span>
-</div><div class="add-to-cart-button"><a href="?add-to-cart=3233" data-quantity="1" class="primary is-small mb-0 button wp-element-button product_type_simple add_to_cart_button ajax_add_to_cart is-outline" data-product_id="3233" data-product_sku="" aria-label="Añade &ldquo;Cava Juvé &amp; Camps Cinta Purpura Reserva&rdquo; a tu carrito" rel="nofollow">Añadir al carrito</a></div>		</div>
-	</div>
-		</div>
-</div>
-	            
-					
-<div class="product-small col has-hover product type-product post-3229 status-publish last instock product_cat-espana product_cat-espumantes has-post-thumbnail shipping-taxable purchasable product-type-simple">
-	<div class="col-inner">
-	<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-above_thumb-add-to-cart tinvwl-loop-button-wrapper tinvwl-woocommerce_before_shop_loop_item"
-	 data-tinvwl_product_id="3229">
-	<!-- a role="button" tabindex="0" name="" aria-label="" class="tinvwl_add_to_wishlist_button tinvwl-icon-heart no-txt tinvwl-product-already-on-wishlist  tinvwl-position-above_thumb tinvwl-loop" data-tinv-wl-list="[]" data-tinv-wl-product="3229" data-tinv-wl-productvariation="0" data-tinv-wl-productvariations="[]" data-tinv-wl-producttype="simple" data-tinv-wl-action="add"></a -->		<div
-		class="tinvwl-tooltip"></div>
-</div>
-
-<div class="badge-container absolute left top z-1">
-</div>
-	<div class="product-small box ">
-		<div class="box-image">
-			<div class="image-fade_in_back">
-				<a href="/View/product/cava-juve-camps-brut-rose-pinot-noir/">
-					<img width="300" height="300" src="/View/wp-content/uploads/2023/05/Cava-Juve-Camps-Brut-Pinot-Noir@05x-300x300.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Cava Juvé &amp; Camps Brut Pinot Noir" decoding="async" loading="lazy" src="/View/wp-content/uploads/2023/05/Cava-Juve-Camps-Brut-Pinot-Noir@05x-300x300.png 300w, /wp-content/uploads/2023/05/Cava-Juve-Camps-Brut-Pinot-Noir@05x-400x400.png 400w, /wp-content/uploads/2023/05/Cava-Juve-Camps-Brut-Pinot-Noir@05x-280x280.png 280w, /wp-content/uploads/2023/05/Cava-Juve-Camps-Brut-Pinot-Noir@05x-768x768.png 768w, /wp-content/uploads/2023/05/Cava-Juve-Camps-Brut-Pinot-Noir@05x-600x600.png 600w, /wp-content/uploads/2023/05/Cava-Juve-Camps-Brut-Pinot-Noir@05x-100x100.png 100w, /wp-content/uploads/2023/05/Cava-Juve-Camps-Brut-Pinot-Noir@05x.png 800w" sizes="(max-width: 300px) 100vw, 300px" />				</a>
-			</div>
-			<div class="image-tools is-small top right show-on-hover">
-							<div class="wishlist-icon">
-				<button class="wishlist-button button is-outline circle icon"
-						aria-label="Lista de deseos">
-					<i class="icon-heart-o" ></i>				</button>
-				<div
-					class="wishlist-popup dark ">
-					<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-shortcode-add-to-cart tinvwl-loop-button-wrapper tinvwl-flatsome_product_box_tools_top"
-	 data-tinvwl_product_id="3229">
-	<!-- a role="button" tabindex="0" name="" aria-label="" class="tinvwl_add_to_wishlist_button tinvwl-icon-heart no-txt tinvwl-product-already-on-wishlist  tinvwl-position-above_thumb tinvwl-loop" data-tinv-wl-list="[]" data-tinv-wl-product="3229" data-tinv-wl-productvariation="0" data-tinv-wl-productvariations="[]" data-tinv-wl-producttype="simple" data-tinv-wl-action="add"></a -->		<div
-		class="tinvwl-tooltip"></div>
-</div>
-				</div>
-			</div>
+						<div class="badge-container absolute left top z-1">
 						</div>
-			<div class="image-tools is-small hide-for-small bottom left show-on-hover">
+
+						<div class="product-small box ">
+								<div class="box-image">
+
+										<div class="image-fade_in_back">
+											<a href="/View/product/vino-dg-familia-fernandez-rivera-x-750-ml/">
+												<img width="300" height="300" src="/View/wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x-300x300.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="DG Familia Fernández Rivera 2019" decoding="async" loading="lazy" src="/View/wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x-300x300.png 300w, /wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x-400x400.png 400w, /wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x-280x280.png 280w, /wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x-768x768.png 768w, /wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x-600x600.png 600w, /wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x-100x100.png 100w, /wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x.png 800w" sizes="(max-width: 300px) 100vw, 300px" />				</a>
+										</div>
+
+										<div class="image-tools is-small top right show-on-hover">
+												<div class="wishlist-icon">
+													<button class="wishlist-button button is-outline circle icon"
+															aria-label="Lista de deseos">
+														<i class="icon-heart-o" ></i>				
+													</button>
+
+													<div class="wishlist-popup dark ">
+
+														<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-shortcode-add-to-cart tinvwl-loop-button-wrapper tinvwl-flatsome_product_box_tools_top"
+															data-tinvwl_product_id="5329">
+
+															<div	class="tinvwl-tooltip"></div>
+
+														</div>
+													</div>
+												</div>
+										</div>
+
+										<div class="image-tools is-small hide-for-small bottom left show-on-hover">
+										</div>
+										
+										<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+										</div>
+								</div>
+
+							<div class="box-text box-text-products text-center grid-style-2">
+									<div class="title-wrapper">		
+										<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+											<?= $producto['categoria_nombre'] ?>	
+										</p>
+
+										<p class="name product-title woocommerce-loop-product__title">
+											<a href="/View/product/vino-dg-familia-fernandez-rivera-x-750-ml/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">	
+												<?= $producto['nombre'] ?>
+											</a>
+										</p>
+									</div>
+
+									<div class="price-wrapper">
+										<span class="price"><span class="woocommerce-Price-amount amount">
+											<bdi>
+											<span class="woocommerce-Price-currencySymbol">S/
+
+											</span>&nbsp;<?= $producto['precio'] ?>
+										</bdi></span></span>
+									</div>
+									
+									<!-- BOTON : Añadir al carrito -->
+									<div class="add-to-cart-button">
+											<a href="?add-to-cart=5329" data-quantity="1" class="primary is-small mb-0 button wp-element-button product_type_simple add_to_cart_button ajax_add_to_cart is-outline" data-product_id="5329" data-product_sku="" aria-label="Añade &ldquo;DG Familia Fernández Rivera&rdquo; a tu carrito" rel="nofollow">
+												Añadir al carrito
+											</a>
+									</div>		
 							</div>
-			<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
-							</div>
-					</div>
-
-		<div class="box-text box-text-products text-center grid-style-2">
-			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
-			España		</p>
-	<p class="name product-title woocommerce-loop-product__title"><a href="/View/product/cava-juve-camps-brut-rose-pinot-noir/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Cava Juvé &#038; Camps Brut Rosé Pinot Noir</a></p></div><div class="price-wrapper">
-	<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">S/</span>&nbsp;110.00</bdi></span></span>
-</div><div class="add-to-cart-button"><a href="?add-to-cart=3229" data-quantity="1" class="primary is-small mb-0 button wp-element-button product_type_simple add_to_cart_button ajax_add_to_cart is-outline" data-product_id="3229" data-product_sku="" aria-label="Añade &ldquo;Cava Juvé &amp; Camps Brut Rosé Pinot Noir&rdquo; a tu carrito" rel="nofollow">Añadir al carrito</a></div>		</div>
-	</div>
-		</div>
-</div>
-	            	        </div>
-<div class="row align-middle align-center"  id="row-378751832">
-
-	<div id="col-262397183" class="col small-12 large-12"  >
-		<div class="col-inner text-center"  >
-			
-			
-<a href="/View/product-category/espumantes/index.html" target="_self" class="button primary"  style="border-radius:10px;">
-    <span>Ver mas</span>
-  </a>
-
-		</div>
+						</div>
+						</div>
 			</div>
+				<?php endforeach; ?> 
 
-	
+	 </div>
+	<div class="row align-middle align-center"  id="row-378751832">
+
+		<div id="col-262397183" class="col small-12 large-12"  >
+			<div class="col-inner text-center"  >
+				
+				
+				<a href="/View/product-category/espumantes/index.php" target="_self" class="button primary"  style="border-radius:10px;">
+					<span>Ver mas</span>
+				</a>
+
+			</div>
+		</div>
+
+		
+	</div>
+<div class="container section-title-container" >
+	<h2 class="section-title section-title-normal"><b></b>
+			<span class="section-title-main" >
+				<i class="instagram" ></i>
+				Licores
+			</span><b></b>
+	</h2>
 </div>
-<div class="container section-title-container" ><h2 class="section-title section-title-normal"><b></b><span class="section-title-main" ><i class="instagram" ></i>Licores</span><b></b></h2></div>
 
   
     <div class="row  equalize-box large-columns-4 medium-columns-3 small-columns-2 row-small slider row-slider slider-nav-simple slider-nav-push"  data-flickity-options='{"imagesLoaded": true, "groupCells": "100%", "dragThreshold" : 5, "cellAlign": "left","wrapAround": true,"prevNextButtons": true,"percentPosition": true,"pageDots": false, "rightToLeft": false, "autoPlay" : 6000}'>
 
   	
-	   
-					
-<div class="product-small col has-hover product type-product post-6091 status-publish last instock product_cat-licores product_cat-whisky has-post-thumbnail shipping-taxable purchasable product-type-simple">
-	<div class="col-inner">
-	<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-above_thumb-add-to-cart tinvwl-loop-button-wrapper tinvwl-woocommerce_before_shop_loop_item"
-	 data-tinvwl_product_id="6091">
-	<!-- a role="button" tabindex="0" name="" aria-label="" class="tinvwl_add_to_wishlist_button tinvwl-icon-heart no-txt tinvwl-product-already-on-wishlist  tinvwl-position-above_thumb tinvwl-loop" data-tinv-wl-list="[]" data-tinv-wl-product="6091" data-tinv-wl-productvariation="0" data-tinv-wl-productvariations="[]" data-tinv-wl-producttype="simple" data-tinv-wl-action="add"></a -->		<div
-		class="tinvwl-tooltip"></div>
-</div>
-
-<div class="badge-container absolute left top z-1">
-</div>
-	<div class="product-small box ">
-		<div class="box-image">
-			<div class="image-fade_in_back">
-				<a href="/View/product/whisky-buchanans-de-18-anos-x-750-ml/">
-					<img width="300" height="300" src="/View/wp-content/uploads/2025/02/Whisky-Buchanans-de-18-anos-x-750-ml@05x-300x300.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy" src="/View/wp-content/uploads/2025/02/Whisky-Buchanans-de-18-anos-x-750-ml@05x-300x300.png 300w, /wp-content/uploads/2025/02/Whisky-Buchanans-de-18-anos-x-750-ml@05x-400x400.png 400w, /wp-content/uploads/2025/02/Whisky-Buchanans-de-18-anos-x-750-ml@05x-280x280.png 280w, /wp-content/uploads/2025/02/Whisky-Buchanans-de-18-anos-x-750-ml@05x-768x768.png 768w, /wp-content/uploads/2025/02/Whisky-Buchanans-de-18-anos-x-750-ml@05x-600x600.png 600w, /wp-content/uploads/2025/02/Whisky-Buchanans-de-18-anos-x-750-ml@05x-100x100.png 100w, /wp-content/uploads/2025/02/Whisky-Buchanans-de-18-anos-x-750-ml@05x.png 800w" sizes="(max-width: 300px) 100vw, 300px" />				</a>
-			</div>
-			<div class="image-tools is-small top right show-on-hover">
-							<div class="wishlist-icon">
-				<button class="wishlist-button button is-outline circle icon"
-						aria-label="Lista de deseos">
-					<i class="icon-heart-o" ></i>				</button>
-				<div
-					class="wishlist-popup dark ">
-					<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-shortcode-add-to-cart tinvwl-loop-button-wrapper tinvwl-flatsome_product_box_tools_top"
-	 data-tinvwl_product_id="6091">
-	<!-- a role="button" tabindex="0" name="" aria-label="" class="tinvwl_add_to_wishlist_button tinvwl-icon-heart no-txt tinvwl-product-already-on-wishlist  tinvwl-position-above_thumb tinvwl-loop" data-tinv-wl-list="[]" data-tinv-wl-product="6091" data-tinv-wl-productvariation="0" data-tinv-wl-productvariations="[]" data-tinv-wl-producttype="simple" data-tinv-wl-action="add"></a -->		<div
-		class="tinvwl-tooltip"></div>
-</div>
-				</div>
-			</div>
+	   	<?php foreach ($licor as $producto): ?>
+			<div class="product-small col has-hover product type-product post-5329 status-publish last instock product_cat-tintos-espana product_cat-tintos-varietales has-post-thumbnail shipping-taxable purchasable product-type-simple">
+					<div class="col-inner">
+						<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-above_thumb-add-to-cart tinvwl-loop-button-wrapper tinvwl-woocommerce_before_shop_loop_item"
+						data-tinvwl_product_id="5329">
+						<div
+							class="tinvwl-tooltip">
 						</div>
-			<div class="image-tools is-small hide-for-small bottom left show-on-hover">
+						</div>
+
+						<div class="badge-container absolute left top z-1">
+						</div>
+
+						<div class="product-small box ">
+								<div class="box-image">
+
+										<div class="image-fade_in_back">
+											<a href="/View/product/vino-dg-familia-fernandez-rivera-x-750-ml/">
+												<img width="300" height="300" src="/View/wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x-300x300.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="DG Familia Fernández Rivera 2019" decoding="async" loading="lazy" src="/View/wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x-300x300.png 300w, /wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x-400x400.png 400w, /wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x-280x280.png 280w, /wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x-768x768.png 768w, /wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x-600x600.png 600w, /wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x-100x100.png 100w, /wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x.png 800w" sizes="(max-width: 300px) 100vw, 300px" />				</a>
+										</div>
+
+										<div class="image-tools is-small top right show-on-hover">
+												<div class="wishlist-icon">
+													<button class="wishlist-button button is-outline circle icon"
+															aria-label="Lista de deseos">
+														<i class="icon-heart-o" ></i>				
+													</button>
+
+													<div class="wishlist-popup dark ">
+
+														<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-shortcode-add-to-cart tinvwl-loop-button-wrapper tinvwl-flatsome_product_box_tools_top"
+															data-tinvwl_product_id="5329">
+
+															<div	class="tinvwl-tooltip"></div>
+
+														</div>
+													</div>
+												</div>
+										</div>
+
+										<div class="image-tools is-small hide-for-small bottom left show-on-hover">
+										</div>
+										
+										<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+										</div>
+								</div>
+
+							<div class="box-text box-text-products text-center grid-style-2">
+									<div class="title-wrapper">		
+										<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+											<?= $producto['categoria_nombre'] ?>	
+										</p>
+
+										<p class="name product-title woocommerce-loop-product__title">
+											<a href="/View/product/vino-dg-familia-fernandez-rivera-x-750-ml/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">	
+												<?= $producto['nombre'] ?>
+											</a>
+										</p>
+									</div>
+
+									<div class="price-wrapper">
+										<span class="price"><span class="woocommerce-Price-amount amount">
+											<bdi>
+											<span class="woocommerce-Price-currencySymbol">S/
+
+											</span>&nbsp;<?= $producto['precio'] ?>
+										</bdi></span></span>
+									</div>
+									
+									<!-- BOTON : Añadir al carrito -->
+									<div class="add-to-cart-button">
+											<a href="?add-to-cart=5329" data-quantity="1" class="primary is-small mb-0 button wp-element-button product_type_simple add_to_cart_button ajax_add_to_cart is-outline" data-product_id="5329" data-product_sku="" aria-label="Añade &ldquo;DG Familia Fernández Rivera&rdquo; a tu carrito" rel="nofollow">
+												Añadir al carrito
+											</a>
+									</div>		
 							</div>
-			<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
-							</div>
-					</div>
-
-		<div class="box-text box-text-products text-center grid-style-2">
-			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
-			Licores		</p>
-	<p class="name product-title woocommerce-loop-product__title"><a href="/View/product/whisky-buchanans-de-18-anos-x-750-ml/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Whisky Buchanan’s de 18 años x 750 ml.</a></p></div><div class="price-wrapper">
-	<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">S/</span>&nbsp;350.00</bdi></span></span>
-</div><div class="add-to-cart-button"><a href="?add-to-cart=6091" data-quantity="1" class="primary is-small mb-0 button wp-element-button product_type_simple add_to_cart_button ajax_add_to_cart is-outline" data-product_id="6091" data-product_sku="" aria-label="Añade &ldquo;Whisky Buchanan’s de 18 años x 750 ml.&rdquo; a tu carrito" rel="nofollow">Añadir al carrito</a></div>		</div>
-	</div>
-		</div>
-</div>
-	            	        </div>
-
-<div class="row align-middle align-center"  id="row-1164638979">
-
-	<div id="col-240627768" class="col small-12 large-12"  >
-		<div class="col-inner text-center"  >
-			
-			
-<a href="/View/product-category/licores/index.html" target="_self" class="button primary"  style="border-radius:10px;">
-    <span>Ver mas</span>
-  </a>
-
-		</div>
+						</div>
+						</div>
 			</div>
+				<?php endforeach; ?> 
+					
 
-	
-</div>
+	</div>
+
+	<div class="row align-middle align-center"  id="row-1164638979">
+
+		<div id="col-240627768" class="col small-12 large-12"  >
+			<div class="col-inner text-center"  >
+				
+				
+	<a href="/View/product-category/licores/index.php" target="_self" class="button primary"  style="border-radius:10px;">
+		<span>Ver mas</span>
+	</a>
+
+			</div>
+				</div>
+
+		
+	</div>
 		</div>
 
 		
@@ -1235,7 +1290,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<div id="nav_menu-3" class="col pb-0 widget widget_nav_menu"><span class="widget-title">Servicios al Cliente</span><div class="is-divider small"></div><div class="menu-secondary-container">
 					<ul id="menu-secondary" class="menu">
 							
-							<li id="menu-item-2887" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2887"><a href="/View/libro-de-reclamaciones/index.html">Libro de reclamaciones</a></li>
+							<li id="menu-item-2887" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2887"><a href="/View/libro-de-reclamaciones/index.php">Libro de reclamaciones</a></li>
 							<li id="menu-item-2889" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2889"><a href="/View/ofertas/">Ofertas</a></li>
 
 					</ul>
@@ -1326,13 +1381,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div id="main-menu" class="mobile-sidebar no-scrollbar mfp-hide">
 	<div class="sidebar-menu no-scrollbar ">
 		<ul class="nav nav-sidebar nav-vertical nav-uppercase">
-			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-37 current_page_item menu-item-390"><a href="index.html" aria-current="page">INICIO</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-37 current_page_item menu-item-390"><a href="index.php" aria-current="page">INICIO</a></li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3172"><a href="#">VINOS</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3166"><a href="/View/product-category/licores/index.html">LICORES</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3817"><a href="/View/product-category/agua-tonica/index.html">AGUA TÓNICA</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3169"><a href="/View/product-category/cerveza/index.html">CERVEZA</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-3167"><a href="product-category/espumantes/index.html">ESPUMANTES</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2782"><a href="ofertas/index.html">OFERTAS</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3166"><a href="/View/product-category/licores/index.php">LICORES</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3817"><a href="/View/product-category/agua-tonica/index.php">AGUA TÓNICA</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3169"><a href="/View/product-category/cerveza/index.php">CERVEZA</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-3167"><a href="product-category/espumantes/index.php">ESPUMANTES</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2782"><a href="ofertas/index.php">OFERTAS</a></li>
 
 <li class="html header-social-icons ml-0">
 	<div class="social-icons follow-icons" ><a href="https://www.facebook.com" target="_blank" data-label="Facebook"  rel="noopener noreferrer nofollow" class="icon plain facebook tooltip" title="Síguenos en Facebook"><i class="icon-facebook" ></i></a><a href="https://www.instagram.com/La estación.EIRL/" target="_blank" rel="noopener noreferrer nofollow" data-label="Instagram" class="icon plain  instagram tooltip" title="Síguenos en Instagram"><i class="icon-instagram" ></i></a><a href="mailto:Laestacion@gmail.com" data-label="E-mail"  rel="nofollow" class="icon plain  email tooltip" title="Envíanos un email"><i class="icon-envelop" ></i></a></div></li>		</ul>
@@ -1371,7 +1426,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<input type="hidden" id="woocommerce-login-nonce" name="woocommerce-login-nonce" value="3d9650e939" /><input type="hidden" name="_wp_http_referer" value="/" />						<button type="submit" class="woocommerce-button button woocommerce-form-login__submit" name="login" value="Acceder">Acceder</button>
 			</p>
 			<p class="woocommerce-LostPassword lost_password">
-				<a href="/View/my-account/lost-password/index.html">¿Olvidaste la contraseña?</a>
+				<a href="/View/my-account/lost-password/index.php">¿Olvidaste la contraseña?</a>
 			</p>
 
 			
@@ -1426,7 +1481,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   </div>
     
-  <div id='pys_ajax_events'></div>        <script>
+  <div id='pys_ajax_events'></div>        
+  
+ 		<script>
             var node = document.getElementsByClassName('woocommerce-message')[0];
             if(node && document.getElementById('pys_late_event')) {
                 var messageText = node.textContent.trim();
