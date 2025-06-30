@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 $controlador = $_GET['controlador'] ?? 'inicio';
 $accion = $_GET['accion'] ?? 'mostrarInicio';
 

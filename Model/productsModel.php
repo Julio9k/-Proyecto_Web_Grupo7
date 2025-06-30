@@ -9,12 +9,16 @@ class productsModel{
     }
 
 
-    // Obtener todos los productos
-    public function obtenerTodos() {
-        $stmt = $this->pdo->query("SELECT * FROM productos");
+    // Obtener todos los productos por categoría
+    public function obtenerTodosPorCategoria($categoria_id) {
+        $stmt = $this->pdo->prepare("    SELECT p.*, c.nombre AS categoria_nombre 
+                FROM productos p
+                INNER JOIN categorias c ON p.categoria_id = c.id
+                WHERE p.categoria_id = ? AND p.activo = 1");
+        $stmt->bindValue(1, $categoria_id, PDO::PARAM_INT);
+        $stmt->execute();
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
-
     // Obtener solo una cantidad limitada de nombres
     public function obtenerNombresLimitados($cantidad) {
         $stmt = $this->pdo->prepare("SELECT nombre FROM productos LIMIT ?");
@@ -61,6 +65,12 @@ class productsModel{
         $stmt->bindValue(2, $limite, PDO::PARAM_INT);
         $stmt->execute();
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
+    // Obtener categorías por ID
+    public function obtenerCategoriaPorId($id) {
+        $stmt = $this->pdo->prepare("SELECT * FROM categorias WHERE id = ?");
+        $stmt->execute([$id]);
+        return $stmt->fetch(PDO::FETCH_ASSOC);
     }
 
 }

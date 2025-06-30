@@ -11,11 +11,11 @@ class InicioController
     public function mostrarInicio()
     {
         // Obtener todos los productos
-        $vino = $this->modelo->obtenerPorCategoriaConLimite(1, 4);
-        $licor = $this->modelo->obtenerPorCategoriaConLimite(2, 4);
-        $cerveza = $this->modelo->obtenerPorCategoriaConLimite(3, 4);
-        $agua_tonica = $this->modelo->obtenerPorCategoriaConLimite(4, 4);
-        $espumante = $this->modelo->obtenerPorCategoriaConLimite(5, 4);
+        $vino = $this->modelo->obtenerPorCategoriaConLimite(1, 10);
+        $licor = $this->modelo->obtenerPorCategoriaConLimite(2, 10);
+        $cerveza = $this->modelo->obtenerPorCategoriaConLimite(3, 10);
+        $agua_tonica = $this->modelo->obtenerPorCategoriaConLimite(4, 10);
+        $espumante = $this->modelo->obtenerPorCategoriaConLimite(5, 10);
 
         include(__DIR__ . '/../View/index.php');
 

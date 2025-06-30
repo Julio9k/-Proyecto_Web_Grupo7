@@ -2,17 +2,52 @@
 <html lang="es" class="loading-site no-js">
 <head>
 	<meta charset="UTF-8" />
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href=".php" />
+<!-- Meta Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1155354822004266');
+  fbq('track', 'PageView');
+</script>
 
+
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/"
+/></noscript>
+<!-- End Meta Pixel Code -->	
 	
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 	
-	<title>La estación</title>
-	<meta name="description" content="En La estación nos encargamos de entregar los mejores productos para cualquier celebración hasta la puerta de su casa." />
-	<link rel="canonical" href="index.php" />
-	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<title>Vinos archivos - la Estación</title>
+	<link rel="canonical" href="/View/product-category/vinos/" />
+	<link rel="next" href="/View/product-category/vinos/page/2/" />
+	<meta property="og:locale" content="es_ES" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Vinos archivos - la Estación" />
+	<meta property="og:url" content="/product-category/vinos/" />
+	<meta property="og:site_name" content="la Estación" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"CollectionPage","@id":"https://www.miluvas.pe/product-category/vinos/","url":"https://www.miluvas.pe/product-category/vinos/","name":"Vinos archivos - la Estación","isPartOf":{"@id":"https://www.miluvas.pe/#website"},"primaryImageOfPage":{"@id":"https://www.miluvas.pe/product-category/vinos/#primaryimage"},"image":{"@id":"https://www.miluvas.pe/product-category/vinos/#primaryimage"},"thumbnailUrl":"https://www.miluvas.pe/wp-content/uploads/2023/04/19-Crimes-Cali-Red-Blend-2020@05x-e1705451993429.png","breadcrumb":{"@id":"https://www.miluvas.pe/product-category/vinos/#breadcrumb"},"inLanguage":"es"},{"@type":"ImageObject","inLanguage":"es","@id":"https://www.miluvas.pe/product-category/vinos/#primaryimage","url":"https://www.miluvas.pe/wp-content/uploads/2023/04/19-Crimes-Cali-Red-Blend-2020@05x-e1705451993429.png","contentUrl":"https://www.miluvas.pe/wp-content/uploads/2023/04/19-Crimes-Cali-Red-Blend-2020@05x-e1705451993429.png","width":800,"height":800,"caption":"Vino 19 Crimes Cali Red Blend 2020"},{"@type":"BreadcrumbList","@id":"https://www.miluvas.pe/product-category/vinos/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Portada","item":"https://www.miluvas.pe/"},{"@type":"ListItem","position":2,"name":"Vinos"}]},{"@type":"WebSite","@id":"https://www.miluvas.pe/#website","url":"https://www.miluvas.pe/","name":"la Estación","description":"Licores en Oferta","publisher":{"@id":"https://www.miluvas.pe/#/schema/person/0ebc9ef2b53ca234337f45e2582bff84"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.miluvas.pe/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"es"},{"@type":["Person","Organization"],"@id":"https://www.miluvas.pe/#/schema/person/0ebc9ef2b53ca234337f45e2582bff84","name":"admin","image":{"@type":"ImageObject","inLanguage":"es","@id":"https://www.miluvas.pe/#/schema/person/image/","url":"https://www.miluvas.pe/wp-content/uploads/2023/04/logo-miluvas.png","contentUrl":"https://www.miluvas.pe/wp-content/uploads/2023/04/logo-miluvas.png","width":1020,"height":250,"caption":"admin"},"logo":{"@id":"https://www.miluvas.pe/#/schema/person/image/"}}]}</script>
+	<!-- / Yoast SEO plugin. -->
 
-<link rel='dns-prefetch' href='/View/fonts.googleapis.com' />
 
+<link rel='dns-prefetch' href='/View//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="la Estación &raquo; Feed" href="/View/feed/" />
+<link rel="alternate" type="application/rss+xml" title="la Estación &raquo; Feed de los comentarios" href="/View/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="la Estación &raquo; Vinos Categoría Feed" href="/View/product-category/vinos/feed/" />
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.miluvas.pe\/wp-includes\/js\/wp-emoji-release.min.js@ver=6.3.5"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
 <style type="text/css">
 img.wp-smiley,
 img.emoji {
@@ -30,16 +65,15 @@ img.emoji {
 	<link rel='stylesheet' id='wp-block-library-css' href='/View/wp-includes/css/dist/block-library/style.min.css@ver=6.3.5.css' type='text/css' media='all' />
 <link rel='stylesheet' id='wc-blocks-vendors-style-css' href='/View/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-vendors-style.css@ver=9.8.4.css' type='text/css' media='all' />
 <link rel='stylesheet' id='wc-blocks-style-css' href='/View/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-style.css@ver=9.8.4.css' type='text/css' media='all' />
-<style id='joinchat-button-style-inline-css' type='text/css'>
+<style id='joinchat-button-style-inline-css.css' type='text/css'>
 .wp-block-joinchat-button{border:none!important;text-align:center}.wp-block-joinchat-button figure{display:table;margin:0 auto;padding:0}.wp-block-joinchat-button figcaption{font:normal normal 400 .6em/2em var(--wp--preset--font-family--system-font,sans-serif);margin:0;padding:0}.wp-block-joinchat-button .joinchat-button__qr{background-color:#fff;border:6px solid #25d366;border-radius:30px;box-sizing:content-box;display:block;height:200px;margin:auto;overflow:hidden;padding:10px;width:200px}.wp-block-joinchat-button .joinchat-button__qr canvas,.wp-block-joinchat-button .joinchat-button__qr img{display:block;margin:auto}.wp-block-joinchat-button .joinchat-button__link{align-items:center;background-color:#25d366;border:6px solid #25d366;border-radius:30px;display:inline-flex;flex-flow:row nowrap;justify-content:center;line-height:1.25em;margin:0 auto;text-decoration:none}.wp-block-joinchat-button .joinchat-button__link:before{background:transparent var(--joinchat-ico) no-repeat center;background-size:100%;content:"";display:block;height:1.5em;margin:-.75em .75em -.75em 0;width:1.5em}.wp-block-joinchat-button figure+.joinchat-button__link{margin-top:10px}@media (orientation:landscape)and (min-height:481px),(orientation:portrait)and (min-width:481px){.wp-block-joinchat-button.joinchat-button--qr-only figure+.joinchat-button__link{display:none}}@media (max-width:480px),(orientation:landscape)and (max-height:480px){.wp-block-joinchat-button figure{display:none}}
 
 </style>
-
-<style id='classic-theme-styles-inline-css' type='text/css'>
+<style id='classic-theme-styles-inline-css.css' type='text/css'>
 /*! This file is auto-generated */
 .wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
 </style>
-<style id='global-styles-inline-css' type='text/css'>
+<style id='global-styles-inline-css.css' type='text/css'>
 body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
 .wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
 :where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
@@ -47,11 +81,11 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 .wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
 </style>
 <link rel='stylesheet' id='contact-form-7-css' href='/View/wp-content/plugins/contact-form-7/includes/css/styles.css@ver=5.9.8.css' type='text/css' media='all' />
-<style id='woocommerce-inline-inline-css' type='text/css'>
+<style id='woocommerce-inline-inline-css.css' type='text/css'>
 .woocommerce form .form-row .required { visibility: visible; }
 </style>
 <link rel='stylesheet' id='yith_wcbm_badge_style-css' href='/View/wp-content/plugins/yith-woocommerce-badge-management-premium/assets/css/frontend.css@ver=1.4.3.css' type='text/css' media='all' />
-<style id='yith_wcbm_badge_style-inline-css' type='text/css'>
+<style id='yith_wcbm_badge_style-inline-css.css' type='text/css'>
 .yith-wcbm-badge-313{ top: 0px;bottom: auto;left: auto;right: 0px; opacity: 1; }.yith-wcbm-badge-313 .yith-wcbm-badge__wrap{ -ms-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); }			.yith-wcbm-css-badge-313{
 				color: #FFFFFF;
 				font-family: "Open Sans",sans-serif;
@@ -182,36 +216,183 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
         }
         
 </style>
-<link rel='stylesheet' id='googleFontsOpenSans-css' href='//fonts.googleapis.com/css?family=Open+Sans%3A400%2C600%2C700%2C800%2C300&#038;ver=1.0.0.css' type='text/css' media='all' />
+<link rel='stylesheet' id='googleFontsOpenSans-css' href='/View//fonts.googleapis.com/css?family=Open+Sans%3A400%2C600%2C700%2C800%2C300&#038;ver=1.0.0.css' type='text/css' media='all' />
 <link rel='preload' as='font' type='font/woff2' crossorigin='anonymous' id='tinvwl-webfont-font-css' href='/View/wp-content/plugins/ti-woocommerce-wishlist/assets/fonts/tinvwl-webfont.woff2?ver=xu2uyi'  media='all' />
 <link rel='stylesheet' id='tinvwl-webfont-css' href='/View/wp-content/plugins/ti-woocommerce-wishlist/assets/css/webfont.min.css@ver=2.8.2.css' type='text/css' media='all' />
 <link rel='stylesheet' id='tinvwl-css' href='/View/wp-content/plugins/ti-woocommerce-wishlist/assets/css/public.min.css@ver=2.8.2.css' type='text/css' media='all' />
 <link rel='stylesheet' id='flatsome-icons-css' href='/View/wp-content/themes/flatsome/assets/css/fl-icons.css@ver=3.12.css' type='text/css' media='all' />
 <link rel='stylesheet' id='joinchat-css' href='/View/wp-content/plugins/creame-whatsapp-me/public/css/joinchat-btn.min.css@ver=5.1.8.css' type='text/css' media='all' />
-<style id='joinchat-inline-css' type='text/css'>
+<style id='joinchat-inline-css.css' type='text/css'>
 .joinchat{--red:37;--green:211;--blue:102;--bw:100}
 </style>
-
-
 <link rel='stylesheet' id='flatsome-main-css' href='/View/wp-content/themes/flatsome/assets/css/flatsome.css@ver=3.13.1.css' type='text/css' media='all' />
 <link rel='stylesheet' id='flatsome-shop-css' href='/View/wp-content/themes/flatsome/assets/css/flatsome-shop.css@ver=3.13.1.css' type='text/css' media='all' />
 <link rel='stylesheet' id='flatsome-style-css' href='/View/wp-content/themes/flatsome-child/style.css@ver=3.0.css' type='text/css' media='all' />
-<link rel='stylesheet' id='flatsome-googlefonts-css' href='//fonts.googleapis.com/css?family=Noto+Sans%3Aregular%2C700%2Cregular%2C700%2Cregular&#038;display=swap&#038;ver=3.9.css' type='text/css' media='all' />
+<link rel='stylesheet' id='flatsome-googlefonts-css' href='/View//fonts.googleapis.com/css?family=Noto+Sans%3Aregular%2C700%2Cregular%2C700%2Cregular&#038;display=swap&#038;ver=3.9.css' type='text/css' media='all' />
 <script type='text/javascript' src='/View/wp-includes/js/jquery/jquery.min.js@ver=3.7.0' id='jquery-core-js'></script>
 <script type='text/javascript' src='/View/wp-includes/js/jquery/jquery-migrate.min.js@ver=3.4.1' id='jquery-migrate-js'></script>
-<link rel="https://api.w.org/" href="/View/wp-json/" /><link rel="alternate" type="application/json" href="/View/wp-json/wp/v2/pages/37" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="/View/xmlrpc.php?rsd" />
+<link rel="https://api.w.org/" href="/View/wp-json/" /><link rel="alternate" type="application/json" href="/View/wp-json/wp/v2/product_cat/127" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="/View/xmlrpc.php?rsd" />
 <meta name="generator" content="WordPress 6.3.5" />
 <meta name="generator" content="WooCommerce 7.6.0" />
-<link rel='shortlink' href='/View/' />
-<link rel="alternate" type="application/json+oembed" href="/View/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.La estación.pe%2F" />
-<link rel="alternate" type="text/xml+oembed" href="/View/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.La estación.pe%2F&#038;format=xml" />
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-P95HFJCP');</script>
+<style>
+.wc_payment_method label img {
+    float: right !important;
+    height: 24px !important;
+    margin-top:3px !important;
+}
+.wooccm-type-file label .optional{
+display:none;
+}
+.descriyape {
+    background: #742284 !important;
+    color: #fff !important;
+    padding: 4% !important;
+    font-size: 14px !important;
+    border-radius: 10px !important;
+	display: grid !important;
+}
+.descriplin {
+background: rgb(34,162,252);
+background: linear-gradient(45deg, rgba(34,162,252,1) 0%, rgba(0,226,205,1) 60%);
+    color: #fff !important;
+    padding: 4% !important;
+    font-size: 14px !important;
+    border-radius: 10px !important;
+	display: grid !important;
+}
+.logoyape, .descripcion{
+    width: 50% !important;
+    float: left !important;
+	text-align:center !important;
+}
+.descripcion b{
+    font-weight: bold !important;
+}
+.logoyape img{
+    width: 80% !important;
+    height: 80% !important;
+    max-height: 90% !important;
+    margin-right: 20% !important;
+    clear: both !important;
+	border-radius: 10px !important;
+	margin-bottom:10px !important;
+}
+.titularyapeplin{
+    display: block !important;
+    margin-right: 20% !important;
+    width: 80% !important;
+    color: #fff !important;
+    text-decoration: none !important;
+    line-height: 1.2 !important;
+    font-weight: bold !important;
+	font-size: 16px !important;
+    text-align: center !important;
+    text-transform: uppercase !important;
+}
+.marcayape{
+    width: 100% !important;
+    height: 100px !important;
+    background-image: url(https://i.postimg.cc/pd4ZB7SH/finalizaryape.png) !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+.marcaplin{
+    width: 100% !important;
+    height: 100px !important;
+    background-image: url(https://i.postimg.cc/15sKMDvf/finalizarplin.png) !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+.estiloyapeplin{
+	overflow: overlay !important;
+	padding: 15px 0 !important;
+}
+.contactoyape {
+    font-size: 15px !important;
+    display: grid !important;
+    background: #10cbb4 !important;
+    color: #fff !important;
+    border-radius: 8px !important;
+    line-height: 1.1 !important;
+    padding: 8px 1% !important;
+	  text-decoration:none !important;
+    text-transform: initial !important;
+    font-weight: bold !important;
+box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    transition: all 0.3s ease-in-out !important;
+    text-align: center !important;
+	margin-top: 10px !important;
+}
+.contactoyape:hover{
+	background: #24e0c9 !important;
+}
+.contactoplin {
+    font-size: 15px !important;
+    display: grid !important;
+    background: #fe57d9 !important;
+    color: #fff !important;
+    border-radius: 8px !important;
+    line-height: 1.1 !important;
+    padding: 8px 1% !important;
+	  text-decoration:none !important;
+    text-transform: initial !important;
+    font-weight: bold !important;
+box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    transition: all 0.3s ease-in-out !important;
+    text-align: center !important;
+	margin-top: 10px !important;
+}
+.contactoplin:hover{
+	background: #f977dc !important;
+}
+.selloseguridad{
+    width: 100% !important;
+    height: 40px !important;
+    background-image: url(https://i.postimg.cc/h4mB8wT8/pago-seguro-solutionmaker.png) !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+body.woocommerce-order-received .descriyape{
+width: 501px !important;
+margin-bottom: 4% !important;
+}
+body.woocommerce-order-received .descriplin{
+width: 501px !important;
+margin-bottom: 4% !important;
+}
+@media screen and (min-width: 5px) and (max-width: 500px){
+	.descriyape{
+text-align:center;
+	}
+.logoyape, .descripcion{
+    width: 100% !important;
+    float: none !important;
+}
+.logoyape img{
+    width: 70% !important;
+    height: 70% !important;
+    max-height: 90% !important;
+    margin-right: 15% !important;
+	margin-left:15% !important;
+	margin-bottom:10px !important;
+}
+.titularyapeplin{
+  width: 80% !important;
+	margin-right: 10% !important;
+	margin-left:10% !important;
+}
+body.woocommerce-order-received .descriyape{
+width: 100% !important;
+}
+body.woocommerce-order-received .descriplin{
+width: 100% !important;
+}
+}
 
+</style>
 <style>.bg{opacity: 0; transition: opacity 1s; -webkit-transition: opacity 1s;} .bg-loaded{opacity: 1;}</style><!--[if IE]><link rel="stylesheet" type="text/css" href="/View/wp-content/themes/flatsome/assets/css/ie-fallback.css"><script src="/View//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js"></script><script>var head = document.getElementsByTagName('head')[0],style = document.createElement('style');style.type = 'text/css';style.styleSheet.cssText = ':before,:after{content:none !important';head.appendChild(style);setTimeout(function(){head.removeChild(style);}, 0);</script><script src="/View/wp-content/themes/flatsome/assets/libs/ie-flexibility.js"></script><![endif]-->	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
 	<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-WXJP3HZ35K"></script>
@@ -221,61 +402,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   gtag('js', new Date());
 
   gtag('config', 'G-WXJP3HZ35K');
-</script><link rel="icon" href="/View/wp-content/uploads/2023/04/ico-La estación-100x100.png" sizes="32x32" />
+</script><link rel="icon" href="/View/wp-content/uploads/2023/04/ico-miluvas-100x100.png" sizes="32x32" />
 <link rel="icon" href="/View/wp-content/uploads/2023/04/Icono_1.png" sizes="192x192" />
-<link rel="apple-touch-icon" href="/wp-content/uploads/2023/04/Icono_1.png" />
-<meta name="msapplication-TileImage" content="/wp-content/uploads/2023/04/Icono_1.png" />
-<style id="custom-css" type="text/css">:root {--primary-color: #221177;}
-.header-main{height: 113px}#logo img{max-height: 113px}#logo{width:150px;}
-.header-bottom{min-height: 44px}.header-top{min-height: 35px}.transparent .header-main{height: 90px}
-.transparent #logo img{max-height: 90px}.has-transparent + .page-title:first-of-type,
-.has-transparent + #main > .page-title,.has-transparent + #main > div > .page-title,
-.has-transparent + #main .page-header-wrapper:first-of-type .page-title{padding-top: 140px;}
-.header.show-on-scroll,.stuck .header-main{height:70px!important}
-.stuck #logo img{max-height: 70px!important}.search-form{ width: 79%;}
-.header-bg-color, .header-wrapper {background-color: #99cc66}
-.header-bottom {background-color: #f1f1f1}.top-bar-nav > li > a{line-height: 16px }
-.header-main .nav > li > a{line-height: 16px }.stuck .header-main .nav > li > a{line-height: 50px }
-.header-bottom-nav > li > a{line-height: 40px }@media (max-width: 549px) {
-	.header-main{height: 70px}#logo img{max-height: 70px}}
-	.nav-dropdown{font-size:100%}.header-top{background-color:#221177!important;}/* Color */
-	.accordion-title.active, .has-icon-bg .icon .icon-inner,.logo a, .primary.is-underline, .primary.is-link, 
-	.badge-outline .badge-inner, .nav-outline > li.active> a,.nav-outline >li.active > a, 
-	.cart-icon strong,[data-color='primary'], .is-outline.primary{color: #221177;}/* Color !important */
-	[data-text-color="primary"]{color: #221177;}/* Background Color */[data-text-bg="primary"]
-	{background-color: #221177;}/* Background */.scroll-to-bullets a,.featured-title, .label-new.menu-item >
-	 a:after, .nav-pagination > li > .current,.nav-pagination > li > span:hover,.nav-pagination > li > a:hover,
-	 .has-hover:hover .badge-outline .badge-inner,button[type="submit"], .button.wc-forward:not(.checkout):not(
-		.checkout-button), .button.submit-button, .button.primary:not(.is-outline),.featured-table .title,
-		.is-outline:hover, .has-icon:hover .icon-label,.nav-dropdown-bold .nav-column li > a:hover, 
-		.nav-dropdown.nav-dropdown-bold > li > a:hover, .nav-dropdown-bold.dark .nav-column li > a:hover, 
-		.nav-dropdown.nav-dropdown-bold.dark > li > a:hover, .is-outline:hover, 
-		.tagcloud a:hover,.grid-tools a, input[type='submit']:not(.is-form), 
-		.box-badge:hover .box-text, input.button.alt,.nav-box > li > a:hover,
-		.nav-box > li.active > a,.nav-pills > li.active > a ,.current-dropdown .cart-icon strong,
-		 .cart-icon:hover strong, .nav-line-bottom > li > a:before, .nav-line-grow > li > a:before, 
-		 .nav-line > li > a:before,.banner, .header-top, .slider-nav-circle .flickity-prev-next-button:hover svg,
-		  .slider-nav-circle .flickity-prev-next-button:hover .arrow, .primary.is-outline:hover, 
-		  .button.primary:not(.is-outline), input[type='submit'].primary, input[type='submit'].primary,
-		   input[type='reset'].button, input[type='button'].primary, .badge-inner{background-color: #221177;}
-		   /* Border */.nav-vertical.nav-tabs > li.active > a,.scroll-to-bullets a.active,.nav-pagination > li > 
-		   .current,.nav-pagination > li > span:hover,.nav-pagination > li > a:hover,.has-hover:hover .badge-outline 
-		   .badge-inner,.accordion-title.active,.featured-table,.is-outline:hover, .tagcloud a:hover,blockquote, 
-		   .has-border, .cart-icon strong:after,.cart-icon strong,.blockUI:before, .processing:before,.loading-spin,
-		    .slider-nav-circle .flickity-prev-next-button:hover svg, .slider-nav-circle .flickity-prev-next-button:hover 
-			.arrow, .primary.is-outline:hover{border-color: #221177}.nav-tabs > li.active > a{border-top-color: #221177}.widget_shopping_cart_content
-			.blockUI.blockOverlay:before { border-left-color: #221177 }.woocommerce-checkout-review-order .blockUI.blockOverlay:before { border-left-color: #221177 }/* Fill */.slider .flickity-prev-next-button:hover svg,.slider .flickity-prev-next-button:hover
-			 .arrow{fill: #221177;}/* Background Color */[data-icon-label]:after, 
-			 .secondary.is-underline:hover,.secondary.is-outline:hover,
-			 .icon-label,.button.secondary:not(.is-outline),.button.alt:not(.is-outline), 
-			 .badge-inner.on-sale, .button.checkout, .single_add_to_cart_button, .current 
-			 .breadcrumb-step{ background-color:#99cc66; }[data-text-bg="secondary"]{background-color: #99cc66;}/* Color */
-			 .secondary.is-underline,.secondary.is-link, .secondary.is-outline,.stars a.active, .star-rating:before, .woocommerce-page .star-rating:before,.star-rating span:before, .color-secondary{color: #99cc66}/* Color !important */[data-text-color="secondary"]{color: #99cc66!important;}/* Border */
-			 .secondary.is-outline:hover{border-color:#99cc66}@media screen and (max-width: 549px){body{font-size: 100%;}}body{font-family:"Noto Sans", sans-serif}body{font-weight: 0}.nav > li > a {font-family:"Noto Sans", sans-serif;}.mobile-sidebar-levels-2 .nav > li > ul > li > a {font-family:"Noto Sans", sans-serif;}.nav > li > a {font-weight: 700;}.mobile-sidebar-levels-2 .nav > li > ul > li > a {font-weight: 700;}h1,h2,h3,h4,h5,h6,.heading-font, .off-canvas-center .nav-sidebar.nav-vertical > li > a{font-family: "Noto Sans", sans-serif;}h1,h2,h3,h4,h5,h6,.heading-font,.banner h1,.banner h2{font-weight: 700;}.breadcrumbs{text-transform: none;}button,.button{text-transform: none;}.nav > li > a, .links > li > a{text-transform: none;}.section-title span{text-transform: none;}.alt-font{font-family: "Noto Sans", sans-serif;}.alt-font{font-weight: 0!important;}.header:not(.transparent) .header-nav-main.nav > li > a:hover,.header:not(.transparent) .header-nav-main.nav > li.active > a,.header:not(.transparent) .header-nav-main.nav > li.current > a,.header:not(.transparent) .header-nav-main.nav > li > a.active,.header:not(.transparent) .header-nav-main.nav > li > a.current{color: #000000;}.header-nav-main.nav-line-bottom > li > a:before,.header-nav-main.nav-line-grow > li > a:before,.header-nav-main.nav-line > li > a:before,.header-nav-main.nav-box > li > a:hover,.header-nav-main.nav-box > li.active > a,.header-nav-main.nav-pills > li > a:hover,.header-nav-main.nav-pills > li.active > a{color:#FFF!important;background-color: #000000;}.header:not(.transparent) .header-bottom-nav.nav > li > a:hover,.header:not(.transparent) .header-bottom-nav.nav > li.active > a,.header:not(.transparent) .header-bottom-nav.nav > li.current > a,.header:not(.transparent) .header-bottom-nav.nav > li > a.active,.header:not(.transparent) .header-bottom-nav.nav > li > a.current{color: #000000;}.header-bottom-nav.nav-line-bottom > li > a:before,.header-bottom-nav.nav-line-grow > li > a:before,.header-bottom-nav.nav-line > li > a:before,.header-bottom-nav.nav-box > li > a:hover,.header-bottom-nav.nav-box > li.active > a,.header-bottom-nav.nav-pills > li > a:hover,.header-bottom-nav.nav-pills > li.active > a{color:#FFF!important;background-color: #000000;}@media screen and (min-width: 550px){.products .box-vertical .box-image{min-width: 300px!important;width: 300px!important;}}.footer-1{background-color: #666463}.footer-2{background-color: #232323}.absolute-footer, html{background-color: #232323}button[name='update_cart'] { display: none; }/* Custom CSS */.row.row-small {max-width: 1200px;}.container-width, .full-width .ubermenu-nav, .container, .row {max-width: 1200px;}/*Formulario CF7 a 2 columnas responsive*/#responsive-form{ max-width:1000px /*-- change this to get your desired form width --*/; margin:0 auto;width:100%;}.form-row{ width: 100%;}.column-half, .column-full{ float: left; position: relative; padding: 0.65rem; width:100%; -webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box}.clearfix:after { content: ""; display: table; clear: both;} .negro{background: #000;padding: 8px;color: #fff;}/**---------------- Media query ----------------**/@media only screen and (min-width: 48em) {.column-half{ width: 50%; }}.header-main {background: #221177;}input#woocommerce-product-search-field-0 {display: flex;height: 46px;justify-content: center;align-items: center;width: 100%;padding-left: 24px;border-radius: 35px;}button.ux-search-submit.submit-button.secondary.button.icon.mb-0 {/*background: #495867;*/border-radius: 35px !important;position: absolute;right: 0;box-sizing: border-box;z-index: 10;width: 46px;height: 46px;display: flex;justify-content: center;align-items: center;/*border: 1px solid #495867;*/top: 0px;}.nav>li.header-divider {border-left: 1px solid #fff;}span.header-account-title {color: #fff;}.nav>li>a>i.icon-menu {font-size: 2.7em;}span.menu-title.uppercase.hide-for-small {color: #fff;font-size: 22px;font-weight: 500;text-transform: capitalize;}.header.show-on-scroll, .stuck .header-main {height: 85px!important;}a.header-cart-link.is-small {color: #fff;}a.showcoupon {color: #221177;font-weight: 600;}a.wishlist-link.is-small {color: #FFF;}div#block_widget-3 {flex-basis: 34%;max-width: 34%;}div#block_widget-7 {max-width: 22% !important;flex-basis: 22%;}div#block_widget-5 {margin: 0px;}.footer-widgets.footer.footer-1 {padding: 10px;}.nav-spacing-xlarge>li {margin: 0 45px;}.nav-spacing-large>li {margin: 0 20px;}.row.row-large {max-width: 1200px;}.recent-blog-posts a {font-size: 13px;}.image-tools.is-small.top.right.show-on-hover {display: none;}a.primary.is-small.mb-0.button.wp-element-button.product_type_simple.add_to_cart_button.ajax_add_to_cart.is-outline {padding: 6px;}aside#woocommerce_price_filter-9 {background: #E4E4E457;padding: 10px;}aside#woocommerce_recently_viewed_products-8 {background: #E4E4E457;padding: 10px;}aside#woocommerce_product_categories-13 {background: #E4E4E457;padding: 10px;}.box-image {border-radius:12px;background-color: #f5f5f5;/*background: linear-gradient(0deg, rgba(210,210,210,1) 0%, rgba(245,245,245,1) 35%);*/}#block_widget-2, #block_widget-7, #nav_menu-3{max-width: 22%; flex-basis: 22%;} #block_widget-3{max-width: 34%; flex-basis: 34%;}input.wpcf7-form-control.has-spinner.wpcf7-submit {background: black;}li.cat-item.cat-item-149 {display: none;}/*fondo de imagen*/.image-fade_in_back {background: #fffbf4;}.box-image img, .image-and-addcart .img_ img {mix-blend-mode: multiply;}/*fin*/img.woocommerce-placeholder.wp-post-image {border: 1px solid #544e71;padding: 10px;border-radius: 12px;}#billing_address_2_field>label, #shipping_address_2_field>label{display:none;}i.icon-menu {margin-top: 8px;}input.wpcf7-form-control.has-spinner.wpcf7-submit.button {background: #fff;padding: 2px 6px;} .otrofon{background:#fff !important;}ul.wc-bacs-bank-details.order_details.bacs_details {FONT-SIZE: 14px;line-height: 14px;}address {font-size: 14px;}h2.wc-bacs-bank-details-heading {background: #99cc66;padding: 5px 15px;font-size: 21px;color: #fff;}h2.woocommerce-order-details__title{background: #99cc66;padding: 5px 15px;font-size: 21px;color: #fff;}h2.woocommerce-column__title{background: #99cc66;padding: 5px 15px;font-size: 21px;color: #fff;}li.bank_name {list-style: none;}li.sort_code {list-style: none;}.header-nav-main.nav-box > li > a:hover{background-color:transparent;}.widget .toggle {width: 1em;min-height: 1em;margin: 0 0 0 5px;float: right;}.widget .toggle i {top: 1px;font-size: 1.4em !important;font-weight: bolder !important;color: #000;}.nav-column li>a, .nav-dropdown>li>a {padding: 7px 20px; }/*personalizar registrate*/.dashboard-links a {background: #dad4f6;}li.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link--downloads {display: none;}li.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link--wishlist {display: none;}.header-nav-main.nav-box > li.active > a{background-color: transparent;}a.nav-top-link.nav-top-not-logged-in.is-small {color: #fff;}.message-container a {margin: 0 15px 0 0;background: #584597;padding: 7px 15px;border-radius: 5px;color: #fff;}.nav>li>a:hover, .nav>li.active>a{background: #584597;color: #fff;padding-left: 15px;}/* Personalización de tarjetas aceptadas para Woocommerce Legacy - Shortcode (< 8.4) */.payment_method_micuentawebstd img:not(.kr-header-logo,.kr-logo-izipay) {content: url("/wp-content/uploads/2024/05/download.png");max-width: 200px!important;}/* Personalización de tarjetas aceptadas para Woocommerce Blocks (>= 8.4) */#radio-control-wc-payment-method-options-micuentawebstd__label img:not(.kr-header-logo,.kr-logo-izipay) {content: url("/wp-content/uploads/2024/05/download.png");max-width: 200px!important;}/* Custom CSS Mobile */@media (max-width: 549px){input.wpcf7-form-control.has-spinner.wpcf7-submit {background: black;width:100%;}i.icon-menu {margin-top: 0px;}div#block_widget-5 {margin: 0px; /* padding: 0px;*/}#block_widget-2, #block_widget-7, #nav_menu-3{max-width: 100%; flex-basis: 100%;} #block_widget-3{max-width: 100%; flex-basis: 100%;}div#block_widget-3 {flex-basis: 100%;max-width: 100%;}div#block_widget-7 {max-width: 100% !important;flex-basis: 100%;}}
-			 .label-new.menu-item > a:after{content:"Nuevo";}.label-sale.menu-item > a:after{content:"Oferta";}.label-popular.menu-item > a:after{content:"Popular";}</style></head>
+<link rel="apple-touch-icon" href="/View/wp-content/uploads/2023/04/Icono_1.png" />
+<meta name="msapplication-TileImage" content="/wp-content/uploads/2023/04/ico-miluvas.png" />
+<style id="custom-css" type="text/css">:root {--primary-color: #221177;}.header-main{height: 113px}#logo img{max-height: 113px}#logo{width:150px;}.header-bottom{min-height: 44px}.header-top{min-height: 35px}.transparent .header-main{height: 90px}.transparent #logo img{max-height: 90px}.has-transparent + .page-title:first-of-type,.has-transparent + #main > .page-title,.has-transparent + #main > div > .page-title,.has-transparent + #main .page-header-wrapper:first-of-type .page-title{padding-top: 140px;}.header.show-on-scroll,.stuck .header-main{height:70px!important}.stuck #logo img{max-height: 70px!important}.search-form{ width: 79%;}.header-bg-color, .header-wrapper {background-color: #99cc66}.header-bottom {background-color: #f1f1f1}.top-bar-nav > li > a{line-height: 16px }.header-main .nav > li > a{line-height: 16px }.stuck .header-main .nav > li > a{line-height: 50px }.header-bottom-nav > li > a{line-height: 40px }@media (max-width: 549px) {.header-main{height: 70px}#logo img{max-height: 70px}}.nav-dropdown{font-size:100%}.header-top{background-color:#221177!important;}/* Color */.accordion-title.active, .has-icon-bg .icon .icon-inner,.logo a, .primary.is-underline, .primary.is-link, .badge-outline .badge-inner, .nav-outline > li.active> a,.nav-outline >li.active > a, .cart-icon strong,[data-color='primary'], .is-outline.primary{color: #221177;}/* Color !important */[data-text-color="primary"]{color: #221177!important;}/* Background Color */[data-text-bg="primary"]{background-color: #221177;}/* Background */.scroll-to-bullets a,.featured-title, .label-new.menu-item > a:after, .nav-pagination > li > .current,.nav-pagination > li > span:hover,.nav-pagination > li > a:hover,.has-hover:hover .badge-outline .badge-inner,button[type="submit"], .button.wc-forward:not(.checkout):not(.checkout-button), .button.submit-button, .button.primary:not(.is-outline),.featured-table .title,.is-outline:hover, .has-icon:hover .icon-label,.nav-dropdown-bold .nav-column li > a:hover, .nav-dropdown.nav-dropdown-bold > li > a:hover, .nav-dropdown-bold.dark .nav-column li > a:hover, .nav-dropdown.nav-dropdown-bold.dark > li > a:hover, .is-outline:hover, .tagcloud a:hover,.grid-tools a, input[type='submit']:not(.is-form), .box-badge:hover .box-text, input.button.alt,.nav-box > li > a:hover,.nav-box > li.active > a,.nav-pills > li.active > a ,.current-dropdown .cart-icon strong, .cart-icon:hover strong, .nav-line-bottom > li > a:before, .nav-line-grow > li > a:before, .nav-line > li > a:before,.banner, .header-top, .slider-nav-circle .flickity-prev-next-button:hover svg, .slider-nav-circle .flickity-prev-next-button:hover .arrow, .primary.is-outline:hover, .button.primary:not(.is-outline), input[type='submit'].primary, input[type='submit'].primary, input[type='reset'].button, input[type='button'].primary, .badge-inner{background-color: #221177;}/* Border */.nav-vertical.nav-tabs > li.active > a,.scroll-to-bullets a.active,.nav-pagination > li > .current,.nav-pagination > li > span:hover,.nav-pagination > li > a:hover,.has-hover:hover .badge-outline .badge-inner,.accordion-title.active,.featured-table,.is-outline:hover, .tagcloud a:hover,blockquote, .has-border, .cart-icon strong:after,.cart-icon strong,.blockUI:before, .processing:before,.loading-spin, .slider-nav-circle .flickity-prev-next-button:hover svg, .slider-nav-circle .flickity-prev-next-button:hover .arrow, .primary.is-outline:hover{border-color: #221177}.nav-tabs > li.active > a{border-top-color: #221177}.widget_shopping_cart_content .blockUI.blockOverlay:before { border-left-color: #221177 }.woocommerce-checkout-review-order .blockUI.blockOverlay:before { border-left-color: #221177 }/* Fill */.slider .flickity-prev-next-button:hover svg,.slider .flickity-prev-next-button:hover .arrow{fill: #221177;}/* Background Color */[data-icon-label]:after, .secondary.is-underline:hover,.secondary.is-outline:hover,.icon-label,.button.secondary:not(.is-outline),.button.alt:not(.is-outline), .badge-inner.on-sale, .button.checkout, .single_add_to_cart_button, .current .breadcrumb-step{ background-color:#99cc66; }[data-text-bg="secondary"]{background-color: #99cc66;}/* Color */.secondary.is-underline,.secondary.is-link, .secondary.is-outline,.stars a.active, .star-rating:before, .woocommerce-page .star-rating:before,.star-rating span:before, .color-secondary{color: #99cc66}/* Color !important */[data-text-color="secondary"]{color: #99cc66!important;}/* Border */.secondary.is-outline:hover{border-color:#99cc66}@media screen and (max-width: 549px){body{font-size: 100%;}}body{font-family:"Noto Sans", sans-serif}body{font-weight: 0}.nav > li > a {font-family:"Noto Sans", sans-serif;}.mobile-sidebar-levels-2 .nav > li > ul > li > a {font-family:"Noto Sans", sans-serif;}.nav > li > a {font-weight: 700;}.mobile-sidebar-levels-2 .nav > li > ul > li > a {font-weight: 700;}h1,h2,h3,h4,h5,h6,.heading-font, .off-canvas-center .nav-sidebar.nav-vertical > li > a{font-family: "Noto Sans", sans-serif;}h1,h2,h3,h4,h5,h6,.heading-font,.banner h1,.banner h2{font-weight: 700;}.breadcrumbs{text-transform: none;}button,.button{text-transform: none;}.nav > li > a, .links > li > a{text-transform: none;}.section-title span{text-transform: none;}.alt-font{font-family: "Noto Sans", sans-serif;}.alt-font{font-weight: 0!important;}.header:not(.transparent) .header-nav-main.nav > li > a:hover,.header:not(.transparent) .header-nav-main.nav > li.active > a,.header:not(.transparent) .header-nav-main.nav > li.current > a,.header:not(.transparent) .header-nav-main.nav > li > a.active,.header:not(.transparent) .header-nav-main.nav > li > a.current{color: #000000;}.header-nav-main.nav-line-bottom > li > a:before,.header-nav-main.nav-line-grow > li > a:before,.header-nav-main.nav-line > li > a:before,.header-nav-main.nav-box > li > a:hover,.header-nav-main.nav-box > li.active > a,.header-nav-main.nav-pills > li > a:hover,.header-nav-main.nav-pills > li.active > a{color:#FFF!important;background-color: #000000;}.header:not(.transparent) .header-bottom-nav.nav > li > a:hover,.header:not(.transparent) .header-bottom-nav.nav > li.active > a,.header:not(.transparent) .header-bottom-nav.nav > li.current > a,.header:not(.transparent) .header-bottom-nav.nav > li > a.active,.header:not(.transparent) .header-bottom-nav.nav > li > a.current{color: #000000;}.header-bottom-nav.nav-line-bottom > li > a:before,.header-bottom-nav.nav-line-grow > li > a:before,.header-bottom-nav.nav-line > li > a:before,.header-bottom-nav.nav-box > li > a:hover,.header-bottom-nav.nav-box > li.active > a,.header-bottom-nav.nav-pills > li > a:hover,.header-bottom-nav.nav-pills > li.active > a{color:#FFF!important;background-color: #000000;}@media screen and (min-width: 550px){.products .box-vertical .box-image{min-width: 300px!important;width: 300px!important;}}.footer-1{background-color: #666463}.footer-2{background-color: #232323}.absolute-footer, html{background-color: #232323}button[name='update_cart'] { display: none; }/* Custom CSS */.row.row-small {max-width: 1200px;}.container-width, .full-width .ubermenu-nav, .container, .row {max-width: 1200px;}.footer-1 .row{ /* max-width: 100% !important;*/}.absolute-footer {/*border-top: 1px solid #ddd;*/}.pull-left { padding-top: 12px;}.phone-number {font-size: 1.2rem !important;}.form-row {text-align: left !important;}#billing_country_field{display:none;}.row-small>.flickity-viewport>.flickity-slider>.col, .row-small>.col {padding: 0 2.8px 19.6px;margin-bottom: 0;}a:hover {color: #99cc66;}.image-zoom a:hover {border: 1px solid #ff781e;}.nav>li.has-icon>a>i {color:#fff;}img.attachment-woocommerce_thumbnail.size-woocommerce_thumbnail {border: 1px solid #544e71;padding: 10px;border-radius:12px;}span.widget-title {font-size: 15px !important;font-weight: 600 !important;letter-spacing: .05em;}ul.menu>li>a{font-size: 13px;font-weight: 400;letter-spacing: .02em;}input[type='submit']:not(.is-form){background-color: #fff;}.dark .button, .dark input[type=submit]{color: #000;}.form-flat button, .form-flat input {border-radius: 0px;}.form-flat input:not([type=submit]){border-color: #ddd !important;border-radius: 0px;}.input[type=email]{height: 3.107em !important;}input.wpcf7-form-control.wpcf7-text.wpcf7-email.wpcf7-validates-as-required.wpcf7-validates-as-email {font-size: 13px;height: 2.907em;}.flex-col.ml-half {margin-left: 0px;}.wpcf7-spinner {display: none;}.copyright-footer{font-size: 12px;color:#ddd;}.section-title-normal span {margin-right: 15px;padding-bottom: 7.5px;border-bottom: 4px solid #99cc66;margin-bottom: -2px;}span.section-title-main {font-size: 20px;color: #0b0335;font-weight: 600;letter-spacing: -1px;}.button.is-outline{border: 1px solid #544e71;width: 100%; border-radius: 4px;/*padding: 6px;*/}a.button-continue-shopping.button.primary.is-outline {padding: 7px;}.header .nav-small a.icon:not(.button) {font-size: 1.4em;color: #000;}.header-top{background:#221177 !important;}p {margin-top: 0;font-size: 14px;}.product_meta {display: none;}.nav-pagination>li>span, .nav-pagination>li>a{font-weight: 400;border-radius: 0;border: 1px solid currentColor;}.widget_price_filter .price_slider_amount .button {border-radius: 0px;background-color: #000;}.woocommerce-ordering select { font-size: 13px;}ul.product_list_widget li a:not(.remove) { font-size: 13px;}.has-border {border: 1px solid #446084;}button.button.primary.mt-0.pull-left.small {border: 1px solid #544e71;/* width: 100%; */border-radius: 4px;padding: 6px;margin-left: 20px !important;margin-top: 10px !important;}.tinv-wishlist * {font-size: 12px;}.optional{display:none;}.woocommerce-shipping-fields {display: none;}.woocommerce-additional-fields__field-wrapper {margin-top: 20px;}a.plain {color: #000;}a.icon:not(.button) {font-size: 1.4em;}.single_add_to_cart_button.button {background-color: #221177 !important;}.checkout-button{background-color: #99cc66 !important;}/*Formulario CF7 a 2 columnas responsive*/#responsive-form{ max-width:1000px /*-- change this to get your desired form width --*/; margin:0 auto;width:100%;}.form-row{ width: 100%;}.column-half, .column-full{ float: left; position: relative; padding: 0.65rem; width:100%; -webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box}.clearfix:after { content: ""; display: table; clear: both;} .negro{background: #000;padding: 8px;color: #fff;}/**---------------- Media query ----------------**/@media only screen and (min-width: 48em) {.column-half{ width: 50%; }}.header-main {background: #221177;}input#woocommerce-product-search-field-0 {display: flex;height: 46px;justify-content: center;align-items: center;width: 100%;padding-left: 24px;border-radius: 35px;}button.ux-search-submit.submit-button.secondary.button.icon.mb-0 {/*background: #495867;*/border-radius: 35px !important;position: absolute;right: 0;box-sizing: border-box;z-index: 10;width: 46px;height: 46px;display: flex;justify-content: center;align-items: center;/*border: 1px solid #495867;*/top: 0px;}.nav>li.header-divider {border-left: 1px solid #fff;}span.header-account-title {color: #fff;}.nav>li>a>i.icon-menu {font-size: 2.7em;}span.menu-title.uppercase.hide-for-small {color: #fff;font-size: 22px;font-weight: 500;text-transform: capitalize;}.header.show-on-scroll, .stuck .header-main {height: 85px!important;}a.header-cart-link.is-small {color: #fff;}a.showcoupon {color: #221177;font-weight: 600;}a.wishlist-link.is-small {color: #FFF;}div#block_widget-3 {flex-basis: 34%;max-width: 34%;}div#block_widget-7 {max-width: 22% !important;flex-basis: 22%;}div#block_widget-5 {margin: 0px;}.footer-widgets.footer.footer-1 {padding: 10px;}.nav-spacing-xlarge>li {margin: 0 45px;}.nav-spacing-large>li {margin: 0 20px;}.row.row-large {max-width: 1200px;}.recent-blog-posts a {font-size: 13px;}.image-tools.is-small.top.right.show-on-hover {display: none;}a.primary.is-small.mb-0.button.wp-element-button.product_type_simple.add_to_cart_button.ajax_add_to_cart.is-outline {padding: 6px;}aside#woocommerce_price_filter-9 {background: #E4E4E457;padding: 10px;}aside#woocommerce_recently_viewed_products-8 {background: #E4E4E457;padding: 10px;}aside#woocommerce_product_categories-13 {background: #E4E4E457;padding: 10px;}.box-image {border-radius:12px;background-color: #f5f5f5;/*background: linear-gradient(0deg, rgba(210,210,210,1) 0%, rgba(245,245,245,1) 35%);*/}#block_widget-2, #block_widget-7, #nav_menu-3{max-width: 22%; flex-basis: 22%;} #block_widget-3{max-width: 34%; flex-basis: 34%;}input.wpcf7-form-control.has-spinner.wpcf7-submit {background: black;}li.cat-item.cat-item-149 {display: none;}/*fondo de imagen*/.image-fade_in_back {background: #fffbf4;}.box-image img, .image-and-addcart .img_ img {mix-blend-mode: multiply;}/*fin*/img.woocommerce-placeholder.wp-post-image {border: 1px solid #544e71;padding: 10px;border-radius: 12px;}#billing_address_2_field>label, #shipping_address_2_field>label{display:none;}i.icon-menu {margin-top: 8px;}input.wpcf7-form-control.has-spinner.wpcf7-submit.button {background: #fff;padding: 2px 6px;}input.wpcf7-form-control.has-spinner.wpcf7-submit.button { /* background: black;*/}.otrofon{background:#fff !important;}ul.wc-bacs-bank-details.order_details.bacs_details {FONT-SIZE: 14px;line-height: 14px;}address {font-size: 14px;}h2.wc-bacs-bank-details-heading {background: #99cc66;padding: 5px 15px;font-size: 21px;color: #fff;}h2.woocommerce-order-details__title{background: #99cc66;padding: 5px 15px;font-size: 21px;color: #fff;}h2.woocommerce-column__title{background: #99cc66;padding: 5px 15px;font-size: 21px;color: #fff;}li.bank_name {list-style: none;}li.sort_code {list-style: none;}.header-nav-main.nav-box > li > a:hover{background-color:transparent;}.widget .toggle {width: 1em;min-height: 1em;margin: 0 0 0 5px;float: right;}.widget .toggle i {top: 1px;font-size: 1.4em !important;font-weight: bolder !important;color: #000;}.nav-column li>a, .nav-dropdown>li>a {padding: 7px 20px; }/*personalizar registrate*/.dashboard-links a {background: #dad4f6;}li.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link--downloads {display: none;}li.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link--wishlist {display: none;}.header-nav-main.nav-box > li.active > a{background-color: transparent;}a.nav-top-link.nav-top-not-logged-in.is-small {color: #fff;}.message-container a {margin: 0 15px 0 0;background: #584597;padding: 7px 15px;border-radius: 5px;color: #fff;}.nav>li>a:hover, .nav>li.active>a{background: #584597;color: #fff;padding-left: 15px;}/* Personalización de tarjetas aceptadas para Woocommerce Legacy - Shortcode (< 8.4) */.payment_method_micuentawebstd img:not(.kr-header-logo,.kr-logo-izipay) {content: url("https://www.miluvas.pe/wp-content/uploads/2024/05/download.png");max-width: 200px!important;}/* Personalización de tarjetas aceptadas para Woocommerce Blocks (>= 8.4) */#radio-control-wc-payment-method-options-micuentawebstd__label img:not(.kr-header-logo,.kr-logo-izipay) {content: url("https://www.miluvas.pe/wp-content/uploads/2024/05/download.png");max-width: 200px!important;}/* Custom CSS Mobile */@media (max-width: 549px){input.wpcf7-form-control.has-spinner.wpcf7-submit {background: black;width:100%;}i.icon-menu {margin-top: 0px;}div#block_widget-5 {margin: 0px; /* padding: 0px;*/}#block_widget-2, #block_widget-7, #nav_menu-3{max-width: 100%; flex-basis: 100%;} #block_widget-3{max-width: 100%; flex-basis: 100%;}div#block_widget-3 {flex-basis: 100%;max-width: 100%;}div#block_widget-7 {max-width: 100% !important;flex-basis: 100%;}}.label-new.menu-item > a:after{content:"Nuevo";}.label-hot.menu-item > a:after{content:"Caliente";}.label-sale.menu-item > a:after{content:"Oferta";}.label-popular.menu-item > a:after{content:"Popular";}</style></head>
 
-<body class="home page-template page-template-page-blank page-template-page-blank-php page page-id-37 theme-flatsome woocommerce-no-js yith-wcbm-theme-flatsome tinvwl-theme-style lightbox nav-dropdown-has-shadow nav-dropdown-has-border">
+<body class="archive tax-product_cat term-vinos term-127 theme-flatsome woocommerce woocommerce-page woocommerce-no-js yith-wcbm-theme-flatsome tinvwl-theme-style lightbox nav-dropdown-has-shadow nav-dropdown-has-border">
 
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P95HFJCP"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <a class="skip-link screen-reader-text" href="#main">Skip to content</a>
 
 <div id="wrapper">
@@ -289,8 +427,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <!-- Logo -->
           <div id="logo" class="flex-col logo">
             <!-- Header logo -->
-<a href="index.php" title="La estación - Licores en Oferta" rel="home">
-    <img width="150" height="113" src="/View/wp-content/uploads/2023/04/Logo1.png" class="header_logo header-logo" alt="La estación"/><img  width="150" height="113" src="/View/wp-content/uploads/2023/04/Logo1.png" class="header-logo-dark" alt="La estación"/></a>
+<a href="/View/" title="la Estación - Licores en Oferta" rel="home">
+    <img width="150" height="113" src="/View/wp-content/uploads/2023/04/Logo1.png" class="header_logo header-logo" alt="la Estación"/><img  width="150" height="113" src="/View/wp-content/uploads/2023/04/Logo1.png" class="header-logo-dark" alt="la Estación"/></a>
           </div>
 
           <!-- Mobile Left Elements -->
@@ -315,7 +453,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		  		</a>
 	</li><li class="header-search-form search-form html relative has-icon">
 	<div class="header-search-form-wrapper">
-		<div class="searchform-wrapper ux-search-box relative is-normal"><form role="search" method="get" class="searchform" action="/">
+		<div class="searchform-wrapper ux-search-box relative is-normal"><form role="search" method="get" class="searchform" action=#">
 	<div class="flex-row relative">
 						<div class="flex-col flex-grow">
 			<label class="screen-reader-text" for="woocommerce-product-search-field-0">Buscar por:</label>
@@ -333,47 +471,45 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </li>            </ul>
           </div>
 
-          <!-- Right Elements -->
-          <div class="flex-col hide-for-medium flex-right">
-            <ul class="header-nav header-nav-main nav nav-right  nav-box nav-uppercase">
-				<li class="account-item has-icon">
-
-					<a href="/View/my-account/"
-						class="nav-top-link nav-top-not-logged-in is-small"
-						data-open="#login-form-popup"  >
-						<span>Acceder     / Regístrate  </span>
-					
-					</a>
-				</li>
-
-				<li class="header-divider"></li> <li class="cart-item has-icon has-dropdown">
-					<a href="/View/cart/index.php" title="Carrito" class="header-cart-link is-small">
-					<span class="header-cart-title">Carrito     </span>
-
-						<i class="icon-shopping-cart"
-						data-icon-label="0">
-						</i>
-					</a>
-
-				</li>
-			 </ul>
-          </div>
-
+                  <!-- Right Elements -->
+				  <div class="flex-col hide-for-medium flex-right">
+					<ul class="header-nav header-nav-main nav nav-right  nav-box nav-uppercase">
+						<li class="account-item has-icon">
+		
+							<a href="/View/my-account/"
+								class="nav-top-link nav-top-not-logged-in is-small"
+								data-open="#login-form-popup"  >
+								<span>Acceder     / Regístrate  </span>
+							
+							</a>
+						</li>
+		
+						<li class="header-divider"></li> <li class="cart-item has-icon has-dropdown">
+							<a href="index.php?controlador=cart&accion=mostrar" title="Carrito" class="header-cart-link is-small">
+							<span class="header-cart-title">Carrito     </span>
+		
+								<i id="icono-carrito"class="icon-shopping-cart"
+								data-icon-label="0">
+								</i>								
+							</a>
+		
+						</li>
+					 </ul>
+				  </div>
           <!-- Mobile Right Elements -->
           <div class="flex-col show-for-medium flex-right">
             <ul class="mobile-nav nav nav-right ">
-                <li class="cart-item has-icon">
+              <li class="cart-item has-icon">
 
-					<a href="/View/cart/index.php" class="header-cart-link off-canvas-toggle nav-top-link is-small"  data-class="off-canvas-cart" title="Carrito" data-pos="right">
-		
-					<i class="icon-shopping-cart" data-icon-label="0"></i>
-					</a>
-				</li>
-				<li class="account-item has-icon">
-					<a href="/View/my-account/"
-					class="account-link-mobile is-small" title="Mi cuenta" data-open="#login-form-popup">
-					<i class="icon-user" ></i>	</a>
-				</li>
+      <a href="/View/cart/index.php" class="header-cart-link off-canvas-toggle nav-top-link is-small"  data-class="off-canvas-cart" title="Carrito" data-pos="right">
+  
+    <i class="icon-shopping-cart">
+  </i>
+  </a>
+
+
+
+</li>
 
             </ul>
           </div>
@@ -386,11 +522,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
                         <div class="flex-col hide-for-medium flex-left">
                 <ul class="nav header-nav header-bottom-nav nav-left  nav-box nav-spacing-large nav-uppercase">
-                    <li id="menu-item-390" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-37 current_page_item menu-item-390 active menu-item-design-default"><a href="index.php?controlador=inicio&accion=mostrarInicio" aria-current="page" class="nav-top-link">INICIO</a></li>
-					<li id="menu-item-3172" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3172 menu-item-design-default has-dropdown"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=1" class="nav-top-link">VINOS<i class="nav-top-link" ></i></a></li>
-					<li id="menu-item-3166" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3166 menu-item-design-default"><a href="/View/product-category/licores/index.php" class="nav-top-link">LICORES</a></li>
-					<li id="menu-item-3817" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3817 menu-item-design-default"><a href="/View/product-category/agua-tonica/index.php" class="nav-top-link">AGUA TÓNICA</a></li>
-					<li id="menu-item-3169" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3169 menu-item-design-default"><a href="/View/product-category/cerveza/index.php" class="nav-top-link">CERVEZA</a></li>
+                    <li id="menu-item-390" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-390 menu-item-design-default"><a href="../../index.php" class="nav-top-link">INICIO</a></li>
+					<li id="menu-item-3172" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3172 menu-item-design-default has-dropdown active"><a href="/View/product-category/vinos/" class="nav-top-link">VINOS<i class="nav-top-link" ></i></a></li>
+					<li id="menu-item-3166" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3166 menu-item-design-default"><a href="/View/product-category/licores/" class="nav-top-link">LICORES</a></li>
+					<li id="menu-item-3817" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3817 menu-item-design-default"><a href="/View/product-category/agua-tonica/" class="nav-top-link">AGUA TÓNICA</a></li>
+					<li id="menu-item-3169" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3169 menu-item-design-default"><a href="/View/product-category/cerveza/" class="nav-top-link">CERVEZA</a></li>
 					<li id="menu-item-3167" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-3167 menu-item-design-default has-dropdown"><a href="/View/product-category/espumantes/" class="nav-top-link">ESPUMANTES<i class="nav-top-link" ></i></a></li>
 					<li id="menu-item-2782" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2782 menu-item-design-default"><a href="/View/ofertas/index.php" class="nav-top-link">OFERTAS</a></li>
 
@@ -398,20 +534,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </div>
             
             
-                    <div class="flex-col hide-for-medium flex-right flex-grow">
-						<ul class="nav header-nav header-bottom-nav nav-right  nav-box nav-spacing-large nav-uppercase">
-							<li class="html header-social-icons ml-0">
-									<div class="social-icons follow-icons" ><a href="https://www.facebook.com/La estaciónEIRL/" target="_blank" data-label="Facebook"  rel="noopener noreferrer nofollow" class="icon plain facebook tooltip" title="Síguenos en Facebook"><i class="icon-facebook" ></i></a><a href="https://www.instagram.com/La estación.EIRL/" target="_blank" rel="noopener noreferrer nofollow" data-label="Instagram" class="icon plain  instagram tooltip" title="Síguenos en Instagram"><i class="icon-instagram" ></i></a><a href="mailto:Laestacion@gmail.com" data-label="E-mail"  rel="nofollow" class="icon plain  email tooltip" title="Envíanos un email"><i class="icon-envelop" ></i></a>
-									</div>
-								</li>            
-						</ul>
-                   </div>
+                        <div class="flex-col hide-for-medium flex-right flex-grow">
+              <ul class="nav header-nav header-bottom-nav nav-right  nav-box nav-spacing-large nav-uppercase">
+                   <li class="html header-social-icons ml-0">
+	<div class="social-icons follow-icons" ><a href="https://www.facebook.com/" target="_blank" data-label="Facebook"  rel="noopener noreferrer nofollow" class="icon plain facebook tooltip" title="Síguenos en Facebook"><i class="icon-facebook" ></i></a><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer nofollow" data-label="Instagram" class="icon plain  instagram tooltip" title="Síguenos en Instagram"><i class="icon-instagram" ></i></a><a href="mailto:Laestacion@gmail.com" data-label="E-mail"  rel="nofollow" class="icon plain  email tooltip" title="Envíanos un email"><i class="icon-envelop" ></i></a></div></li>              </ul>
+            </div>
             
                           <div class="flex-col show-for-medium flex-grow">
                   <ul class="nav header-bottom-nav nav-center mobile-nav  nav-box nav-spacing-large nav-uppercase">
                       <li class="header-search-form search-form html relative has-icon">
 	<div class="header-search-form-wrapper">
-		<div class="searchform-wrapper ux-search-box relative is-normal"><form role="search" method="get" class="searchform" action="/">
+		<div class="searchform-wrapper ux-search-box relative is-normal"><form role="search" method="get" class="searchform" action=#">
 	<div class="flex-row relative">
 						<div class="flex-col flex-grow">
 			<label class="screen-reader-text" for="woocommerce-product-search-field-1">Buscar por:</label>
@@ -435,727 +568,109 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="header-bg-container fill"><div class="header-bg-image fill"></div><div class="header-bg-color fill"></div></div>		</div>
 	</header>
 
-	
-	<main id="main" class="">
-
-
-<div id="content" role="main" class="content-area">
-
-		
-			<div class="slider-wrapper relative" id="slider-1932643647" >
-    <div class="slider slider-nav-circle slider-nav-large slider-nav-light slider-style-normal"
-        data-flickity-options='{
-            "cellAlign": "center",
-            "imagesLoaded": true,
-            "lazyLoad": 1,
-            "freeScroll": false,
-            "wrapAround": true,
-            "autoPlay": 6000,
-            "pauseAutoPlayOnHover" : true,
-            "prevNextButtons": true,
-            "contain" : true,
-            "adaptiveHeight" : true,
-            "dragThreshold" : 10,
-            "percentPosition": true,
-            "pageDots": false,
-            "rightToLeft": false,
-            "draggable": true,
-            "selectedAttraction": 0.1,
-            "parallax" : 0,
-            "friction": 0.6        }'
-        >
-        
-
-  <div class="banner has-hover" id="banner-501417278">
-          <div class="banner-inner fill">
-        <div class="banner-bg fill" >
-            <div class="bg fill bg-fill "></div>
-                                    
-                    </div>
-        <div class="banner-layers container">
-            <div class="fill banner-link"></div>            
-   <div id="text-box-1214318196" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y50 res-text">
-                     <div data-animate="blurIn">           <div class="text dark">
-              
-              <div class="text-inner text-center">
-                  
-	<div id="text-647467750" class="text">
-		
-<h1>A solo un paso de disfrutar</h1>
-		
-<style>
-#text-647467750 {
-  font-size: 0.75rem;
-  line-height: 3;
-  text-align: center;
-  color: rgb(255, 244, 224);
-}
-#text-647467750 > * {
-  color: rgb(255, 244, 224);
-}
-@media (min-width:550px) {
-  #text-647467750 {
-    font-size: 1.25rem;
-  }
-}
-@media (min-width:850px) {
-  #text-647467750 {
-    font-size: 2.25rem;
-  }
-}
-</style>
-	</div>
-	
-              </div>
-           </div>
-       </div>                     
-<style>
-#text-box-1214318196 {
-  width: 80%;
-}
-#text-box-1214318196 .text {
-  font-size: 100%;
-}
-@media (min-width:550px) {
-  #text-box-1214318196 .text {
-    font-size: 112%;
-  }
-}
-@media (min-width:850px) {
-  #text-box-1214318196 .text {
-    font-size: 125%;
-  }
-}
-</style>
-    </div>
- 
-        </div>
-      </div>
-
-            
-<style>
-#banner-501417278 {
-  padding-top: 50%;
-}
-#banner-501417278 .bg.bg-loaded {
-  background-image: url(/View/wp-content/uploads/2024/08/web-1-1400x525.jpg);
-}
-#banner-501417278 .bg {
-  background-position: 52% 0%;
-}
-@media (min-width:550px) {
-  #banner-501417278 {
-    padding-top: 300px;
-  }
-}
-@media (min-width:850px) {
-  #banner-501417278 {
-    padding-top: 600px;
-  }
-}
-</style>
-  </div>
-
-
-     </div>
-
-     <div class="loading-spin dark large centered"></div>
-
-     </div>
-
-
-	<div id="gap-1342639766" class="gap-element clearfix" style="display:block; height:auto;">
-		
-<style>
-#gap-1342639766 {
-  padding-top: 50px;
-}
-</style>
-	</div>
-	
-	
-	
-	<div id="gap-355048257" class="gap-element clearfix" style="display:block; height:auto;">
-		
-<style>
-#gap-355048257 {
-  padding-top: 25px;
-}
-</style>
-	</div>
-	
-	<div id="gap-851935448" class="gap-element clearfix" style="display:block; height:auto;">
-		
-<style>
-#gap-851935448 {
-  padding-top: 50px;
-}
-</style>
-	</div>
-	
-<div class="container section-title-container" ><h2 class="section-title section-title-normal"><b></b><span class="section-title-main" >Cervesa</span><b></b></h2></div>
-
-  
-    <div class="row  equalize-box large-columns-4 medium-columns-3 small-columns-2 row-small slider row-slider slider-nav-simple slider-nav-outside slider-nav-push"  data-flickity-options='{"imagesLoaded": true, "groupCells": "100%", "dragThreshold" : 5, "cellAlign": "left","wrapAround": true,"prevNextButtons": true,"percentPosition": true,"pageDots": false, "rightToLeft": false, "autoPlay" : 4000}'>
-
-  		<?php foreach ($cerveza as $producto): ?>
-			<div class="product-small col has-hover product type-product post-5329 status-publish last instock product_cat-tintos-espana product_cat-tintos-varietales has-post-thumbnail shipping-taxable purchasable product-type-simple">
-					<div class="col-inner">
-						<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-above_thumb-add-to-cart tinvwl-loop-button-wrapper tinvwl-woocommerce_before_shop_loop_item"
-						data-tinvwl_product_id="5329">
-						<div
-							class="tinvwl-tooltip">
-						</div>
-						</div>
-
-						<div class="badge-container absolute left top z-1">
-						</div>
-
-						<div class="product-small box ">
-								<div class="box-image">
-
-										<div class="image-fade_in_back">
-											<a href="/View/product/vino-dg-familia-fernandez-rivera-x-750-ml/">
-												<img width="300" height="300" src="<?php echo $producto['imagen_url']?> " sizes="(max-width: 300px) 100vw, 300px" />				</a>
-										</div>
-
-										<div class="image-tools is-small top right show-on-hover">
-												<div class="wishlist-icon">
-													<button class="wishlist-button button is-outline circle icon"
-															aria-label="Lista de deseos">
-														<i class="icon-heart-o" ></i>				
-													</button>
-
-													<div class="wishlist-popup dark ">
-
-														<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-shortcode-add-to-cart tinvwl-loop-button-wrapper tinvwl-flatsome_product_box_tools_top"
-															data-tinvwl_product_id="5329">
-
-															<div	class="tinvwl-tooltip"></div>
-
-														</div>
-													</div>
-												</div>
-										</div>
-
-										<div class="image-tools is-small hide-for-small bottom left show-on-hover">
-										</div>
-										
-										<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
-										</div>
-								</div>
-
-							<div class="box-text box-text-products text-center grid-style-2">
-									<div class="title-wrapper">		
-										<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
-											<?= $producto['categoria_nombre'] ?>	
-										</p>
-
-										<p class="name product-title woocommerce-loop-product__title">
-											<a href="/View/product/vino-dg-familia-fernandez-rivera-x-750-ml/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">	
-												<?= $producto['nombre'] ?>
-											</a>
-										</p>
-									</div>
-
-									<div class="price-wrapper">
-										<span class="price"><span class="woocommerce-Price-amount amount">
-											<bdi>
-											<span class="woocommerce-Price-currencySymbol">S/
-
-											</span>&nbsp;<?= $producto['precio'] ?>
-										</bdi></span></span>
-									</div>
-									
-									<!-- BOTON : Añadir al carrito -->
-									<div class="add-to-cart-button">
-											<a href="?add-to-cart=5329" data-quantity="1" class="primary is-small mb-0 button wp-element-button product_type_simple add_to_cart_button ajax_add_to_cart is-outline" data-product_id="5329" data-product_sku="" aria-label="Añade &ldquo;DG Familia Fernández Rivera&rdquo; a tu carrito" rel="nofollow">
-												Añadir al carrito
-											</a>
-									</div>		
-							</div>
-						</div>
-						</div>
-			</div>
-				<?php endforeach; ?> 
-	     
-					
-
-</div>
-	            
-					
-       	        </div>
-<div class="row align-middle align-center"  id="row-662577743">
-
-	<div id="col-1790610606" class="col small-12 large-12"  >
-		<div class="col-inner text-center"  >
-			
-			
-<a href="/View/ofertas/index.php" target="_self" class="button primary"  style="border-radius:10px;">
-    <span>Ver mas</span>
-  </a>
-
-		</div>
-			</div>
-
-	
-</div>
-
-  <div class="banner has-hover" id="banner-869687348">
-          <div class="banner-inner fill">
-        <div class="banner-bg fill" >
-            <div class="bg fill bg-fill "></div>
-                        <div class="overlay"></div>            
-                    </div>
-        <div class="banner-layers container">
-            <a class="fill" href="/View/ofertas/"  ><div class="fill banner-link"></div></a>            
-   <div id="text-box-33783490" class="text-box banner-layer x50 md-x50 lg-x50 y50 md-y50 lg-y90 res-text">
-       <div class="hover-bounce">                         <div class="text dark">
-              
-              <div class="text-inner text-center">
-                  
-	<div id="text-1652399313" class="text">
-		
-<h2><strong>Catálogo de ofertas</strong></h2>
-<h4 class="thin-font">Ingresa aquí</h4>
-		
-<style>
-#text-1652399313 {
-  color: rgb(255, 244, 224);
-}
-#text-1652399313 > * {
-  color: rgb(255, 244, 224);
-}
-</style>
-	</div>
-	
-              </div>
-           </div>
-                     </div>       
-<style>
-#text-box-33783490 {
-  width: 85%;
-}
-#text-box-33783490 .text {
-  font-size: 82%;
-}
-@media (min-width:550px) {
-  #text-box-33783490 {
-    width: 75%;
-  }
-  #text-box-33783490 .text {
-    font-size: 100%;
-  }
-}
-@media (min-width:850px) {
-  #text-box-33783490 {
-    width: 50%;
-  }
-  #text-box-33783490 .text {
-    font-size: 100%;
-  }
-}
-</style>
-    </div>
- 
-        </div>
-      </div>
-
-            
-<style>
-#banner-869687348 {
-  padding-top: 125px;
-  background-color: rgb(18, 18, 18);
-}
-#banner-869687348 .bg.bg-loaded {
-  background-image: url(/View/wp-content/uploads/2024/08/web-02.jpg);
-}
-#banner-869687348 .overlay {
-  background-color: rgba(0, 0, 0, 0.058);
-}
-#banner-869687348 .bg {
-  background-position: 51% 9%;
-}
-@media (min-width:550px) {
-  #banner-869687348 {
-    padding-top: 250px;
-  }
-}
-@media (min-width:850px) {
-  #banner-869687348 {
-    padding-top: 450px;
-  }
-}
-</style>
-  </div>
-
-
-	<section class="section" id="section_1010235512">
-		<div class="bg section-bg fill bg-fill  bg-loaded" >
-
-		</div>
-
-		<div class="section-content relative">
-			
-	<div id="gap-1323052084" class="gap-element clearfix" style="display:block; height:auto;">
-		
-		<style>
-		#gap-1323052084 {
-		padding-top: 50px;
-		}
-		</style>
-	</div>
-	
-	<div class="container section-title-container" >
-		<h2 class="section-title section-title-normal"><b></b>
-			<span class="section-title-main" >
-				Vino
-			</span><b></b>
-		</h2>
-	</div>
-
-	<!-- Contenedor vinos -->
-	<div class="row  equalize-box large-columns-4 medium-columns-3 small-columns-2 row-small slider row-slider slider-nav-simple slider-nav-outside slider-nav-push"  data-flickity-options='{"imagesLoaded": true, "groupCells": "100%", "dragThreshold" : 5, "cellAlign": "left","wrapAround": true,"prevNextButtons": true,"percentPosition": true,"pageDots": false, "rightToLeft": false, "autoPlay" : 4000}'>
-		
-		<?php foreach ($vino as $producto): ?>
-			<div class="product-small col has-hover product type-product post-5329 status-publish last instock product_cat-tintos-espana product_cat-tintos-varietales has-post-thumbnail shipping-taxable purchasable product-type-simple">
-					<div class="col-inner">
-						<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-above_thumb-add-to-cart tinvwl-loop-button-wrapper tinvwl-woocommerce_before_shop_loop_item"
-						data-tinvwl_product_id="5329">
-						<div
-							class="tinvwl-tooltip">
-						</div>
-						</div>
-
-						<div class="badge-container absolute left top z-1">
-						</div>
-
-						<div class="product-small box ">
-								<div class="box-image">
-
-										<div class="image-fade_in_back">
-											<a href="/View/product/vino-dg-familia-fernandez-rivera-x-750-ml/">
-												<img width="300" height="300" src="<?php echo $producto['imagen_url']; ?>" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"  decoding="async" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" />				
-											</a>
-										</div>
-
-										<div class="image-tools is-small top right show-on-hover">
-												<div class="wishlist-icon">
-													<button class="wishlist-button button is-outline circle icon"
-															aria-label="Lista de deseos">
-														<i class="icon-heart-o" ></i>				
-													</button>
-
-													<div class="wishlist-popup dark ">
-
-														<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-shortcode-add-to-cart tinvwl-loop-button-wrapper tinvwl-flatsome_product_box_tools_top"
-															data-tinvwl_product_id="5329">
-
-															<div	class="tinvwl-tooltip"></div>
-
-														</div>
-													</div>
-												</div>
-										</div>
-
-										<div class="image-tools is-small hide-for-small bottom left show-on-hover">
-										</div>
-										
-										<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
-										</div>
-								</div>
-
-							<div class="box-text box-text-products text-center grid-style-2">
-									<div class="title-wrapper">		
-										<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
-											<?= $producto['categoria_nombre'] ?>	
-										</p>
-
-										<p class="name product-title woocommerce-loop-product__title">
-											<a href="/View/product/vino-dg-familia-fernandez-rivera-x-750-ml/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">	
-												<?= $producto['nombre'] ?>
-											</a>
-										</p>
-									</div>
-
-									<div class="price-wrapper">
-										<span class="price"><span class="woocommerce-Price-amount amount">
-											<bdi>
-											<span class="woocommerce-Price-currencySymbol">S/
-
-											</span>&nbsp;<?= $producto['precio'] ?>
-										</bdi></span></span>
-									</div>
-									
-									<!-- BOTON : Añadir al carrito -->
-									<div class="add-to-cart-button">
-											<a href="?add-to-cart=5329" data-quantity="1" class="primary is-small mb-0 button wp-element-button product_type_simple add_to_cart_button ajax_add_to_cart is-outline" data-product_id="5329" data-product_sku="" aria-label="Añade &ldquo;DG Familia Fernández Rivera&rdquo; a tu carrito" rel="nofollow">
-												Añadir al carrito
-											</a>
-									</div>		
-							</div>
-						</div>
-						</div>
-			</div>
-		<?php endforeach; ?>         
-    			
-	</div>
-
-	<div class="row align-middle align-center"  id="row-691143181">
-
-		<div id="col-2088159713" class="col small-12 large-12"  >
-			<div class="col-inner text-center"  >
-				
-				<a href="/View/product-category/vinos/index.php" target="_self" class="button primary"  style="border-radius:10px;">
-					<span>Ver mas</span>
-				</a>
-
-			</div>
-		</div>
-
-		
-	</div>
-
-
-	<div class="container section-title-container" >	
-		<h2 class="section-title section-title-normal"><b></b>
-			<span class="section-title-main" >	
-				<i class="instagram" ></i>
-				Espumante / Champagne
-			</span><b></b>
-		</h2>
-	</div>
-
-  
-    <div class="row  equalize-box large-columns-4 medium-columns-3 small-columns-2 row-small slider row-slider slider-nav-simple slider-nav-outside slider-nav-push"  data-flickity-options='{"imagesLoaded": true, "groupCells": "100%", "dragThreshold" : 5, "cellAlign": "left","wrapAround": true,"prevNextButtons": true,"percentPosition": true,"pageDots": false, "rightToLeft": false, "autoPlay" : 5000}'>
-
-				<?php foreach ($espumante as $producto): ?>
-			<div class="product-small col has-hover product type-product post-5329 status-publish last instock product_cat-tintos-espana product_cat-tintos-varietales has-post-thumbnail shipping-taxable purchasable product-type-simple">
-					<div class="col-inner">
-						<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-above_thumb-add-to-cart tinvwl-loop-button-wrapper tinvwl-woocommerce_before_shop_loop_item"
-						data-tinvwl_product_id="5329">
-						<div
-							class="tinvwl-tooltip">
-						</div>
-						</div>
-
-						<div class="badge-container absolute left top z-1">
-						</div>
-
-						<div class="product-small box ">
-								<div class="box-image">
-
-										<div class="image-fade_in_back">
-											<a href="/View/product/vino-dg-familia-fernandez-rivera-x-750-ml/">
-												<img width="300" height="300" src="<?php echo $producto['imagen_url']; ?>" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"  decoding="async" loading="lazy" src="/View/wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x-300x300.png 300w, /wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x-400x400.png 400w, /wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x-280x280.png 280w, /wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x-768x768.png 768w, /wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x-600x600.png 600w, /wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x-100x100.png 100w, /wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x.png 800w" sizes="(max-width: 300px) 100vw, 300px" />				</a>
-										</div>
-
-										<div class="image-tools is-small top right show-on-hover">
-												<div class="wishlist-icon">
-													<button class="wishlist-button button is-outline circle icon"
-															aria-label="Lista de deseos">
-														<i class="icon-heart-o" ></i>				
-													</button>
-
-													<div class="wishlist-popup dark ">
-
-														<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-shortcode-add-to-cart tinvwl-loop-button-wrapper tinvwl-flatsome_product_box_tools_top"
-															data-tinvwl_product_id="5329">
-
-															<div	class="tinvwl-tooltip"></div>
-
-														</div>
-													</div>
-												</div>
-										</div>
-
-										<div class="image-tools is-small hide-for-small bottom left show-on-hover">
-										</div>
-										
-										<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
-										</div>
-								</div>
-
-							<div class="box-text box-text-products text-center grid-style-2">
-									<div class="title-wrapper">		
-										<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
-											<?= $producto['categoria_nombre'] ?>	
-										</p>
-
-										<p class="name product-title woocommerce-loop-product__title">
-											<a href="/View/product/vino-dg-familia-fernandez-rivera-x-750-ml/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">	
-												<?= $producto['nombre'] ?>
-											</a>
-										</p>
-									</div>
-
-									<div class="price-wrapper">
-										<span class="price"><span class="woocommerce-Price-amount amount">
-											<bdi>
-											<span class="woocommerce-Price-currencySymbol">S/
-
-											</span>&nbsp;<?= $producto['precio'] ?>
-										</bdi></span></span>
-									</div>
-									
-									<!-- BOTON : Añadir al carrito -->
-									<div class="add-to-cart-button">
-											<a href="?add-to-cart=5329" data-quantity="1" class="primary is-small mb-0 button wp-element-button product_type_simple add_to_cart_button ajax_add_to_cart is-outline" data-product_id="5329" data-product_sku="" aria-label="Añade &ldquo;DG Familia Fernández Rivera&rdquo; a tu carrito" rel="nofollow">
-												Añadir al carrito
-											</a>
-									</div>		
-							</div>
-						</div>
-						</div>
-			</div>
-				<?php endforeach; ?> 
-
-	 </div>
-	<div class="row align-middle align-center"  id="row-378751832">
-
-		<div id="col-262397183" class="col small-12 large-12"  >
-			<div class="col-inner text-center"  >
-				
-				
-				<a href="/View/product-category/espumantes/index.php" target="_self" class="button primary"  style="border-radius:10px;">
-					<span>Ver mas</span>
-				</a>
-
-			</div>
-		</div>
-
-		
-	</div>
-<div class="container section-title-container" >
-	<h2 class="section-title section-title-normal"><b></b>
-			<span class="section-title-main" >
-				<i class="instagram" ></i>
-				Licores
-			</span><b></b>
-	</h2>
-</div>
-
-  
-    <div class="row  equalize-box large-columns-4 medium-columns-3 small-columns-2 row-small slider row-slider slider-nav-simple slider-nav-push"  data-flickity-options='{"imagesLoaded": true, "groupCells": "100%", "dragThreshold" : 5, "cellAlign": "left","wrapAround": true,"prevNextButtons": true,"percentPosition": true,"pageDots": false, "rightToLeft": false, "autoPlay" : 6000}'>
-
-  	
-	   	<?php foreach ($licor as $producto): ?>
-			<div class="product-small col has-hover product type-product post-5329 status-publish last instock product_cat-tintos-espana product_cat-tintos-varietales has-post-thumbnail shipping-taxable purchasable product-type-simple">
-					<div class="col-inner">
-						<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-above_thumb-add-to-cart tinvwl-loop-button-wrapper tinvwl-woocommerce_before_shop_loop_item"
-						data-tinvwl_product_id="5329">
-						<div
-							class="tinvwl-tooltip">
-						</div>
-						</div>
-
-						<div class="badge-container absolute left top z-1">
-						</div>
-
-						<div class="product-small box ">
-								<div class="box-image">
-
-										<div class="image-fade_in_back">
-											<a href="/View/product/vino-dg-familia-fernandez-rivera-x-750-ml/">
-												<img width="300" height="300" src="<?php echo $producto['imagen_url']; ?>" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"  decoding="async" loading="lazy" src="/View/wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x-300x300.png 300w, /wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x-400x400.png 400w, /wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x-280x280.png 280w, /wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x-768x768.png 768w, /wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x-600x600.png 600w, /wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x-100x100.png 100w, /wp-content/uploads/2023/10/DG-Familia-Fernandez-Rivera-2019@05x.png 800w" sizes="(max-width: 300px) 100vw, 300px" />				</a>
-										</div>
-
-										<div class="image-tools is-small top right show-on-hover">
-												<div class="wishlist-icon">
-													<button class="wishlist-button button is-outline circle icon"
-															aria-label="Lista de deseos">
-														<i class="icon-heart-o" ></i>				
-													</button>
-
-													<div class="wishlist-popup dark ">
-
-														<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-shortcode-add-to-cart tinvwl-loop-button-wrapper tinvwl-flatsome_product_box_tools_top"
-															data-tinvwl_product_id="5329">
-
-															<div	class="tinvwl-tooltip"></div>
-
-														</div>
-													</div>
-												</div>
-										</div>
-
-										<div class="image-tools is-small hide-for-small bottom left show-on-hover">
-										</div>
-										
-										<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
-										</div>
-								</div>
-
-							<div class="box-text box-text-products text-center grid-style-2">
-									<div class="title-wrapper">		
-										<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
-											<?= $producto['categoria_nombre'] ?>	
-										</p>
-
-										<p class="name product-title woocommerce-loop-product__title">
-											<a href="/View/product/vino-dg-familia-fernandez-rivera-x-750-ml/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">	
-												<?= $producto['nombre'] ?>
-											</a>
-										</p>
-									</div>
-
-									<div class="price-wrapper">
-										<span class="price"><span class="woocommerce-Price-amount amount">
-											<bdi>
-											<span class="woocommerce-Price-currencySymbol">S/
-
-											</span>&nbsp;<?= $producto['precio'] ?>
-										</bdi></span></span>
-									</div>
-									
-									<!-- BOTON : Añadir al carrito -->
-									<div class="add-to-cart-button">
-											<a href="?add-to-cart=5329" data-quantity="1" class="primary is-small mb-0 button wp-element-button product_type_simple add_to_cart_button ajax_add_to_cart is-outline" data-product_id="5329" data-product_sku="" aria-label="Añade &ldquo;DG Familia Fernández Rivera&rdquo; a tu carrito" rel="nofollow">
-												Añadir al carrito
-											</a>
-									</div>		
-							</div>
-						</div>
-						</div>
-			</div>
-				<?php endforeach; ?> 
-					
-
-	</div>
-
-	<div class="row align-middle align-center"  id="row-1164638979">
-
-		<div id="col-240627768" class="col small-12 large-12"  >
-			<div class="col-inner text-center"  >
-				
-				
-	<a href="/View/product-category/licores/index.php" target="_self" class="button primary"  style="border-radius:10px;">
-		<span>Ver mas</span>
+	<div class="shop-page-title category-page-title page-title ">
+	<div class="page-title-inner flex-row  medium-flex-wrap container">
+	  <div class="flex-col flex-grow medium-text-center">
+	  	<div class="is-small">
+	<nav class="woocommerce-breadcrumb breadcrumbs uppercase"><a href="../../index.php">Inicio</a> <span class="divider">&#47;</span> Vinos</nav></div>
+<div class="category-filtering category-filter-row show-for-medium">
+	<a href="#" data-open="#shop-sidebar" data-visible-after="true" data-pos="left" class="filter-button uppercase plain">
+		<i class="icon-equalizer"></i>
+		<strong>Filtrar</strong>
 	</a>
-
+	<div class="inline-block">
 			</div>
-				</div>
+</div>
+	  </div>
 
-		
 	</div>
-		</div>
-
-		
-<style>
-#section_1010235512 {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-</style>
-	</section>
-	
-
-	
-		
-				
 </div>
 
+	<main id="main" class="">
+<div class="row category-page-row">
 
+		<div class="col large-3 hide-for-medium ">
+						<div id="shop-sidebar" class="sidebar-inner col-inner">
+				<aside id="woocommerce_product_categories-13" class="widget woocommerce widget_product_categories"><span class="widget-title shop-sidebar">Categorias</span><div class="is-divider small"></div><ul class="product-categories"><li class="cat-item cat-item-126"><a href="/View/product-category/cerveza/">Cerveza</a></li>
+<li class="cat-item cat-item-127 current-cat cat-parent"><a href="/View/product-category/vinos/">Vinos</a>
+</li>
+
+
+<li class="cat-item cat-item-142 cat-parent"><a href="/View/product-category/licores/index.php">Licores</a>
+
+</li>
+<li class="cat-item cat-item-149"><a href="/View/product-category/ofertas/index.php">Ofertas</a></li>
+<li class="cat-item cat-item-133 cat-parent"><a href="/View/product-category/espumantes/index.php">Espumantes</a>
+</li>
+<li class="cat-item cat-item-156"><a href="/View/product-category/agua-tonica/index.php">Agua Tónica</a></li>
+</aside>			</div>
+					</div>
+
+		<div class="col large-9">
+		<div class="shop-container">
+		
+		<div class="woocommerce-notices-wrapper"></div>
+		
+		<div class="products row row-small large-columns-3 medium-columns-3 small-columns-2 equalize-box">
+			<?php foreach ($productos as $vino ): ?>
+			<div class="product-small col has-hover product type-product post-6238 status-publish instock has-post-thumbnail shipping-taxable purchasable product-type-simple">
+				<div class="col-inner">
+				<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-above_thumb-add-to-cart tinvwl-loop-button-wrapper tinvwl-woocommerce_before_shop_loop_item"
+				data-tinvwl_product_id="6238">
+				<div
+					class="tinvwl-tooltip">
+				</div>
+			</div>
+
+			<div class="badge-container absolute left top z-1">
+			</div>
+				<div class="product-small box ">
+					<div class="box-image">
+						<div class="image-fade_in_back">
+							<a href="/View/product/escorihuela-gascon-cabernet-franc/">
+								<img width="300" height="300" src="<?php echo $vino['imagen_url']; ?>" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy" />				
+							</a>
+						</div>
+						<div class="image-tools is-small top right show-on-hover">
+								
+									</div>
+						<div class="image-tools is-small hide-for-small bottom left show-on-hover">
+						</div>
+						<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+						</div>
+					</div>
+
+					<div class="box-text box-text-products text-center grid-style-2">
+						<div class="title-wrapper">		
+							<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+								<?= $vino['categoria_nombre'] ?>	
+							</p>
+				<p class="name product-title woocommerce-loop-product__title">
+					<a href="adaptar1" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+					<?= $vino['nombre'] ?>	
+					</a>
+				</p>
+			</div>
+			<div class="price-wrapper">
+				<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">S/</span>&nbsp; <?= $vino['precio'] ?>	</bdi></span></span>
+			</div>
+			<div class="add-to-cart-button">
+				<form id="form-vino-<?= $vino['id'] ?>" class="form-agregar-carrito">
+					<input type="hidden" name="producto_id" value="<?= $vino['id'] ?>">
+					<input type="hidden" name="cantidad" value="1">
+					<button type="submit" class="single_add_to_cart_button button alt wp-element-button">Añadir al carrito</button>
+				</form>
+			</div>		
+		</div>
+				</div>
+					</div>
+			</div>
+			<?php endforeach; ?>
+
+		</div><!-- row -->
+
+		</div><!-- shop container -->		</div>
+</div>
 
 </main>
 
@@ -1168,7 +683,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	   		
 		<div id="block_widget-5" class="col pb-0 widget block_widget">
 		
-			<section class="section" id="section_1206550967">
+			<section class="section" id="section_1276547753">
 		<div class="bg section-bg fill bg-fill  bg-loaded" >
 
 			
@@ -1180,21 +695,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<div class="section-content relative">
 			
 
-<div class="row row-collapse"  id="row-1258782589">
+<div class="row row-collapse"  id="row-443068156">
 
 
-	<div id="col-182108807" class="col small-12 large-12"  >
+	<div id="col-481023163" class="col small-12 large-12"  >
 		<div class="col-inner text-center dark"  >
 			
 			
 
-	<div id="text-2401799705" class="text">
+	<div id="text-3006624113" class="text">
 		
 
 <h3 class="uppercase"><span style="font-size: 120%;">TOMAR BEBIDAS ALCOHÓLICAS EN EXCESO ES DAÑINO. </span><br /><span style="font-size: 120%;">  </span></h3>
 		
 <style>
-#text-2401799705 {
+#text-3006624113 {
   font-size: 0.75rem;
 }
 </style>
@@ -1212,13 +727,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 		
 <style>
-#section_1206550967 {
+#section_1276547753 {
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: rgb(102, 100, 99);
 }
 @media (min-width:550px) {
-  #section_1206550967 {
+  #section_1276547753 {
     padding-top: 10px;
     padding-bottom: 10px;
   }
@@ -1237,7 +752,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	   		
 		<div id="block_widget-2" class="col pb-0 widget block_widget">
 		<span class="widget-title">Nosotros</span><div class="is-divider small"></div>
-		En La estación 	nos aseguramos de entregándole los mejores productos.
+		En la Estación aseguramos su celebración entregándole los mejores productos hasta la puerta de su casa.
 		</div>
 		
 		<div id="block_widget-7" class="col pb-0 widget block_widget">
@@ -1247,7 +762,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					<div class="icon-box-img" style="width: 20px">
 				<div class="icon">
 					<div class="icon-inner" >
-						<img width="400" height="400" src="/View/wp-content/uploads/2023/04/headphones-400x400.png" class="attachment-medium size-medium" alt="" decoding="async" loading="lazy" src="/View/wp-content/uploads/2023/04/headphones-400x400.png 400w, /wp-content/uploads/2023/04/headphones-280x280.png 280w, /wp-content/uploads/2023/04/headphones-300x300.png 300w, /wp-content/uploads/2023/04/headphones-100x100.png 100w, /wp-content/uploads/2023/04/headphones.png 512w" sizes="(max-width: 400px) 100vw, 400px" />					</div>
+						<img width="400" height="400" src="/View/wp-content/uploads/2023/04/headphones-400x400.png" class="attachment-medium size-medium" alt="" decoding="async" loading="lazy"  sizes="(max-width: 400px) 100vw, 400px" />					</div>
 				</div>
 			</div>
 				<div class="icon-box-text last-reset">
@@ -1260,10 +775,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	</div>
 	
 	
-	<div id="gap-643075876" class="gap-element clearfix" style="display:block; height:auto;">
+	<div id="gap-2002244727" class="gap-element clearfix" style="display:block; height:auto;">
 		
 <style>
-#gap-643075876 {
+#gap-2002244727 {
   padding-top: 30px;
 }
 </style>
@@ -1275,7 +790,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					<div class="icon-box-img" style="width: 20px">
 				<div class="icon">
 					<div class="icon-inner" >
-						<img width="400" height="400" src="/View/wp-content/uploads/2023/04/message-400x400.png" class="attachment-medium size-medium" alt="" decoding="async" loading="lazy" src="/View/wp-content/uploads/2023/04/message-400x400.png 400w, /wp-content/uploads/2023/04/message-280x280.png 280w, /wp-content/uploads/2023/04/message-300x300.png 300w, /wp-content/uploads/2023/04/message-100x100.png 100w, /wp-content/uploads/2023/04/message.png 512w" sizes="(max-width: 400px) 100vw, 400px" />					</div>
+						<img width="400" height="400" src="/View/wp-content/uploads/2023/04/message-400x400.png" class="attachment-medium size-medium" alt="" decoding="async" loading="lazy"  sizes="(max-width: 400px) 100vw, 400px" />					</div>
 				</div>
 			</div>
 				<div class="icon-box-text last-reset">
@@ -1288,23 +803,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	
 	
 		</div>
-				<div id="nav_menu-3" class="col pb-0 widget widget_nav_menu"><span class="widget-title">Servicios al Cliente</span><div class="is-divider small"></div><div class="menu-secondary-container">
-					<ul id="menu-secondary" class="menu">
-							
-							<li id="menu-item-2887" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2887"><a href="/View/libro-de-reclamaciones/index.php">Libro de reclamaciones</a></li>
-							<li id="menu-item-2889" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2889"><a href="/View/ofertas/">Ofertas</a></li>
+		<div id="nav_menu-3" class="col pb-0 widget widget_nav_menu"><span class="widget-title">Servicios al Cliente</span><div class="is-divider small"></div><div class="menu-secondary-container"><ul id="menu-secondary" class="menu">
+<li id="menu-item-2887" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2887"><a href="/View/libro-de-reclamaciones/index.php">Libro de reclamaciones</a></li>
+<li id="menu-item-2889" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2889"><a href="/View/ofertas/index.php">Ofertas</a></li>
 
-					</ul>
-				</div>
-		</div>
+</ul></div></div>
 		<div id="block_widget-3" class="col pb-0 widget block_widget">
 		<span class="widget-title">Boletín</span><div class="is-divider small"></div>
 		¡Suscríbete a nuestro newsletter y recibe las mejores ofertas!
 
-	<div id="gap-253805388" class="gap-element clearfix" style="display:block; height:auto;">
+	<div id="gap-843571657" class="gap-element clearfix" style="display:block; height:auto;">
 		
 <style>
-#gap-253805388 {
+#gap-843571657 {
   padding-top: 10px;
 }
 </style>
@@ -1314,7 +825,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <div class="wpcf7 no-js" id="wpcf7-f15-o1" lang="en-US" dir="ltr">
 <div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
-<form action="/#wpcf7-f15-o1" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
+<form action="/product-category/vinos/#wpcf7-f15-o1" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
 <div style="display: none;">
 <input type="hidden" name="_wpcf7" value="15" />
 <input type="hidden" name="_wpcf7_version" value="5.9.8" />
@@ -1330,17 +841,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </div>
 
 
-	<div id="gap-1935225514" class="gap-element clearfix" style="display:block; height:auto;">
+	<div id="gap-1650304991" class="gap-element clearfix" style="display:block; height:auto;">
 		
 <style>
-#gap-1935225514 {
+#gap-1650304991 {
   padding-top: 10px;
 }
 </style>
 	</div>
 	
 
-<div class="social-icons follow-icons" ><span>Siguenos en nuestras redes.</span><a href="https://www.facebook.com/La estaciónEIRL/" target="_blank" data-label="Facebook"  rel="noopener noreferrer nofollow" class="icon plain facebook tooltip" title="Síguenos en Facebook"><i class="icon-facebook" ></i></a><a href="https://www.instagram.com/La estación.EIRL/" target="_blank" rel="noopener noreferrer nofollow" data-label="Instagram" class="icon plain  instagram tooltip" title="Síguenos en Instagram"><i class="icon-instagram" ></i></a></div>
+<div class="social-icons follow-icons" ><span>Siguenos en nuestras redes.</span><a href="https://www.facebook.com/" target="_blank" data-label="Facebook"  rel="noopener noreferrer nofollow" class="icon plain facebook tooltip" title="Síguenos en Facebook"><i class="icon-facebook" ></i></a><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer nofollow" data-label="Instagram" class="icon plain  instagram tooltip" title="Síguenos en Instagram"><i class="icon-instagram" ></i></a></div>
 		</div>
 		        
 		</div>
@@ -1371,7 +882,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     
     <div class="footer-primary pull-left">
             <div class="copyright-footer">
-        Copyright 2025 © <strong>la Estación</strong> | Desarrollado por GRUPO 2      </div>
+        Copyright 2025 © <strong>la Estación</strong> | Desarrollado por <a href="https://www.grupoared.com.pe" target="_blank">GRUPO 2</a>      </div>
           </div>
   </div>
 </div>
@@ -1382,109 +893,108 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div id="main-menu" class="mobile-sidebar no-scrollbar mfp-hide">
 	<div class="sidebar-menu no-scrollbar ">
 		<ul class="nav nav-sidebar nav-vertical nav-uppercase">
-			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-37 current_page_item menu-item-390"><a href="index.php" aria-current="page">INICIO</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3172"><a href="#">VINOS</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3166"><a href="/View/product-category/licores/index.php">LICORES</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3817"><a href="/View/product-category/agua-tonica/index.php">AGUA TÓNICA</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3169"><a href="/View/product-category/cerveza/index.php">CERVEZA</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-3167"><a href="product-category/espumantes/index.php">ESPUMANTES</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2782"><a href="ofertas/index.php">OFERTAS</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-390"><a href="/View/">INICIO</a></li>
+			<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3172 active"><a href="#">VINOS</a></li>
+			<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3166"><a href="/View/product-category/licores/">LICORES</a></li>
+			<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3817"><a href="/View/product-category/agua-tonica/">AGUA TÓNICA</a></li>
+			<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3169"><a href="/View/product-category/cerveza/">CERVEZA</a></li>
+			<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-3167"><a href="/View/product-category/espumantes/">ESPUMANTES</a>
+
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2782"><a href="/View/ofertas/index.php">OFERTAS</a></li>
 
 <li class="html header-social-icons ml-0">
-	<div class="social-icons follow-icons" ><a href="https://www.facebook.com" target="_blank" data-label="Facebook"  rel="noopener noreferrer nofollow" class="icon plain facebook tooltip" title="Síguenos en Facebook"><i class="icon-facebook" ></i></a><a href="https://www.instagram.com/La estación.EIRL/" target="_blank" rel="noopener noreferrer nofollow" data-label="Instagram" class="icon plain  instagram tooltip" title="Síguenos en Instagram"><i class="icon-instagram" ></i></a><a href="mailto:Laestacion@gmail.com" data-label="E-mail"  rel="nofollow" class="icon plain  email tooltip" title="Envíanos un email"><i class="icon-envelop" ></i></a></div></li>		</ul>
+	<div class="social-icons follow-icons" ><a href="https://www.facebook.com/" target="_blank" data-label="Facebook"  rel="noopener noreferrer nofollow" class="icon plain facebook tooltip" title="Síguenos en Facebook"><i class="icon-facebook" ></i></a><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer nofollow" data-label="Instagram" class="icon plain  instagram tooltip" title="Síguenos en Instagram"><i class="icon-instagram" ></i></a><a href="mailto:Laestacion@gmail.com" data-label="E-mail"  rel="nofollow" class="icon plain  email tooltip" title="Envíanos un email"><i class="icon-envelop" ></i></a></div></li>		</ul>
 	</div>
 </div>
-<div id="login-form-popup" class="lightbox-content mfp-hide">
-	<div class="woocommerce-notices-wrapper"></div>
+    <div id="login-form-popup" class="lightbox-content mfp-hide">
+            <div class="woocommerce-notices-wrapper"></div>
 <div class="account-container lightbox-inner">
 
-
-<div class="col2-set row row-divided row-large" id="customer_login">
-
-<div class="col-1 large-6 col pb-0">
-
 	
-	<div class="account-login-inner">
+	<div class="col2-set row row-divided row-large" id="customer_login">
 
-		<h3 class="uppercase">Acceder</h3>
-
-		<form class="woocommerce-form woocommerce-form-login login" method="post">
+		<div class="col-1 large-6 col pb-0">
 
 			
-			<p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
-				<label for="username">Nombre de usuario o correo electrónico&nbsp;<span class="required">*</span></label>
-				<input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="username" autocomplete="username" value="" />					</p>
-			<p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
-				<label for="password">Contraseña&nbsp;<span class="required">*</span></label>
-				<input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password" />
-			</p>
+			<div class="account-login-inner">
+
+				<h3 class="uppercase">Acceder</h3>
+
+				<form class="woocommerce-form woocommerce-form-login login" method="post">
+
+					
+					<p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+						<label for="username">Nombre de usuario o correo electrónico&nbsp;<span class="required">*</span></label>
+						<input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="username" autocomplete="username" value="" />					</p>
+					<p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+						<label for="password">Contraseña&nbsp;<span class="required">*</span></label>
+						<input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password" />
+					</p>
+
+					
+					<p class="form-row">
+						<label class="woocommerce-form__label woocommerce-form__label-for-checkbox woocommerce-form-login__rememberme">
+							<input class="woocommerce-form__input woocommerce-form__input-checkbox" name="rememberme" type="checkbox" id="rememberme" value="forever" /> <span>Recuérdame</span>
+						</label>
+						<input type="hidden" id="woocommerce-login-nonce" name="woocommerce-login-nonce" value="567c0f2214" /><input type="hidden" name="_wp_http_referer" value="/product-category/vinos/" />						<button type="submit" class="woocommerce-button button woocommerce-form-login__submit" name="login" value="Acceder">Acceder</button>
+					</p>
+					<p class="woocommerce-LostPassword lost_password">
+						<a href="/View/my-account/lost-password/index.php">¿Olvidaste la contraseña?</a>
+					</p>
+
+					
+				</form>
+			</div>
 
 			
-			<p class="form-row">
-				<label class="woocommerce-form__label woocommerce-form__label-for-checkbox woocommerce-form-login__rememberme">
-					<input class="woocommerce-form__input woocommerce-form__input-checkbox" name="rememberme" type="checkbox" id="rememberme" value="forever" /> <span>Recuérdame</span>
-				</label>
-				<input type="hidden" id="woocommerce-login-nonce" name="woocommerce-login-nonce" value="3d9650e939" /><input type="hidden" name="_wp_http_referer" value="/" />						<button type="submit" class="woocommerce-button button woocommerce-form-login__submit" name="login" value="Acceder">Acceder</button>
-			</p>
-			<p class="woocommerce-LostPassword lost_password">
-				<a href="/View/my-account/lost-password/index.php">¿Olvidaste la contraseña?</a>
-			</p>
+		</div>
 
-			
-		</form>
+		<div class="col-2 large-6 col pb-0">
+
+			<div class="account-register-inner">
+
+				<h3 class="uppercase">Regístrate</h3>
+
+				<form method="post" class="woocommerce-form woocommerce-form-register register"  >
+
+					
+					
+						<p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+							<label for="reg_username">Nombre de usuario&nbsp;<span class="required">*</span></label>
+							<input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="reg_username" autocomplete="username" value="" />						</p>
+
+					
+					<p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+						<label for="reg_email">Dirección de correo electrónico&nbsp;<span class="required">*</span></label>
+						<input type="email" class="woocommerce-Input woocommerce-Input--text input-text" name="email" id="reg_email" autocomplete="email" value="" />					</p>
+
+					
+						<p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+							<label for="reg_password">Contraseña&nbsp;<span class="required">*</span></label>
+							<input type="password" class="woocommerce-Input woocommerce-Input--text input-text" name="password" id="reg_password" autocomplete="new-password" />
+						</p>
+
+					
+					<div class="woocommerce-privacy-policy-text"><p>Sus datos personales se utilizarán para respaldar su experiencia en este sitio web</p>
+</div>
+					<p class="woocommerce-form-row form-row">
+						<input type="hidden" id="woocommerce-register-nonce" name="woocommerce-register-nonce" value="7577200b92" /><input type="hidden" name="_wp_http_referer" value="/product-category/vinos/" />						<button type="submit" class="woocommerce-Button woocommerce-button button woocommerce-form-register__submit" name="register" value="Regístrate">Regístrate</button>
+					</p>
+
+					
+				</form>
+
+			</div>
+
+		</div>
+
 	</div>
 
-	
 </div>
 
-<div class="col-2 large-6 col pb-0">
-
-	<div class="account-register-inner">
-
-		<h3 class="uppercase">Regístrate</h3>
-
-		<form method="post" class="woocommerce-form woocommerce-form-register register"  >
-
-			
-			
-				<p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
-					<label for="reg_username">Nombre de usuario&nbsp;<span class="required">*</span></label>
-					<input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="reg_username" autocomplete="username" value="" />						</p>
-
-			
-			<p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
-				<label for="reg_email">Dirección de correo electrónico&nbsp;<span class="required">*</span></label>
-				<input type="email" class="woocommerce-Input woocommerce-Input--text input-text" name="email" id="reg_email" autocomplete="email" value="" />					</p>
-
-			
-				<p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
-					<label for="reg_password">Contraseña&nbsp;<span class="required">*</span></label>
-					<input type="password" class="woocommerce-Input woocommerce-Input--text input-text" name="password" id="reg_password" autocomplete="new-password" />
-				</p>
-
-			
-			<div class="woocommerce-privacy-policy-text"><p>Sus datos personales se utilizarán para respaldar su experiencia en este sitio web</p>
-</div>
-			<p class="woocommerce-form-row form-row">
-				<input type="hidden" id="woocommerce-register-nonce" name="woocommerce-register-nonce" value="b52a9bd973" /><input type="hidden" name="_wp_http_referer" value="/" />						<button type="submit" class="woocommerce-Button woocommerce-button button woocommerce-form-register__submit" name="register" value="Regístrate">Regístrate</button>
-			</p>
-
-			
-		</form>
-
-	</div>
-
-</div>
-
-</div>
-
-</div>
-
-  </div>
-    
-  <div id='pys_ajax_events'></div>        
-  
- 		<script>
+          </div>
+  <script type="application/ld+json">{"@context":"https:\/\/schema.org\/","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"name":"Inicio","@id":"https:\/\/www.miluvas.pe"}},{"@type":"ListItem","position":2,"item":{"name":"Vinos","@id":"https:\/\/www.miluvas.pe\/product-category\/vinos\/"}}]}</script><div id='pys_ajax_events'></div>        <script>
             var node = document.getElementsByClassName('woocommerce-message')[0];
             if(node && document.getElementById('pys_late_event')) {
                 var messageText = node.textContent.trim();
@@ -1499,8 +1009,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<div class="joinchat__button__open"></div>
 									</div>
 	</div>
-
-	
 	<script type="text/javascript">
 		(function () {
 			var c = document.body.className;
@@ -1580,5 +1088,83 @@ var flatsomeVars = {"ajaxurl":"https:\/\/www.La estación.pe\/wp-admin\/admin-aj
 </script>
 <script type='text/javascript' src='/View/wp-content/themes/flatsome/assets/js/flatsome.js@ver=3.13.1' id='flatsome-js-js'></script>
 <script type='text/javascript' src='/View/wp-content/themes/flatsome/assets/js/woocommerce.js@ver=3.13.1' id='flatsome-theme-woocommerce-js-js'></script>
+
+
+<div id="mensaje-carrito" class="mensaje-oculto"></div>
+
+<style>
+#mensaje-carrito {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #4caf50;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    z-index: 9999;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-family: Arial, sans-serif;
+
+    pointer-events: none; 
+}
+
+#mensaje-carrito.mostrar {
+    opacity: 1;
+    pointer-events: auto; 
+}
+
+#mensaje-carrito.error {
+    background-color: #f44336;
+}
+
+#mensaje-carrito.error {
+    background-color: #f44336;
+}
+</style>
+
+<script>
+document.querySelectorAll('.form-agregar-carrito').forEach(form => {
+    form.addEventListener('submit', function(e) {
+        e.preventDefault(); // No recargar la página
+
+        const formData = new FormData(this);
+
+        fetch('index.php?controlador=cart&accion=agregarAlCarrito', {
+            method: 'POST',
+            body: formData
+        })
+        .then(res => res.text())
+        .then(data => {
+            mostrarMensaje("Producto añadido al carrito");
+            actualizarCarritoIcono(); 
+        })
+        .catch(err => {
+            console.error("Error:", err);
+            mostrarMensaje("Error al añadir producto", true);
+        });
+    });
+});
+
+function actualizarCarritoIcono() {
+    fetch('index.php?controlador=cart&accion=obtenerCantidadProductos')
+    .then(res => res.text())
+    .then(data => {
+        document.querySelector('#icono-carrito').setAttribute('data-icon-label', data);
+    });
+}
+
+function mostrarMensaje(texto, esError = false) {
+    const mensaje = document.getElementById("mensaje-carrito");
+    mensaje.textContent = texto;
+    mensaje.className = esError ? "mostrar error" : "mostrar";
+
+    setTimeout(() => {
+        mensaje.className = "mensaje-oculto";
+    }, 1000);
+}
+document.addEventListener('DOMContentLoaded', actualizarCarritoIcono);
+</script>
 </body>
 </html>
