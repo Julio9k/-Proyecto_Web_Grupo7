@@ -16,7 +16,11 @@ class ProductsController
         $productos = $this->modelo->obtenerTodosPorCategoria($categoriaId);
         $categoria = $this->modelo->obtenerCategoriaPorId($categoriaId);
         // Incluir la vista para mostrar los productos
-        include(__DIR__ . '/../View/product-category/'. $categoria['nombre'] . '/index.php');
+        if ($categoriaId == 6) {
+            include(__DIR__ . '/../View/'. $categoria['nombre'] . '/index.php');
+            return;
+        }
+            include(__DIR__ . '/../View/product-category/'. $categoria['nombre'] . '/index.php');
     }
 }
 ?>

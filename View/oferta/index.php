@@ -318,14 +318,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <div class="flex-col hide-for-medium flex-left">
                 <ul class="nav header-nav header-bottom-nav nav-left  nav-box nav-spacing-large nav-uppercase">
                     <li id="menu-item-390" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-390 menu-item-design-default"><a href="index.php?controlador=inicio&accion=mostrarInicio" class="nav-top-link">INICIO</a></li>
-<li id="menu-item-3172" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3172 menu-item-design-default has-dropdown"><a href="/View/product-category/vinos/" class="nav-top-link">VINOS<i class="nav-top-link" ></i></a>
-
-</li>
-<li id="menu-item-3166" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3166 menu-item-design-default"><a href="/View/product-category/licores/" class="nav-top-link">LICORES</a></li>
-<li id="menu-item-3817" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3817 menu-item-design-default"><a href="/View/product-category/agua-tonica/" class="nav-top-link">AGUA TÓNICA</a></li>
-<li id="menu-item-3169" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3169 menu-item-design-default"><a href="/View/product-category/cerveza/" class="nav-top-link">CERVEZA</a></li>
-<li id="menu-item-3167" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-3167 menu-item-design-default has-dropdown"><a href="/View/product-category/espumantes/" class="nav-top-link">ESPUMANTES<i class="nav-top-link" ></i></a></li>
-<li id="menu-item-2782" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2759 current_page_item menu-item-2782 active menu-item-design-default"><a href="/View/ofertas/index.php" aria-current="page" class="nav-top-link">OFERTAS</a></li>
+<li id="menu-item-3172" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3172 menu-item-design-default has-dropdown"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=1" class="nav-top-link">VINOS<i class="nav-top-link" ></i></a></li>
+<li id="menu-item-3166" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3166 menu-item-design-default"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=2" class="nav-top-link">LICORES</a></li>
+<li id="menu-item-3817" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3817 menu-item-design-default"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=4" class="nav-top-link">AGUA TÓNICA</a></li>
+<li id="menu-item-3169" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3169 menu-item-design-default"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=3" class="nav-top-link">CERVEZA</a></li>
+<li id="menu-item-3167" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-3167 menu-item-design-default has-dropdown"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=5" class="nav-top-link">ESPUMANTES<i class="nav-top-link" ></i></a></li>
+<li id="menu-item-2782" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2759 current_page_item menu-item-2782 active menu-item-design-default"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=6" aria-current="page" class="nav-top-link">OFERTAS</a></li>
 
                 </ul>
             </div>
@@ -428,117 +426,70 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="row row-small"  id="row-1384823496">
 
 	<div id="col-509147184" class="col small-12 large-12"  data-animate="fadeInUp">
-		<div class="col-inner"  >
-			
-			
-
-  
-    <div class="row  equalize-box large-columns-4 medium-columns-3 small-columns-2 row-normal row-full-width">
-  	
-	     
-					
-<div class="product-small col has-hover product type-product post-6248 status-publish first instock product_cat-ofertas has-post-thumbnail shipping-taxable purchasable product-type-simple">
-	<div class="col-inner">
-	<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-above_thumb-add-to-cart tinvwl-loop-button-wrapper tinvwl-woocommerce_before_shop_loop_item"
-	 data-tinvwl_product_id="6248">
-			<div
-		class="tinvwl-tooltip"></div>
-</div>
-
-<div class="badge-container absolute left top z-1">
-</div>
-	<div class="product-small box ">
-		<div class="box-image">
-			<div class="image-fade_in_back">
-				<a href="/View/product/06-bots-1-bot-vino-phebus-uco-blend-mendoza/">
-					<img width="300" height="300" src="/View/wp-content/uploads/2025/04/Phebus-Uco-Blend-5-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" sizes="(max-width: 300px) 100vw, 300px" />				</a>
+		   	<div class="col large-9">
+		<div class="shop-container">
+		
+			<div class="woocommerce-notices-wrapper">				
 			</div>
-			<div class="image-tools is-small top right show-on-hover">
-							<div class="wishlist-icon">
-				<button class="wishlist-button button is-outline circle icon"
-						aria-label="Lista de deseos">
-					<i class="icon-heart-o" ></i>				</button>
+			<div class="products row row-small large-columns-3 medium-columns-3 small-columns-2 equalize-box">
+				<?php foreach ($productos as $producto ): ?>
+			<div class="product-small col has-hover product type-product post-6238 status-publish instock has-post-thumbnail shipping-taxable purchasable product-type-simple">
+				<div class="col-inner">
+				<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-above_thumb-add-to-cart tinvwl-loop-button-wrapper tinvwl-woocommerce_before_shop_loop_item"
+				data-tinvwl_product_id="6238">
 				<div
-					class="wishlist-popup dark ">
-					<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-shortcode-add-to-cart tinvwl-loop-button-wrapper tinvwl-flatsome_product_box_tools_top"
-	 data-tinvwl_product_id="6248">
-			<div
-		class="tinvwl-tooltip"></div>
-</div>
+					class="tinvwl-tooltip">
 				</div>
 			</div>
+
+			<div class="badge-container absolute left top z-1">
+			</div>
+				<div class="product-small box ">
+					<div class="box-image">
+						<div class="image-fade_in_back">
+							<a href="/View/product/escorihuela-gascon-cabernet-franc/">
+								<img width="300" height="300" src="<?php echo $producto['imagen_url']; ?>" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy" />				
+							</a>
 						</div>
-			<div class="image-tools is-small hide-for-small bottom left show-on-hover">
-							</div>
-			<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
-							</div>
+						<div class="image-tools is-small top right show-on-hover">
+								
+									</div>
+						<div class="image-tools is-small hide-for-small bottom left show-on-hover">
+						</div>
+						<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+						</div>
 					</div>
 
-		<div class="box-text box-text-products text-center grid-style-2">
-			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
-			Ofertas		</p>
-	<p class="name product-title woocommerce-loop-product__title"><a href="/View/product/06-bots-1-bot-vino-phebus-uco-blend-mendoza/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">06 Bots. + 1 Bot. Vino Phebus Uco Blend Mendoza</a></p></div><div class="price-wrapper">
-	<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">S/</span>&nbsp;550.00</bdi></span></span>
-</div><div class="add-to-cart-button"><a href="?add-to-cart=6248" data-quantity="1" class="primary is-small mb-0 button wp-element-button product_type_simple add_to_cart_button ajax_add_to_cart is-outline" data-product_id="6248" data-product_sku="" aria-label="Añade &ldquo;06 Bots. + 1 Bot. Vino Phebus Uco Blend Mendoza&rdquo; a tu carrito" rel="nofollow">Añadir al carrito</a></div>		</div>
-	</div>
-		</div>
-</div>
-	            
-					
- 				
-<div class="product-small col has-hover product type-product post-3366 status-publish last instock product_cat-ofertas has-post-thumbnail shipping-taxable purchasable product-type-simple">
-	<div class="col-inner">
-	<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-above_thumb-add-to-cart tinvwl-loop-button-wrapper tinvwl-woocommerce_before_shop_loop_item"
-	 data-tinvwl_product_id="3366">
-	<!-- role="button" tabindex="0" name="" aria-label="" class="tinvwl_add_to_wishlist_button tinvwl-icon-heart no-txt tinvwl-product-already-on-wishlist  tinvwl-position-above_thumb tinvwl-loop" data-tinv-wl-list="[]" data-tinv-wl-product="3366" data-tinv-wl-productvariation="0" data-tinv-wl-productvariations="[]" data-tinv-wl-producttype="simple" data-tinv-wl-action="add">-->		<div
-		class="tinvwl-tooltip"></div>
-</div>
-
-<div class="badge-container absolute left top z-1">
-</div>
-	<div class="product-small box ">
-		<div class="box-image">
-			<div class="image-fade_in_back">
-				<a href="/View/product/06-bots-1-bot-vino-nieto-senetiner-patrimonial-semillon-2021/">
-					<img width="300" height="300" src="/View/wp-content/uploads/2023/05/Nieto-Senetiner-Patrimonial-Semillon-Tupungato-6-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" />				</a>
+					<div class="box-text box-text-products text-center grid-style-2">
+						<div class="title-wrapper">		
+							<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+								<?= $producto['categoria_nombre'] ?>	
+							</p>
+				<p class="name product-title woocommerce-loop-product__title">
+					<a href="adaptar1" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+					<?= $producto['nombre'] ?>	
+					</a>
+				</p>
 			</div>
-			<div class="image-tools is-small top right show-on-hover">
-							<div class="wishlist-icon">
-				<button class="wishlist-button button is-outline circle icon"
-						aria-label="Lista de deseos">
-					<i class="icon-heart-o" ></i>				</button>
-				<div
-					class="wishlist-popup dark ">
-					<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-shortcode-add-to-cart tinvwl-loop-button-wrapper tinvwl-flatsome_product_box_tools_top"
-	 data-tinvwl_product_id="3366">
-	<!-- role="button" tabindex="0" name="" aria-label="" class="tinvwl_add_to_wishlist_button tinvwl-icon-heart no-txt tinvwl-product-already-on-wishlist  tinvwl-position-above_thumb tinvwl-loop" data-tinv-wl-list="[]" data-tinv-wl-product="3366" data-tinv-wl-productvariation="0" data-tinv-wl-productvariations="[]" data-tinv-wl-producttype="simple" data-tinv-wl-action="add">-->		<div
-		class="tinvwl-tooltip"></div>
-</div>
+			<div class="price-wrapper">
+				<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">S/</span>&nbsp; <?= $producto['precio'] ?>	</bdi></span></span>
+			</div>
+			<div class="add-to-cart-button">
+				<form id="form-vino-<?= $producto['id'] ?>" class="form-agregar-carrito">
+					<input type="hidden" name="producto_id" value="<?= $producto['id'] ?>">
+					<input type="hidden" name="cantidad" value="1">
+					<button type="submit" class="primary is-small mb-0 button wp-element-button product_type_simple add_to_cart_button ajax_add_to_cart is-outline">Añadir al carrito</button>
+				</form>
+			</div>		
+		</div>
 				</div>
-			</div>
-						</div>
-			<div class="image-tools is-small hide-for-small bottom left show-on-hover">
-							</div>
-			<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
-							</div>
 					</div>
-
-		<div class="box-text box-text-products text-center grid-style-2">
-			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
-			Ofertas		</p>
-	<p class="name product-title woocommerce-loop-product__title"><a href="/View/product/06-bots-1-bot-vino-nieto-senetiner-patrimonial-semillon-2021/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">06 Bots.+ 1 Bot. Vino Nieto Senetiner Patrimonial Semillón</a></p></div><div class="price-wrapper">
-	<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">S/</span>&nbsp;310.00</bdi></span></span>
-</div><div class="add-to-cart-button"><a href="?add-to-cart=3366" data-quantity="1" class="primary is-small mb-0 button wp-element-button product_type_simple add_to_cart_button ajax_add_to_cart is-outline" data-product_id="3366" data-product_sku="" aria-label="Añade &ldquo;06 Bots.+ 1 Bot. Vino Nieto Senetiner Patrimonial Semillón&rdquo; a tu carrito" rel="nofollow">Añadir al carrito</a></div>		</div>
-	</div>
-		</div>
-</div>
-
-
-
-
-	            	        </div>
-		</div>
 			</div>
+			<?php endforeach; ?>
+			</div><!-- row -->
+		</div><!-- shop container -->		
+	</div>
+	</div>
 
 	
 </div>
@@ -773,16 +724,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<div class="sidebar-menu no-scrollbar ">
 		<ul class="nav nav-sidebar nav-vertical nav-uppercase">
 			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-390"><a href="/View/">INICIO</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3172"><a href="#">VINOS</a>
-
-</li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3166"><a href="/View/product-category/licores/">LICORES</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3817"><a href="/View/product-category/agua-tonica/">AGUA TÓNICA</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3169"><a href="/View/product-category/cerveza/">CERVEZA</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-3167"><a href="/View/product-category/espumantes/">ESPUMANTES</a>
-
-</li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2759 current_page_item menu-item-2782"><a href="/View/ofertas/index.php" aria-current="page">OFERTAS</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3172"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=1">VINOS</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3166"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=2">LICORES</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3817"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=4">AGUA TÓNICA</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3169"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=3">CERVEZA</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-3167"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=5">ESPUMANTES</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2759 current_page_item menu-item-2782"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=6" aria-current="page">OFERTAS</a></li>
 
 <li class="html header-social-icons ml-0">
 	<div class="social-icons follow-icons" ><a href="https://www.facebook.com/" target="_blank" data-label="Facebook"  rel="noopener noreferrer nofollow" class="icon plain facebook tooltip" title="Síguenos en Facebook"><i class="icon-facebook" ></i></a><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer nofollow" data-label="Instagram" class="icon plain  instagram tooltip" title="Síguenos en Instagram"><i class="icon-instagram" ></i></a><a href="mailto:Laestacion@gmail.com" data-label="E-mail"  rel="nofollow" class="icon plain  email tooltip" title="Envíanos un email"><i class="icon-envelop" ></i></a></div></li>		</ul>

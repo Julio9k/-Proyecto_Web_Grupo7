@@ -3,9 +3,6 @@
 <head>
 	<meta charset="UTF-8" />
 
- 
-	
-	
 	<meta name='robots' content='noindex, follow' />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 	<!-- This site is optimized with the Yoast SEO plugin v22.3 - https://yoast.com/wordpress/plugins/seo/ -->
@@ -700,66 +697,80 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 							
 							<div id="order_review" class="woocommerce-checkout-review-order">
-								<table class="shop_table woocommerce-checkout-review-order-table">
-	<thead>
-		<tr>
-			<th class="product-name">Producto</th>
-			<th class="product-total">Subtotal</th>
-		</tr>
-	</thead>
-	<tbody>
-				<tr class="cart_item">
-					<td class="product-name">
-						06 Bots. + 1 Bot. Vino Phebus Uco Blend Mendoza&nbsp;						 <strong class="product-quantity">&times;&nbsp;1</strong>											</td>
-					<td class="product-total">
-						<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">S/</span>0</bdi></span>					</td>
-				</tr>
+
+							<table class="shop_table woocommerce-checkout-review-order-table">
+    <thead>
+        <tr>
+            <th class="product-name">Producto</th>
+            <th class="product-total">Subtotal</th>
+        </tr>
+    </thead>
+    <tbody>
+        <?php foreach ($items as $item): ?>
+        <tr class="cart_item">
+            <td class="product-name">
+                <?= htmlspecialchars($item['nombre']) ?>
+                <strong class="product-quantity">&times;&nbsp;<?= $item['cantidad'] ?></strong>
+            </td>
+            <td class="product-total">
+                <span class="woocommerce-Price-amount amount">
+                    <bdi><span class="woocommerce-Price-currencySymbol">S/</span><?= number_format($item['subtotal'], 2) ?></bdi>
+                </span>
+            </td>
+        </tr>
+        <?php endforeach; ?>
+    </tbody>
+
+    <tfoot>
+        <tr class="cart-subtotal">
+            <th>Subtotal</th>
+            <td>
+                <span class="woocommerce-Price-amount amount">
+                    <bdi><span class="woocommerce-Price-currencySymbol">S/</span><?= number_format($subtotal_general, 2) ?></bdi>
+                </span>
+            </td>
+        </tr>
+
+        <tr class="woocommerce-shipping-totals shipping">
+            <td class="shipping__inner" colspan="2">
+                <table class="shipping__table">
+                    <tbody>
+                        <tr>
+                            <th>Envío</th>
+                            <td data-title="Envío">
+                                <ul id="shipping_method" class="shipping__list woocommerce-shipping-methods">
+                                    <li class="shipping__list_item">
+                                        <input type="hidden" name="shipping_method[0]" value="flat_rate:1" class="shipping_method" />
+                                        <label class="shipping__list_label">
+                                            Delivery: 
+                                            <span class="woocommerce-Price-amount amount">
+                                                <bdi><span class="woocommerce-Price-currencySymbol">S/</span><?= number_format($envio, 2) ?></bdi>
+                                            </span>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+
+        <tr class="order-total">
+            <th>Total</th>
+            <td>
+                <strong>
+                    <span class="woocommerce-Price-amount amount">
+                        <bdi><span class="woocommerce-Price-currencySymbol">S/</span><?= number_format($total, 2) ?></bdi>
+                    </span>
+                </strong>
+            </td>
+        </tr>
+    </tfoot>
+							</table>
+
 								
-					</tbody>
-	<tfoot>
-
-		<tr class="cart-subtotal">
-			<th>Subtotal</th>
-			<td><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">S/</span>0</bdi></span></td>
-		</tr>
-
-		
-		
-			
-			<tr class="woocommerce-shipping-totals shipping ">
-	<td class="shipping__inner" colspan="2">
-		<table class="shipping__table ">
-			<tbody>
-				<tr>
-					<th >Envío</th>
-					<td data-title="Envío">
-													<ul id="shipping_method" class="shipping__list woocommerce-shipping-methods">
-																	<li class="shipping__list_item">
-										<input type="hidden" name="shipping_method[0]" data-index="0" id="shipping_method_0_flat_rate1" value="flat_rate:1" class="shipping_method" /><label class="shipping__list_label" for="shipping_method_0_flat_rate1">Delivery: <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">S/</span></bdi></span></label>									</li>
-															</ul>
-														
-						
-											</td>
-				</tr>
-			</tbody>
-		</table>
-	</td>
-</tr>
-
-			
-		
-		
-		
-		
-		<tr class="order-total">
-			<th>Total</th>
-			<td><strong><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">S/</span>0</bdi></span></strong> </td>
-		</tr>
-
-		
-	</tfoot>
-</table>
-<div id="payment" class="woocommerce-checkout-payment">
+			<div id="payment" class="woocommerce-checkout-payment">
 			<ul class="wc_payment_methods payment_methods methods">
 			<li class="wc_payment_method payment_method_bacs">
 	<input id="payment_method_bacs" type="radio" class="input-radio" name="payment_method" value="bacs"  checked='checked' data-order_button_text="" />
@@ -798,16 +809,14 @@ Escanee nuestro QR con su aplicación Yape, o agregue nuestro número celular a 
 	<input id="payment_method_micuentawebstd" type="radio" class="input-radio" name="payment_method" value="micuentawebstd"  data-order_button_text="" />
 
 	<label for="payment_method_micuentawebstd">
-		Pago con todas las tarjeta de crédito o débito  <img decoding="async" style="max-width: 85px; max-height: 30px;" src="/View/wp-content/plugins/woo-micuentaweb-payment/assets/images/micuentaweb.png" alt="Pago con todas las tarjeta de crédito o débito " />	</label>
+		Pago con todas las tarjeta de crédito o débito  <img decoding="async" style="max-width: 85px; max-height: 30px;" src="/View/wp-content/plugins/woo-micuentaweb-payment/assets/images/micuentaweb.png" />	</label>
 			<div class="payment_box payment_method_micuentawebstd" style="display:none;">
 			<div><p>Usted ingresará los datos de pago después de la confirmación del pedido.</p>
 </div>		</div>
 	</li>
 		</ul>
 		<div class="form-row place-order">
-		<noscript>
-			Debido a que tu navegador no es compatible con JavaScript o lo tiene desactivado, por favor, asegúrate de hacer clic en el botón <em>Actualizar totales</em> antes de realizar tu pedido. De no hacerlo, se te podría cobrar más de la cantidad indicada arriba.			<br/><button type="submit" class="button alt wp-element-button" name="woocommerce_checkout_update_totals" value="Actualizar totales">Actualizar totales</button>
-		</noscript>
+	
 
 			<div class="woocommerce-terms-and-conditions-wrapper">
 		<div class="woocommerce-terms-and-conditions" style="display: none; max-height: 200px; overflow: auto;">	<div id="gap-470302525" class="gap-element clearfix" style="display:block; height:auto;">
@@ -887,8 +896,11 @@ Escanee nuestro QR con su aplicación Yape, o agregue nuestro número celular a 
 			</p>
 			</div>
 	
-		
-		<button type="submit" class="button alt wp-element-button" name="woocommerce_checkout_place_order" id="place_order" value="Realizar el pedido" data-value="Realizar el pedido">Realizar el pedido</button>
+		<a href="index.php?controlador=cart&accion=procesarPedido" class="button alt wp-element-button">
+    		Realizar el pedido
+		</a>
+
+
 		
 		<input type="hidden" id="woocommerce-process-checkout-nonce" name="woocommerce-process-checkout-nonce" value="199cb91d3e" /><input type="hidden" name="_wp_http_referer" value="/checkout/" />	</div>
 </div>
@@ -897,7 +909,7 @@ Escanee nuestro QR con su aplicación Yape, o agregue nuestro número celular a 
 							<div class="woocommerce-privacy-policy-text"></div><div class="html-checkout-sidebar pt-half"><div style="background: #221177;padding: 10px;color: #fff"> Sólo se hace el Delivery a los distritos indicados. Si su distrito no figura en la lista realizar la consulta al WhatsApp <strong>952111004</strong></div></div>						</div>
 					</div>
 
-					</div>
+		</div>
 
 	</div>
 </form>
@@ -1285,7 +1297,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
 <script type='text/javascript' src='/View/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js@ver=2.1.4-wc.7.6.0' id='js-cookie-js'></script>
 <script type='text/javascript' id='woocommerce-js-extra'>
 /* <![CDATA[ */
-var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+
 /* ]]> */
 </script>
 <script type='text/javascript' src='/View/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js@ver=7.6.0' id='woocommerce-js'></script>

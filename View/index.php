@@ -346,18 +346,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					</a>
 				</li>
 
-				<li class="header-divider"></li> <li class="cart-item has-icon has-dropdown">
-					<a href="/View/cart/index.php" title="Carrito" class="header-cart-link is-small">
-					<span class="header-cart-title">Carrito     </span>
-
-						
-						<i id="icono-carrito"class="icon-shopping-cart"
+				<li class="header-divider"></li> 
+						<li class="cart-item has-icon has-dropdown">
+							
+						<a href="index.php?controlador=cart&accion=mostrar" title="Carrito" class="header-cart-link is-small">
+							<span class="header-cart-title">Carrito     </span>
+		
+								<i id="icono-carrito"class="icon-shopping-cart"
 								data-icon-label="0">
-						</i>
-						
-					</a>
-
-				</li>
+								</i>								
+							</a>
+		
+						</li>
 			 </ul>
           </div>
 
@@ -394,7 +394,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					<li id="menu-item-3817" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3817 menu-item-design-default"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=4" class="nav-top-link">AGUA TÓNICA</a></li>
 					<li id="menu-item-3169" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3169 menu-item-design-default"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=3" class="nav-top-link">CERVEZA</a></li>
 					<li id="menu-item-3167" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-3167 menu-item-design-default has-dropdown"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=5" class="nav-top-link">ESPUMANTES<i class="nav-top-link" ></i></a></li>
-					<li id="menu-item-2782" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2782 menu-item-design-default"><a href="/View/ofertas/index.php" class="nav-top-link">OFERTAS</a></li>
+					<li id="menu-item-2782" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2782 menu-item-design-default"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=6" class="nav-top-link">OFERTAS</a></li>
 
                 </ul>
             </div>
@@ -695,7 +695,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<div class="col-inner text-center"  >
 			
 			
-<a href="/View/ofertas/index.php" target="_self" class="button primary"  style="border-radius:10px;">
+<a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=3 target="_self" class="button primary"  style="border-radius:10px;">
     <span>Ver mas</span>
   </a>
 
@@ -913,7 +913,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<div id="col-2088159713" class="col small-12 large-12"  >
 			<div class="col-inner text-center"  >
 				
-				<a href="/View/product-category/vinos/index.php" target="_self" class="button primary"  style="border-radius:10px;">
+				<a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=1" target="_self" class="button primary"  style="border-radius:10px;">
 					<span>Ver mas</span>
 				</a>
 
@@ -1026,7 +1026,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<div class="col-inner text-center"  >
 				
 				
-				<a href="/View/product-category/espumantes/index.php" target="_self" class="button primary"  style="border-radius:10px;">
+				<a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=5" target="_self" class="button primary"  style="border-radius:10px;">
 					<span>Ver mas</span>
 				</a>
 
@@ -1141,7 +1141,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<div class="col-inner text-center"  >
 				
 				
-	<a href="/View/product-category/licores/index.php" target="_self" class="button primary"  style="border-radius:10px;">
+	<a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=2" target="_self" class="button primary"  style="border-radius:10px;">
 		<span>Ver mas</span>
 	</a>
 
@@ -1668,5 +1668,21 @@ function mostrarMensaje(texto, esError = false) {
 }
 document.addEventListener('DOMContentLoaded', actualizarCarritoIcono);
 </script>
+
+<?php if (isset($_SESSION['mensaje_pedido'])): ?>
+<script>
+window.addEventListener('DOMContentLoaded', () => {
+    const mensaje = document.getElementById("mensaje-carrito");
+    if (mensaje) {
+        mensaje.textContent = <?= json_encode($_SESSION['mensaje_pedido']) ?>;
+        mensaje.className = "mostrar";
+        setTimeout(() => {
+            mensaje.className = "mensaje-oculto";
+        }, 2000);
+    }
+});
+</script>
+<?php unset($_SESSION['mensaje_pedido']); ?>
+<?php endif; ?>
 </body>
 </html>

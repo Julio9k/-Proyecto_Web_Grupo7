@@ -464,13 +464,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							</a>
 						</li>
 		
-						<li class="header-divider"></li> <li class="cart-item has-icon has-dropdown">
-							<a href="/View/cart/index.php" title="Carrito" class="header-cart-link is-small">
+						<li class="header-divider"></li> 
+						<li class="cart-item has-icon has-dropdown">
+							
+						<a href="index.php?controlador=cart&accion=mostrar" title="Carrito" class="header-cart-link is-small">
 							<span class="header-cart-title">Carrito     </span>
 		
-								<i class="icon-shopping-cart"
+								<i id="icono-carrito"class="icon-shopping-cart"
 								data-icon-label="0">
-								</i>
+								</i>								
 							</a>
 		
 						</li>
@@ -509,10 +511,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<li id="menu-item-3166" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3166 menu-item-design-default"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=2" class="nav-top-link">LICORES</a></li>
 					<li id="menu-item-3817" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat current-menu-item menu-item-3817 active menu-item-design-default"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=4" aria-current="page" class="nav-top-link">AGUA TÓNICA</a></li>
 					<li id="menu-item-3169" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3169 menu-item-design-default"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=3" class="nav-top-link">CERVEZA</a></li>
-					<li id="menu-item-3167" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-3167 menu-item-design-default has-dropdown"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=5" class="nav-top-link">ESPUMANTES<i class="nav-top-link" ></i></a>
-
-</li>
-<li id="menu-item-2782" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2782 menu-item-design-default"><a href="/View/ofertas/index.php" class="nav-top-link">OFERTAS</a></li>
+					<li id="menu-item-3167" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-3167 menu-item-design-default has-dropdown"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=5" class="nav-top-link">ESPUMANTES<i class="nav-top-link" ></i></a></li>
+					<li id="menu-item-2782" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2782 menu-item-design-default"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=6" class="nav-top-link">OFERTAS</a></li>
 
                 </ul>
             </div>
@@ -575,216 +575,79 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 		<div class="col large-3 hide-for-medium ">
 						<div id="shop-sidebar" class="sidebar-inner col-inner">
-				<aside id="woocommerce_product_categories-13" class="widget woocommerce widget_product_categories"><span class="widget-title shop-sidebar">Categorias</span><div class="is-divider small"></div><ul class="product-categories"><li class="cat-item cat-item-126"><a href="/View/product-category/cerveza/">Cerveza</a></li>
-<li class="cat-item cat-item-127 cat-parent"><a href="/View/product-category/vinos/">Vinos</a>
-</li>
-
-
-<li class="cat-item cat-item-142 cat-parent"><a href="/View/product-category/licores/">Licores</a>
-</li>
-<li class="cat-item cat-item-149"><a href="/View/product-category/ofertas/">Ofertas</a></li>
-<li class="cat-item cat-item-133 cat-parent"><a href="/View/product-category/espumantes/">Espumantes</a>
-</li>
-<li class="cat-item cat-item-156 current-cat"><a href="/View/product-category/agua-tonica/">Agua Tónica</a></li>
-
-
-</aside>			</div>
+							<aside id="woocommerce_product_categories-13" class="widget woocommerce widget_product_categories"><span class="widget-title shop-sidebar">Categorias</span><div class="is-divider small"></div><ul class="product-categories">
+								<li class="cat-item cat-item-126"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=3">Cerveza</a></li>
+								<li class="cat-item cat-item-127 cat-parent"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=1">Vinos</a></li>
+								<li class="cat-item cat-item-142 cat-parent"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=2">Licores</a></li>
+								<li class="cat-item cat-item-133 cat-parent"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=5">Espumantes</a></li>
+								<li class="cat-item cat-item-156 current-cat"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=4">Agua Tónica</a></li>
+							</aside>			
+						</div>
 					</div>
 
-		<div class="col large-9">
+	<div class="col large-9">
 		<div class="shop-container">
 		
-		<div class="woocommerce-notices-wrapper"></div><div class="products row row-small large-columns-3 medium-columns-3 small-columns-2 equalize-box">
-
-<div class="product-small col has-hover product type-product post-5234 status-publish first instock product_cat-agua-tonica has-post-thumbnail shipping-taxable purchasable product-type-simple">
-	<div class="col-inner">
-	<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-above_thumb-add-to-cart tinvwl-loop-button-wrapper tinvwl-woocommerce_before_shop_loop_item"
-	 data-tinvwl_product_id="5234">
-			<div
-		class="tinvwl-tooltip"></div>
-</div>
-
-<div class="badge-container absolute left top z-1">
-<div class="badge callout badge-circle"><div class="badge-inner callout-new-bg is-small new-bubble">24 latas</div></div></div>
-	<div class="product-small box ">
-		<div class="box-image">
-			<div class="image-fade_in_back">
-				<a href="/View/product/plancha-de-agua-tonica-britvic-clasica-x-24-latas-x1-5-ml-vto-12-24-2/">
-					<img width="300" height="300" src="/View/wp-content/uploads/2024/02/Britvic-Clasica-x-24-latas-x-1.5-ml._@05x-300x300.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Britvic Clásica x 24 latas" decoding="async" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" />				</a>
+			<div class="woocommerce-notices-wrapper">				
 			</div>
-			<div class="image-tools is-small top right show-on-hover">
-							<div class="wishlist-icon">
-				<button class="wishlist-button button is-outline circle icon"
-						aria-label="Lista de deseos">
-					<i class="icon-heart-o" ></i>				</button>
+			<div class="products row row-small large-columns-3 medium-columns-3 small-columns-2 equalize-box">
+				<?php foreach ($productos as $producto ): ?>
+			<div class="product-small col has-hover product type-product post-6238 status-publish instock has-post-thumbnail shipping-taxable purchasable product-type-simple">
+				<div class="col-inner">
+				<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-above_thumb-add-to-cart tinvwl-loop-button-wrapper tinvwl-woocommerce_before_shop_loop_item"
+				data-tinvwl_product_id="6238">
 				<div
-					class="wishlist-popup dark ">
-					<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-shortcode-add-to-cart tinvwl-loop-button-wrapper tinvwl-flatsome_product_box_tools_top"
-	 data-tinvwl_product_id="5234">
-			<div
-		class="tinvwl-tooltip"></div>
-</div>
+					class="tinvwl-tooltip">
 				</div>
 			</div>
+
+			<div class="badge-container absolute left top z-1">
+			</div>
+				<div class="product-small box ">
+					<div class="box-image">
+						<div class="image-fade_in_back">
+							<a href="/View/product/escorihuela-gascon-cabernet-franc/">
+								<img width="300" height="300" src="<?php echo $producto['imagen_url']; ?>" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy" />				
+							</a>
 						</div>
-			<div class="image-tools is-small hide-for-small bottom left show-on-hover">
-							</div>
-			<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
-							</div>
+						<div class="image-tools is-small top right show-on-hover">
+								
+									</div>
+						<div class="image-tools is-small hide-for-small bottom left show-on-hover">
+						</div>
+						<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+						</div>
 					</div>
 
-		<div class="box-text box-text-products text-center grid-style-2">
-			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
-			Agua Tónica		</p>
-	<p class="name product-title woocommerce-loop-product__title"><a href="/View/product/plancha-de-agua-tonica-britvic-clasica-x-24-latas-x1-5-ml-vto-12-24-2/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Britvic Clásica x 24 latas x 1.5 ml.</a></p></div><div class="price-wrapper">
-	<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">S/</span>&nbsp;110.00</bdi></span></span>
-</div><div class="add-to-cart-button"><a href="?add-to-cart=5234" data-quantity="1" class="primary is-small mb-0 button wp-element-button product_type_simple add_to_cart_button ajax_add_to_cart is-outline" data-product_id="5234" data-product_sku="" aria-label="Añade &ldquo;Britvic Clásica x 24 latas x 1.5 ml.&rdquo; a tu carrito" rel="nofollow">Añadir al carrito</a></div>		</div>
-	</div>
-		</div>
-</div>
-
-<div class="product-small col has-hover product type-product post-5411 status-publish instock product_cat-agua-tonica has-post-thumbnail shipping-taxable purchasable product-type-simple">
-	<div class="col-inner">
-	<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-above_thumb-add-to-cart tinvwl-loop-button-wrapper tinvwl-woocommerce_before_shop_loop_item"
-	 data-tinvwl_product_id="5411">
-	<!-- a role="button" tabindex="0" name="" aria-label="" class="tinvwl_add_to_wishlist_button tinvwl-icon-heart no-txt tinvwl-product-already-on-wishlist  tinvwl-position-above_thumb tinvwl-loop" data-tinv-wl-list="[]" data-tinv-wl-product="5411" data-tinv-wl-productvariation="0" data-tinv-wl-productvariations="[]" data-tinv-wl-producttype="simple" data-tinv-wl-action="add"></a -->		<div
-		class="tinvwl-tooltip"></div>
-</div>
-
-<div class="badge-container absolute left top z-1">
-<div class="badge callout badge-circle"><div class="badge-inner callout-new-bg is-small new-bubble">24 latas</div></div></div>
-	<div class="product-small box ">
-		<div class="box-image">
-			<div class="image-fade_in_back">
-				<a href="/View/product/ginger-ale-britvic-x-24-latas-x1-5ml/">
-					<img width="300" height="300" src="/View/wp-content/uploads/2024/02/Ginger-Ale-Britvic-x-24-latas-x-1.5-ml_@05x-300x300.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Ginger Ale Britvic x 24 latas" decoding="async" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" />				</a>
+					<div class="box-text box-text-products text-center grid-style-2">
+						<div class="title-wrapper">		
+							<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+								<?= $producto['categoria_nombre'] ?>	
+							</p>
+				<p class="name product-title woocommerce-loop-product__title">
+					<a href="adaptar1" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+					<?= $producto['nombre'] ?>	
+					</a>
+				</p>
 			</div>
-			<div class="image-tools is-small top right show-on-hover">
-							<div class="wishlist-icon">
-				<button class="wishlist-button button is-outline circle icon"
-						aria-label="Lista de deseos">
-					<i class="icon-heart-o" ></i>				</button>
-				<div
-					class="wishlist-popup dark ">
-					<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-shortcode-add-to-cart tinvwl-loop-button-wrapper tinvwl-flatsome_product_box_tools_top"
-	 data-tinvwl_product_id="5411">
-	<!-- a role="button" tabindex="0" name="" aria-label="" class="tinvwl_add_to_wishlist_button tinvwl-icon-heart no-txt tinvwl-product-already-on-wishlist  tinvwl-position-above_thumb tinvwl-loop" data-tinv-wl-list="[]" data-tinv-wl-product="5411" data-tinv-wl-productvariation="0" data-tinv-wl-productvariations="[]" data-tinv-wl-producttype="simple" data-tinv-wl-action="add"></a -->		<div
-		class="tinvwl-tooltip"></div>
-</div>
+			<div class="price-wrapper">
+				<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">S/</span>&nbsp; <?= $producto['precio'] ?>	</bdi></span></span>
+			</div>
+			<div class="add-to-cart-button">
+				<form id="form-vino-<?= $producto['id'] ?>" class="form-agregar-carrito">
+					<input type="hidden" name="producto_id" value="<?= $producto['id'] ?>">
+					<input type="hidden" name="cantidad" value="1">
+					<button type="submit" class="primary is-small mb-0 button wp-element-button product_type_simple add_to_cart_button ajax_add_to_cart is-outline">Añadir al carrito</button>
+				</form>
+			</div>		
+		</div>
 				</div>
-			</div>
-						</div>
-			<div class="image-tools is-small hide-for-small bottom left show-on-hover">
-							</div>
-			<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
-							</div>
 					</div>
-
-		<div class="box-text box-text-products text-center grid-style-2">
-			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
-			Agua Tónica		</p>
-	<p class="name product-title woocommerce-loop-product__title"><a href="/View/product/ginger-ale-britvic-x-24-latas-x1-5ml/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Ginger Ale Britvic x 24 latas x 1.5ml.</a></p></div><div class="price-wrapper">
-	<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">S/</span>&nbsp;110.00</bdi></span></span>
-</div><div class="add-to-cart-button"><a href="?add-to-cart=5411" data-quantity="1" class="primary is-small mb-0 button wp-element-button product_type_simple add_to_cart_button ajax_add_to_cart is-outline" data-product_id="5411" data-product_sku="" aria-label="Añade &ldquo;Ginger Ale Britvic x 24 latas x 1.5ml.&rdquo; a tu carrito" rel="nofollow">Añadir al carrito</a></div>		</div>
+			</div>
+			<?php endforeach; ?>
+			</div><!-- row -->
+		</div><!-- shop container -->		
 	</div>
-		</div>
-</div>
-
-<div class="product-small col has-hover product type-product post-4527 status-publish last instock product_cat-agua-tonica has-post-thumbnail shipping-taxable purchasable product-type-simple">
-	<div class="col-inner">
-	<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-above_thumb-add-to-cart tinvwl-loop-button-wrapper tinvwl-woocommerce_before_shop_loop_item"
-	 data-tinvwl_product_id="4527">
-	<!-- a role="button" tabindex="0" name="" aria-label="" class="tinvwl_add_to_wishlist_button tinvwl-icon-heart no-txt tinvwl-product-already-on-wishlist  tinvwl-position-above_thumb tinvwl-loop" data-tinv-wl-list="[]" data-tinv-wl-product="4527" data-tinv-wl-productvariation="0" data-tinv-wl-productvariations="[]" data-tinv-wl-producttype="simple" data-tinv-wl-action="add"></a -->		<div
-		class="tinvwl-tooltip"></div>
-</div>
-
-<div class="badge-container absolute left top z-1">
-<div class="badge callout badge-circle"><div class="badge-inner callout-new-bg is-small new-bubble">24 latas</div></div></div>
-	<div class="product-small box ">
-		<div class="box-image">
-			<div class="image-fade_in_back">
-				<a href="/View/product/ginger-beer-britvic-x-1-5-ml/">
-					<img width="300" height="300" src="/View/wp-content/uploads/2024/02/Ginger-Beer-Britvic-x-24-latas-x-1.5-ml_@05x-300x300.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Ginger Beer Britvic x 24 latas" decoding="async" loading="lazy"  sizes="(max-width: 300px) 100vw, 300px" />				</a>
-			</div>
-			<div class="image-tools is-small top right show-on-hover">
-							<div class="wishlist-icon">
-				<button class="wishlist-button button is-outline circle icon"
-						aria-label="Lista de deseos">
-					<i class="icon-heart-o" ></i>				</button>
-				<div
-					class="wishlist-popup dark ">
-					<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-shortcode-add-to-cart tinvwl-loop-button-wrapper tinvwl-flatsome_product_box_tools_top"
-	 data-tinvwl_product_id="4527">
-	<!-- a role="button" tabindex="0" name="" aria-label="" class="tinvwl_add_to_wishlist_button tinvwl-icon-heart no-txt tinvwl-product-already-on-wishlist  tinvwl-position-above_thumb tinvwl-loop" data-tinv-wl-list="[]" data-tinv-wl-product="4527" data-tinv-wl-productvariation="0" data-tinv-wl-productvariations="[]" data-tinv-wl-producttype="simple" data-tinv-wl-action="add"></a -->		<div
-		class="tinvwl-tooltip"></div>
-</div>
-				</div>
-			</div>
-						</div>
-			<div class="image-tools is-small hide-for-small bottom left show-on-hover">
-							</div>
-			<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
-							</div>
-					</div>
-
-		<div class="box-text box-text-products text-center grid-style-2">
-			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
-			Agua Tónica		</p>
-	<p class="name product-title woocommerce-loop-product__title"><a href="/View/product/ginger-beer-britvic-x-1-5-ml/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Ginger Beer Britvic x 24 latas x 1.5 ml.</a></p></div><div class="price-wrapper">
-	<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">S/</span>&nbsp;110.00</bdi></span></span>
-</div><div class="add-to-cart-button"><a href="?add-to-cart=4527" data-quantity="1" class="primary is-small mb-0 button wp-element-button product_type_simple add_to_cart_button ajax_add_to_cart is-outline" data-product_id="4527" data-product_sku="" aria-label="Añade &ldquo;Ginger Beer Britvic x 24 latas x 1.5 ml.&rdquo; a tu carrito" rel="nofollow">Añadir al carrito</a></div>		</div>
-	</div>
-		</div>
-</div>
-
-<div class="product-small col has-hover product type-product post-5415 status-publish first instock product_cat-agua-tonica has-post-thumbnail shipping-taxable purchasable product-type-simple">
-	<div class="col-inner">
-	<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-above_thumb-add-to-cart tinvwl-loop-button-wrapper tinvwl-woocommerce_before_shop_loop_item"
-	 data-tinvwl_product_id="5415">
-	<!-- a role="button" tabindex="0" name="" aria-label="" class="tinvwl_add_to_wishlist_button tinvwl-icon-heart no-txt tinvwl-product-already-on-wishlist  tinvwl-position-above_thumb tinvwl-loop" data-tinv-wl-list="[]" data-tinv-wl-product="5415" data-tinv-wl-productvariation="0" data-tinv-wl-productvariations="[]" data-tinv-wl-producttype="simple" data-tinv-wl-action="add"></a -->		<div
-		class="tinvwl-tooltip"></div>
-</div>
-
-<div class="badge-container absolute left top z-1">
-<div class="badge callout badge-circle"><div class="badge-inner callout-new-bg is-small new-bubble">24 latas</div></div></div>
-	<div class="product-small box ">
-		<div class="box-image">
-			<div class="image-fade_in_back">
-				<a href="/View/product/low-calorie-britvic-x-24-latas-x1-5-ml/">
-					<img width="300" height="300" src="/View/wp-content/uploads/2024/02/Low-Calorie-Britvic-x-24-latas-x-1.5-ml_@05x-300x300.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Low Calorie Britvic x 24 latas" decoding="async" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" />				</a>
-			</div>
-			<div class="image-tools is-small top right show-on-hover">
-							<div class="wishlist-icon">
-				<button class="wishlist-button button is-outline circle icon"
-						aria-label="Lista de deseos">
-					<i class="icon-heart-o" ></i>				</button>
-				<div
-					class="wishlist-popup dark ">
-					<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-shortcode-add-to-cart tinvwl-loop-button-wrapper tinvwl-flatsome_product_box_tools_top"
-	 data-tinvwl_product_id="5415">
-	<!-- a role="button" tabindex="0" name="" aria-label="" class="tinvwl_add_to_wishlist_button tinvwl-icon-heart no-txt tinvwl-product-already-on-wishlist  tinvwl-position-above_thumb tinvwl-loop" data-tinv-wl-list="[]" data-tinv-wl-product="5415" data-tinv-wl-productvariation="0" data-tinv-wl-productvariations="[]" data-tinv-wl-producttype="simple" data-tinv-wl-action="add"></a -->		<div
-		class="tinvwl-tooltip"></div>
-</div>
-				</div>
-			</div>
-						</div>
-			<div class="image-tools is-small hide-for-small bottom left show-on-hover">
-							</div>
-			<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
-							</div>
-					</div>
-
-		<div class="box-text box-text-products text-center grid-style-2">
-			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
-			Agua Tónica		</p>
-	<p class="name product-title woocommerce-loop-product__title"><a href="/View/product/low-calorie-britvic-x-24-latas-x1-5-ml/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Low Calorie Britvic x 24 latas x 1.5 ml.</a></p></div><div class="price-wrapper">
-	<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">S/</span>&nbsp;120.00</bdi></span></span>
-</div><div class="add-to-cart-button"><a href="?add-to-cart=5415" data-quantity="1" class="primary is-small mb-0 button wp-element-button product_type_simple add_to_cart_button ajax_add_to_cart is-outline" data-product_id="5415" data-product_sku="" aria-label="Añade &ldquo;Low Calorie Britvic x 24 latas x 1.5 ml.&rdquo; a tu carrito" rel="nofollow">Añadir al carrito</a></div>		</div>
-	</div>
-		</div>
-</div>
-</div><!-- row -->
-		</div><!-- shop container -->		</div>
 </div>
 
 </main>

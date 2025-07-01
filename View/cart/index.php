@@ -316,16 +316,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						</a>
 					</li>
 	
-					<li class="header-divider"></li> <li class="cart-item has-icon has-dropdown">
-						<a href="/View/cart/index.php" title="Carrito" class="header-cart-link is-small">
-						<span class="header-cart-title">Carrito     </span>
-	
-							<i class="icon-shopping-cart"
-							data-icon-label="0">
-							</i>
-						</a>
-	
-					</li>
+					<li class="header-divider"></li> 
+						<li class="cart-item has-icon has-dropdown">
+							
+						<a href="index.php?controlador=cart&accion=mostrar" title="Carrito" class="header-cart-link is-small">
+							<span class="header-cart-title">Carrito     </span>
+		
+								<i id="icono-carrito"class="icon-shopping-cart"
+								data-icon-label="0">
+								</i>								
+							</a>
+		
+						</li>
 				 </ul>
 			  </div>
 
@@ -357,16 +359,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <div class="flex-col hide-for-medium flex-left">
                 <ul class="nav header-nav header-bottom-nav nav-left  nav-box nav-spacing-large nav-uppercase">
                     <li id="menu-item-390" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-390 menu-item-design-default"><a href="/View/index.php" class="nav-top-link">INICIO</a></li>
-<li id="menu-item-3172" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3172 menu-item-design-default has-dropdown"><a href="/View/product-category/vinos/index.php" class="nav-top-link">VINOS<i class="nav-top-link" ></i></a>
-
-</li>
-<li id="menu-item-3166" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3166 menu-item-design-default"><a href="/View/product-category/licores/index.php" class="nav-top-link">LICORES</a></li>
-<li id="menu-item-3817" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3817 menu-item-design-default"><a href="/View/product-category/agua-tonica/index.php" class="nav-top-link">AGUA TÓNICA</a></li>
-<li id="menu-item-3169" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3169 menu-item-design-default"><a href="/View/product-category/cerveza/index.php" class="nav-top-link">CERVEZA</a></li>
-<li id="menu-item-3167" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-3167 menu-item-design-default has-dropdown"><a href="/View/product-category/espumantes/index.php" class="nav-top-link">ESPUMANTES<i class="nav-top-link" ></i></a>
-
-</li>
-<li id="menu-item-2782" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2782 menu-item-design-default"><a href="/View/ofertas/" class="nav-top-link">OFERTAS</a></li>
+					<li id="menu-item-3172" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3172 menu-item-design-default has-dropdown"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=1" class="nav-top-link">VINOS<i class="nav-top-link" ></i></a></li>
+					<li id="menu-item-3166" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3166 menu-item-design-default"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=2" class="nav-top-link">LICORES</a></li>
+					<li id="menu-item-3817" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3817 menu-item-design-default"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=4" class="nav-top-link">AGUA TÓNICA</a></li>
+					<li id="menu-item-3169" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3169 menu-item-design-default"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=3" class="nav-top-link">CERVEZA</a></li>
+					<li id="menu-item-3167" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-3167 menu-item-design-default has-dropdown"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=5" class="nav-top-link">ESPUMANTES<i class="nav-top-link" ></i></a></li>
+					<li id="menu-item-2782" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2782 menu-item-design-default"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=6" class="nav-top-link">OFERTAS</a></li>
 
                 </ul>
             </div>
@@ -418,7 +416,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   	   <a href="/View/cart/index.php" class="current">
    			  	   	Carrito  	   	</a>
   	   <span class="divider hide-for-small"><i class="icon-angle-right" ></i></span>
-  	   <a href="/View/checkout/index.php" class="hide-for-small">
+  	   <a href="#" class="no-click hide-for-small">
    			  	   	Detalles del Pago  	   </a>
   	   <span class="divider hide-for-small"><i class="icon-angle-right" ></i></span>
   	   <a href="#" class="no-click hide-for-small">
@@ -485,7 +483,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								<td class="product-quantity" data-title="Cantidad">
 									<div class="quantity buttons_added">
 										<input type="button" value="-" class="minus button is-form">
-										<input type="number" class="input-text qty text cantidad-input" step="1" min="1" name="cantidades[<?= $producto['id'] ?>]" value="<?= $producto['cantidad'] ?>" title="Cantidad">
+										<input type="number" class="input-text qty text cantidad-input" step="1" min="1" max="<?php echo $producto['stock']; ?>" name="cantidades[<?= $producto['id'] ?>]" value="<?= $producto['cantidad'] ?>" title="Cantidad">
 										<input type="button" value="+" class="plus button is-form">
 									</div>
 								</td>
@@ -532,26 +530,6 @@ function actualizarSubtotal(input) {
     row.querySelector('.subtotal-valor').textContent = subtotal.toFixed(2);
 }
 
-// ✅ Controlar los botones + y - sin duplicar incremento
-document.querySelectorAll('.plus').forEach(btn => {
-    btn.addEventListener('click', function(e) {
-        e.preventDefault();
-        const input = this.parentNode.querySelector('.cantidad-input');
-        input.stepUp();
-        actualizarSubtotal(input);
-    });
-});
-
-document.querySelectorAll('.minus').forEach(btn => {
-    btn.addEventListener('click', function(e) {
-        e.preventDefault();
-        const input = this.parentNode.querySelector('.cantidad-input');
-        if (parseInt(input.value) > 1) {
-            input.stepDown();
-            actualizarSubtotal(input);
-        }
-    });
-});
 </script>
 
 
@@ -571,88 +549,71 @@ document.querySelectorAll('.minus').forEach(btn => {
 	<h2>Total del carrito</h2>
 
 	<table cellspacing="0" class="shop_table shop_table_responsive">
-
-		<tbody><tr class="cart-subtotal">
-			<th>Subtotal</th>
-			<td data-title="Subtotal"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">S/</span>&nbsp;357.50</bdi></span></td>
-		</tr>
-
-		
-		
-			
-			<tr class="woocommerce-shipping-totals shipping ">
-	<td class="shipping__inner" colspan="2">
-		<table class="shipping__table ">
 			<tbody>
-				<tr>
-					<th>Envío</th>
-					<td data-title="Envío">
+					<tr class="cart-subtotal">
+						<th>Subtotal</th>
+						<td data-title="Subtotal">
+							<span id="subtotal-general" class="woocommerce-Price-amount amount"><bdi>
+								<bdi><span class="woocommerce-Price-currencySymbol">S/</span>&nbsp;0.00</bdi>
+							</span>
+						</td>
+					</tr>
+
+				
+				
+					
+					<tr class="woocommerce-shipping-totals shipping ">
+						<td class="shipping__inner" colspan="2">
+							<table class="shipping__table ">
+								<tbody>
+									<tr>
+										<th>Envío</th>
+										<td data-title="Envío">
 													<ul id="shipping_method" class="shipping__list woocommerce-shipping-methods">
-																	<li class="shipping__list_item">
-										<input type="hidden" name="shipping_method[0]" data-index="0" id="shipping_method_0_flat_rate1" value="flat_rate:1" class="shipping_method"><label class="shipping__list_label" for="shipping_method_0_flat_rate1">Delivery: <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">S/</span>&nbsp;15.00</bdi></span></label>									</li>
-															</ul>
-														
-						
-													
-<form class="woocommerce-shipping-calculator" action="https://www.miluvas.pe/cart/" method="post">
+														<li class="shipping__list_item">
+															<input type="hidden" name="shipping_method[0]" data-index="0" id="shipping_method_0_flat_rate1" value="flat_rate:1" class="shipping_method">
+															<label class="shipping__list_label" for="shipping_method_0_flat_rate1">Delivery: 
+																<span id=""  class="woocommerce-Price-amount amount"><bdi>
+																	<span class="woocommerce-Price-currencySymbol">S/
 
-	<a href="#" class="shipping-calculator-button">Calcular envío</a>
-	<section class="shipping-calculator-form" style="display:none;">
+																	</span>&nbsp;15.00</bdi>
+																</span>
+															</label>
+														</li>
+													</ul>												
+											
+												
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</td>
+					</tr>
 
-					<p class="form-row form-row-wide" id="calc_shipping_country_field">
-				<label for="calc_shipping_country" class="screen-reader-text">País o región:</label>
-				<select name="calc_shipping_country" id="calc_shipping_country" class="country_to_state country_select" rel="calc_shipping_state">
-					<option value="default">Selecciona un país/región…</option>
-					<option value="PE" selected="selected">Perú</option>				</select>
-			</p>
-		
-					<p class="form-row form-row-wide" id="calc_shipping_state_field">
-									<span>
-						<label for="calc_shipping_state" class="screen-reader-text">Región / Provincia:</label>
-						<select name="calc_shipping_state" class="state_select" id="calc_shipping_state" data-placeholder="Región / Provincia">
-							<option value="">Elige una opción…</option>
-							<option value="CA">Cercado de Lima</option><option value="CH">Barranco</option><option value="JM">Breña</option><option value="CR">Chorrillos</option><option value="LV">Jesús  María</option><option value="LI">La Molina</option><option value="MD">La Victoria</option><option value="PU">Lince</option><option value="SI">Magdalena del Mar</option><option value="SL">Miraflores</option><option value="SY">Pueblo Libre</option><option value="SU">San Isidro</option><option value="LP" selected="selected">San Juan de Miraflores</option><option value="SJ">San Luis</option><option value="SM">San Miguel</option><option value="SD">Santiago de Surco</option><option value="SQ">Surquillo</option><option value="SB">San Borja</option><option value="SC">Santa Catalina</option>						</select>
-					</span>
-								</p>
-		
-					<p class="form-row form-row-wide" id="calc_shipping_city_field">
-				<label for="calc_shipping_city" class="screen-reader-text">Ciudad:</label>
-				<input type="text" class="input-text" value="" placeholder="Ciudad" name="calc_shipping_city" id="calc_shipping_city">
-			</p>
-		
-					<p class="form-row form-row-wide" id="calc_shipping_postcode_field">
-				<label for="calc_shipping_postcode" class="screen-reader-text">Código postal:</label>
-				<input type="text" class="input-text" value="" placeholder="Código postal" name="calc_shipping_postcode" id="calc_shipping_postcode">
-			</p>
-		
-		<p><button type="submit" name="calc_shipping" value="1" class="button wp-element-button">Actualizar</button></p>
-		<input type="hidden" id="woocommerce-shipping-calculator-nonce" name="woocommerce-shipping-calculator-nonce" value="26101b40ca"><input type="hidden" name="_wp_http_referer" value="/cart/">	</section>
-</form>
-
-											</td>
+					
+				
+				
+				
+				
+				<tr class="order-total">
+					<th>Total</th>
+					<td data-title="Total">
+						<strong>
+							 <span id="total-general" class="woocommerce-Price-amount amount">
+                				<bdi><span class="woocommerce-Price-currencySymbol">S/</span>&nbsp;0.00</bdi>
+           					 </span>
+						</strong> 
+					</td>
 				</tr>
+
+				
 			</tbody>
-		</table>
-	</td>
-</tr>
+	</table>
 
-			
-		
-		
-		
-		
-		<tr class="order-total">
-			<th>Total</th>
-			<td data-title="Total"><strong><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">S/</span>&nbsp;372.50</bdi></span></strong> </td>
-		</tr>
-
-		
-	</tbody></table>
-
-	<div class="wc-proceed-to-checkout">
-		
-<a href="https://www.miluvas.pe/checkout/" class="checkout-button button alt wc-forward wp-element-button">
-	Finalizar compra</a>
+	<div class="wc-proceed-to-checkout">		
+		<a href="index.php?controlador=cart&accion=mostrarCheckout" id="btn-finalizar" class="checkout-button button alt wc-forward wp-element-button">
+			Finalizar compra
+		</a>		
 	</div>
 
 	
@@ -1051,7 +1012,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
 <script type='text/javascript' src='/View/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js@ver=2.1.4-wc.7.6.0' id='js-cookie-js'></script>
 <script type='text/javascript' id='woocommerce-js-extra'>
 /* <![CDATA[ */
-var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+
 /* ]]> */
 </script>
 <script type='text/javascript' src='/View/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js@ver=7.6.0' id='woocommerce-js'></script>
@@ -1090,5 +1051,117 @@ var flatsomeVars = {"ajaxurl":"https:\/\/www.La estación.pe\/wp-admin\/admin-aj
 /* ]]> */
 </script>
 <script type='text/javascript' src='/View/wp-content/themes/flatsome/assets/js/flatsome.js@ver=3.13.1' id='flatsome-js-js'></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    recalcularTotalesGeneral();
+
+    // Al cambiar el input de cantidad manualmente
+    document.querySelectorAll('.cantidad-input').forEach(input => {
+        input.addEventListener('input', function () {
+            const row = this.closest('tr');
+            const precio = parseFloat(row.querySelector('.product-price').dataset.precio);
+            const cantidad = parseInt(this.value) || 0;
+            const subtotal = precio * cantidad;
+            row.querySelector('.subtotal-valor').textContent = subtotal.toFixed(2);
+            recalcularTotalesGeneral();
+        });
+    });
+
+    // Botón +
+    document.querySelectorAll('.plus').forEach(btn => {
+        btn.addEventListener('click', function (e) {
+            e.preventDefault();
+            const input = this.parentNode.querySelector('.cantidad-input');
+            input.stepUp();
+            input.dispatchEvent(new Event('input')); // dispara el evento para recalcular
+        });
+    });
+
+    // Botón -
+    document.querySelectorAll('.minus').forEach(btn => {
+        btn.addEventListener('click', function (e) {
+            e.preventDefault();
+            const input = this.parentNode.querySelector('.cantidad-input');
+            if (parseInt(input.value) > 1) {
+                input.stepDown();
+                input.dispatchEvent(new Event('input')); // dispara el evento para recalcular
+            }
+        });
+    });
+
+    // Botón eliminar producto
+    document.querySelectorAll('.product-remove .remove').forEach(boton => {
+        boton.addEventListener('click', function () {
+            const productoId = this.dataset.productId;
+            const fila = this.closest('tr');
+
+            fetch('index.php?controlador=cart&accion=eliminarDelCarrito', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: 'producto_id=' + encodeURIComponent(productoId)
+            })
+            .then(res => res.text())
+            .then(data => {
+                if (data.trim() === 'ok') {
+                    fila.remove();
+                    recalcularTotalesGeneral();
+                }
+            });
+        });
+    });
+});
+
+// ✅ Función única para recalcular todo
+function recalcularTotalesGeneral() {
+    let subtotal = 0;
+
+    document.querySelectorAll('.subtotal-valor').forEach(span => {
+        const valor = parseFloat(span.textContent);
+        if (!isNaN(valor)) subtotal += valor;
+    });
+
+    const envio = 15.00;
+    const total = subtotal + envio;
+
+    const subtotalElement = document.getElementById('subtotal-general');
+    if (subtotalElement) {
+        subtotalElement.innerHTML = `<bdi><span class="woocommerce-Price-currencySymbol">S/</span>&nbsp;${subtotal.toFixed(2)}</bdi>`;
+    }
+
+    document.querySelectorAll('#total-general').forEach(el => {
+        el.innerHTML = `<bdi><span class="woocommerce-Price-currencySymbol">S/</span>&nbsp;${total.toFixed(2)}</bdi>`;
+    });
+}
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const btnFinalizar = document.getElementById('btn-finalizar');
+
+    btnFinalizar.addEventListener('click', function (e) {
+        e.preventDefault(); // Bloquear el cambio de página por ahora
+
+        const form = document.getElementById('form-actualizar-carrito');
+        const formData = new FormData(form);
+
+        fetch(form.action, {
+            method: 'POST',
+            body: formData
+        })
+        .then(res => res.text())
+        .then(data => {
+            if (data.trim() === 'ok') {
+                window.location.href = this.href; // Ahora sí ir al checkout
+            } else {
+                alert('No se pudo actualizar el carrito');
+            }
+        })
+        .catch(err => {
+            alert('Error al conectar con el servidor');
+            console.error(err);
+        });
+    });
+});
+</script>
 </body>
 </html>

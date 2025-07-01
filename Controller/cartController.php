@@ -50,4 +50,53 @@ public function actualizarCarrito() {
 
     echo "ok";
 }
+
+public function eliminarDelCarrito() {
+    $producto_id = $_POST['producto_id'] ?? null;
+    $carrito_id = $_SESSION['carrito_id'] ?? null;
+
+    if ($producto_id && $carrito_id) {
+        $this->modelo->eliminarProducto($carrito_id, $producto_id);
+        echo "ok";
+    } else {
+        echo "error";
+    }
+}
+
+    public function mostrarCheckout() {
+        // Validar si hay un carrito activo
+        if (!isset($_SESSION['carrito_id'])) {
+        }
+
+        $carrito_id = $_SESSION['carrito_id'];
+
+        // Obtener los productos del carrito
+        $items = $this->modelo->obtenerItemsDelCarrito($carrito_id);
+
+        // Calcular subtotales y total
+        $subtotal_general = 0;
+            foreach ($items as $i => $item) {
+                $items[$i]['subtotal'] = $item['precio'] * $item['cantidad'];
+                $subtotal_general += $items[$i]['subtotal'];
+            }
+
+        $envio = 15.00;
+        $total = $subtotal_general + $envio;
+        
+        include(__DIR__ . '/../View/checkout/index.php');
+    }
+public function procesarPedido() {
+    if (!isset($_SESSION['carrito_id'])) {
+        header("Location: index.php?controlador=cart&accion=mostrarCarrito1");
+        exit;
+    }
+
+    $carrito_id = $_SESSION['carrito_id'];
+    
+    $this->modelo->procesarPedido($carrito_id);
+
+     $_SESSION['mensaje_pedido'] = "¡Tu pedido fue realizado con éxito!";
+    header("Location: index.php?controlador=inicio&accion=mostrarInicio");
+}
+    
 }
