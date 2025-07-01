@@ -377,14 +377,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                         <div class="flex-col hide-for-medium flex-left">
                 <ul class="nav header-nav header-bottom-nav nav-left  nav-box nav-spacing-large nav-uppercase">
-                    <li id="menu-item-390" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-390 menu-item-design-default"><a href="../../index.php" class="nav-top-link">INICIO</a></li>
-<li id="menu-item-3172" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3172 menu-item-design-default has-dropdown"><a href="/View/product-category/vinos/" class="nav-top-link">VINOS<i class="nav-top-link" ></i></a>
-
-</li>
-<li id="menu-item-3166" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat current-menu-item menu-item-3166 active menu-item-design-default"><a href="/View/product-category/licores/" aria-current="page" class="nav-top-link">LICORES</a></li>
-<li id="menu-item-3817" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3817 menu-item-design-default"><a href="/View/product-category/agua-tonica/" class="nav-top-link">AGUA TÓNICA</a></li>
-<li id="menu-item-3169" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3169 menu-item-design-default"><a href="/View/product-category/cerveza/" class="nav-top-link">CERVEZA</a></li>
-<li id="menu-item-3167" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-3167 menu-item-design-default has-dropdown"><a href="/View/product-category/espumantes/" class="nav-top-link">ESPUMANTES<i class="nav-top-link" ></i></a>
+                    <li id="menu-item-390" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-390 menu-item-design-default"><a href="index.php?controlador=inicio&accion=mostrarInicio" class="nav-top-link">INICIO</a></li>
+<li id="menu-item-3172" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3172 menu-item-design-default has-dropdown"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=1" class="nav-top-link">VINOS<i class="nav-top-link" ></i></a></li>
+<li id="menu-item-3166" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat current-menu-item menu-item-3166 active menu-item-design-default"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=2" aria-current="page" class="nav-top-link">LICORES</a></li>
+<li id="menu-item-3817" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3817 menu-item-design-default"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=4" class="nav-top-link">AGUA TÓNICA</a></li>
+<li id="menu-item-3169" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3169 menu-item-design-default"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=3" class="nav-top-link">CERVEZA</a></li>
+<li id="menu-item-3167" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-3167 menu-item-design-default has-dropdown"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=5" class="nav-top-link">ESPUMANTES<i class="nav-top-link" ></i></a>
 
 </li>
 <li id="menu-item-2782" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2782 menu-item-design-default"><a href="/View/ofertas/index.php" class="nav-top-link">OFERTAS</a></li>
@@ -473,14 +471,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <div class="product-small col has-hover product type-product post-5859 status-publish first instock product_cat-licores product_cat-varios has-post-thumbnail shipping-taxable purchasable product-type-simple">
 	<div class="col-inner">
-	<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-above_thumb-add-to-cart tinvwl-loop-button-wrapper tinvwl-woocommerce_before_shop_loop_item"
-	 data-tinvwl_product_id="5859">
-			<div
-		class="tinvwl-tooltip"></div>
-</div>
+		<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-above_thumb-add-to-cart tinvwl-loop-button-wrapper tinvwl-woocommerce_before_shop_loop_item"
+		data-tinvwl_product_id="5859">
+				<div
+			class="tinvwl-tooltip">
+				</div>
+		</div>
 
-<div class="badge-container absolute left top z-1">
-</div>
+	<div class="badge-container absolute left top z-1">
+	</div>
 	<div class="product-small box ">
 		<div class="box-image">
 			<div class="image-fade_in_back">
@@ -523,7 +522,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-above_thumb-add-to-cart tinvwl-loop-button-wrapper tinvwl-woocommerce_before_shop_loop_item"
 	 data-tinvwl_product_id="6082">
 		<div
-		class="tinvwl-tooltip"></div>
+		class="tinvwl-tooltip">
+	</div>
 </div>
 
 <div class="badge-container absolute left top z-1">
@@ -987,6 +987,81 @@ var flatsomeVars = {"ajaxurl":"https:\/\/www.La estación.pe\/wp-admin\/admin-aj
 /* ]]> */
 </script>
 <script type='text/javascript' src='/View/wp-content/themes/flatsome/assets/js/flatsome.js@ver=3.13.1' id='flatsome-js-js'></script>
-<script type='text/javascript' src='/View/wp-content/themes/flatsome/assets/js/woocommerce.js@ver=3.13.1' id='flatsome-theme-woocommerce-js-js'></script>
+<div id="mensaje-carrito" class="mensaje-oculto"></div>
+
+<style>
+#mensaje-carrito {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #4caf50;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    z-index: 9999;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-family: Arial, sans-serif;
+
+    pointer-events: none; 
+}
+
+#mensaje-carrito.mostrar {
+    opacity: 1;
+    pointer-events: auto; 
+}
+
+#mensaje-carrito.error {
+    background-color: #f44336;
+}
+
+#mensaje-carrito.error {
+    background-color: #f44336;
+}
+</style>
+
+<script>
+document.querySelectorAll('.form-agregar-carrito').forEach(form => {
+    form.addEventListener('submit', function(e) {
+        e.preventDefault(); // No recargar la página
+
+        const formData = new FormData(this);
+
+        fetch('index.php?controlador=cart&accion=agregarAlCarrito', {
+            method: 'POST',
+            body: formData
+        })
+        .then(res => res.text())
+        .then(data => {
+            mostrarMensaje("Producto añadido al carrito");
+            actualizarCarritoIcono(); 
+        })
+        .catch(err => {
+            console.error("Error:", err);
+            mostrarMensaje("Error al añadir producto", true);
+        });
+    });
+});
+
+function actualizarCarritoIcono() {
+    fetch('index.php?controlador=cart&accion=obtenerCantidadProductos')
+    .then(res => res.text())
+    .then(data => {
+        document.querySelector('#icono-carrito').setAttribute('data-icon-label', data);
+    });
+}
+
+function mostrarMensaje(texto, esError = false) {
+    const mensaje = document.getElementById("mensaje-carrito");
+    mensaje.textContent = texto;
+    mensaje.className = esError ? "mostrar error" : "mostrar";
+
+    setTimeout(() => {
+        mensaje.className = "mensaje-oculto";
+    }, 1000);
+}
+document.addEventListener('DOMContentLoaded', actualizarCarritoIcono);
+</script>
 </body>
 </html>

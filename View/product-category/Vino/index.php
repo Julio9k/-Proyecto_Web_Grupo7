@@ -522,12 +522,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                         <div class="flex-col hide-for-medium flex-left">
                 <ul class="nav header-nav header-bottom-nav nav-left  nav-box nav-spacing-large nav-uppercase">
-                    <li id="menu-item-390" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-390 menu-item-design-default"><a href="../../index.php" class="nav-top-link">INICIO</a></li>
-					<li id="menu-item-3172" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3172 menu-item-design-default has-dropdown active"><a href="/View/product-category/vinos/" class="nav-top-link">VINOS<i class="nav-top-link" ></i></a></li>
-					<li id="menu-item-3166" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3166 menu-item-design-default"><a href="/View/product-category/licores/" class="nav-top-link">LICORES</a></li>
-					<li id="menu-item-3817" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3817 menu-item-design-default"><a href="/View/product-category/agua-tonica/" class="nav-top-link">AGUA TÓNICA</a></li>
-					<li id="menu-item-3169" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3169 menu-item-design-default"><a href="/View/product-category/cerveza/" class="nav-top-link">CERVEZA</a></li>
-					<li id="menu-item-3167" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-3167 menu-item-design-default has-dropdown"><a href="/View/product-category/espumantes/" class="nav-top-link">ESPUMANTES<i class="nav-top-link" ></i></a></li>
+                    <li id="menu-item-390" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-390 menu-item-design-default"><a href="index.php?controlador=inicio&accion=mostrarInicio" class="nav-top-link">INICIO</a></li>
+					<li id="menu-item-3172" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3172 menu-item-design-default has-dropdown active"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=1" class="nav-top-link">VINOS<i class="nav-top-link" ></i></a></li>
+					<li id="menu-item-3166" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3166 menu-item-design-default"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=2" class="nav-top-link">LICORES</a></li>
+					<li id="menu-item-3817" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3817 menu-item-design-default"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=4" class="nav-top-link">AGUA TÓNICA</a></li>
+					<li id="menu-item-3169" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3169 menu-item-design-default"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=3" class="nav-top-link">CERVEZA</a></li>
+					<li id="menu-item-3167" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-3167 menu-item-design-default has-dropdown"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=5" class="nav-top-link">ESPUMANTES<i class="nav-top-link" ></i></a></li>
 					<li id="menu-item-2782" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2782 menu-item-design-default"><a href="/View/ofertas/index.php" class="nav-top-link">OFERTAS</a></li>
 
                 </ul>
@@ -591,20 +591,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 		<div class="col large-3 hide-for-medium ">
 						<div id="shop-sidebar" class="sidebar-inner col-inner">
-				<aside id="woocommerce_product_categories-13" class="widget woocommerce widget_product_categories"><span class="widget-title shop-sidebar">Categorias</span><div class="is-divider small"></div><ul class="product-categories"><li class="cat-item cat-item-126"><a href="/View/product-category/cerveza/">Cerveza</a></li>
-<li class="cat-item cat-item-127 current-cat cat-parent"><a href="/View/product-category/vinos/">Vinos</a>
-</li>
-
-
-<li class="cat-item cat-item-142 cat-parent"><a href="/View/product-category/licores/index.php">Licores</a>
-
-</li>
-<li class="cat-item cat-item-149"><a href="/View/product-category/ofertas/index.php">Ofertas</a></li>
-<li class="cat-item cat-item-133 cat-parent"><a href="/View/product-category/espumantes/index.php">Espumantes</a>
-</li>
-<li class="cat-item cat-item-156"><a href="/View/product-category/agua-tonica/index.php">Agua Tónica</a></li>
-</aside>			</div>
-					</div>
+							<aside id="woocommerce_product_categories-13" class="widget woocommerce widget_product_categories"><span class="widget-title shop-sidebar">Categorias</span><div class="is-divider small"></div><ul class="product-categories">
+								<li class="cat-item cat-item-126"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=3">Cerveza</a></li>
+							<li class="cat-item cat-item-127 current-cat cat-parent"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=1">Vinos</a></li>
+								<li class="cat-item cat-item-142 cat-parent"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=2">Licores</a></li>
+								<li class="cat-item cat-item-133 cat-parent"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=5">Espumantes</a></li>
+								<li class="cat-item cat-item-156"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=4">Agua Tónica</a></li>
+							</aside>			
+						</div>
+		</div>
 
 		<div class="col large-9">
 		<div class="shop-container">
@@ -894,14 +889,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<div class="sidebar-menu no-scrollbar ">
 		<ul class="nav nav-sidebar nav-vertical nav-uppercase">
 			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-390"><a href="/View/">INICIO</a></li>
-			<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3172 active"><a href="#">VINOS</a></li>
-			<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3166"><a href="/View/product-category/licores/">LICORES</a></li>
-			<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3817"><a href="/View/product-category/agua-tonica/">AGUA TÓNICA</a></li>
-			<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3169"><a href="/View/product-category/cerveza/">CERVEZA</a></li>
-			<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-3167"><a href="/View/product-category/espumantes/">ESPUMANTES</a>
-
-</li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2782"><a href="/View/ofertas/index.php">OFERTAS</a></li>
+			<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3172 active"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=1">VINOS</a></li>
+			<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3166"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=2">LICORES</a></li>
+			<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3817"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=4">AGUA TÓNICA</a></li>
+			<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3169"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=3">CERVEZA</a></li>
+			<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-3167"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=5">ESPUMANTES</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2782"><a href="/View/ofertas/index.php">OFERTAS</a></li>
 
 <li class="html header-social-icons ml-0">
 	<div class="social-icons follow-icons" ><a href="https://www.facebook.com/" target="_blank" data-label="Facebook"  rel="noopener noreferrer nofollow" class="icon plain facebook tooltip" title="Síguenos en Facebook"><i class="icon-facebook" ></i></a><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer nofollow" data-label="Instagram" class="icon plain  instagram tooltip" title="Síguenos en Instagram"><i class="icon-instagram" ></i></a><a href="mailto:Laestacion@gmail.com" data-label="E-mail"  rel="nofollow" class="icon plain  email tooltip" title="Envíanos un email"><i class="icon-envelop" ></i></a></div></li>		</ul>

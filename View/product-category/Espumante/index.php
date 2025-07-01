@@ -1,18 +1,30 @@
 <!DOCTYPE html>
-<html lang="es" class="loading-site no-js"> <!--<![endif]-->
+<html lang="es" class="loading-site no-js"> 
 <head>
 	<meta charset="UTF-8" />
 
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-	<title>Cerveza archivos - la Estación</title>
-	<link rel="canonical" href="/View/product-category/cerveza/" />
-	<link rel="stylesheet" href="../../css/style.css">
+ 
+	
+	
+	
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	
+	<title>Espumantes archivos - la Estación</title>
+	<link rel="canonical" href="/View/product-category/espumantes/" />
+	<meta property="og:locale" content="es_ES" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Espumantes archivos - la Estación" />
+	<meta property="og:url" content="/product-category/espumantes/" />
+	<meta property="og:site_name" content="la Estación" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"CollectionPage","@id":"https://www.miluvas.pe/product-category/espumantes/","url":"https://www.miluvas.pe/product-category/espumantes/","name":"Espumantes archivos - la Estación","isPartOf":{"@id":"https://www.miluvas.pe/#website"},"primaryImageOfPage":{"@id":"https://www.miluvas.pe/product-category/espumantes/#primaryimage"},"image":{"@id":"https://www.miluvas.pe/product-category/espumantes/#primaryimage"},"thumbnailUrl":"https://www.miluvas.pe/wp-content/uploads/2023/05/Cava-Juve-Camps-Brut-Pinot-Noir@05x.png","breadcrumb":{"@id":"https://www.miluvas.pe/product-category/espumantes/#breadcrumb"},"inLanguage":"es"},{"@type":"ImageObject","inLanguage":"es","@id":"https://www.miluvas.pe/product-category/espumantes/#primaryimage","url":"https://www.miluvas.pe/wp-content/uploads/2023/05/Cava-Juve-Camps-Brut-Pinot-Noir@05x.png","contentUrl":"https://www.miluvas.pe/wp-content/uploads/2023/05/Cava-Juve-Camps-Brut-Pinot-Noir@05x.png","width":800,"height":800,"caption":"Cava Juvé & Camps Brut Pinot Noir"},{"@type":"BreadcrumbList","@id":"https://www.miluvas.pe/product-category/espumantes/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Portada","item":"https://www.miluvas.pe/"},{"@type":"ListItem","position":2,"name":"Espumantes"}]},{"@type":"WebSite","@id":"https://www.miluvas.pe/#website","url":"https://www.miluvas.pe/","name":"la Estación","description":"Licores en Oferta","publisher":{"@id":"https://www.miluvas.pe/#/schema/person/0ebc9ef2b53ca234337f45e2582bff84"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.miluvas.pe/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"es"},{"@type":["Person","Organization"],"@id":"https://www.miluvas.pe/#/schema/person/0ebc9ef2b53ca234337f45e2582bff84","name":"admin","image":{"@type":"ImageObject","inLanguage":"es","@id":"https://www.miluvas.pe/#/schema/person/image/","url":"https://www.miluvas.pe/wp-content/uploads/2023/04/logo-miluvas.png","contentUrl":"https://www.miluvas.pe/wp-content/uploads/2023/04/logo-miluvas.png","width":1020,"height":250,"caption":"admin"},"logo":{"@id":"https://www.miluvas.pe/#/schema/person/image/"}}]}</script>
+	<!-- / Yoast SEO plugin. -->
 
 
 <link rel='dns-prefetch' href='/View//fonts.googleapis.com' />
 <link rel="alternate" type="application/rss+xml" title="la Estación &raquo; Feed" href="/View/feed/" />
 <link rel="alternate" type="application/rss+xml" title="la Estación &raquo; Feed de los comentarios" href="/View/comments/feed/" />
-<link rel="alternate" type="application/rss+xml" title="la Estación &raquo; Cerveza Categoría Feed" href="/View/product-category/cerveza/feed/" />
+<link rel="alternate" type="application/rss+xml" title="la Estación &raquo; Espumantes Categoría Feed" href="/View/product-category/espumantes/feed/" />
 <script type="text/javascript">
 window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.miluvas.pe\/wp-includes\/js\/wp-emoji-release.min.js@ver=6.3.5"}};
 /*! This file is auto-generated */
@@ -201,10 +213,168 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <link rel='stylesheet' id='flatsome-googlefonts-css' href='/View//fonts.googleapis.com/css?family=Noto+Sans%3Aregular%2C700%2Cregular%2C700%2Cregular&#038;display=swap&#038;ver=3.9.css' type='text/css' media='all' />
 <script type='text/javascript' src='/View/wp-includes/js/jquery/jquery.min.js@ver=3.7.0' id='jquery-core-js'></script>
 <script type='text/javascript' src='/View/wp-includes/js/jquery/jquery-migrate.min.js@ver=3.4.1' id='jquery-migrate-js'></script>
-<link rel="https://api.w.org/" href="/View/wp-json/" /><link rel="alternate" type="application/json" href="/View/wp-json/wp/v2/product_cat/126" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="/View/xmlrpc.php?rsd" />
+<link rel="https://api.w.org/" href="/View/wp-json/" /><link rel="alternate" type="application/json" href="/View/wp-json/wp/v2/product_cat/133" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="/View/xmlrpc.php?rsd" />
 <meta name="generator" content="WordPress 6.3.5" />
 <meta name="generator" content="WooCommerce 7.6.0" />
+<style>
+.wc_payment_method label img {
+    float: right !important;
+    height: 24px !important;
+    margin-top:3px !important;
+}
+.wooccm-type-file label .optional{
+display:none;
+}
+.descriyape {
+    background: #742284 !important;
+    color: #fff !important;
+    padding: 4% !important;
+    font-size: 14px !important;
+    border-radius: 10px !important;
+	display: grid !important;
+}
+.descriplin {
+background: rgb(34,162,252);
+background: linear-gradient(45deg, rgba(34,162,252,1) 0%, rgba(0,226,205,1) 60%) !important;
+    color: #fff !important;
+    padding: 4% !important;
+    font-size: 14px !important;
+    border-radius: 10px !important;
+	display: grid !important;
+}
+.logoyape, .descripcion{
+    width: 50% !important;
+    float: left !important;
+	text-align:center !important;
+}
+.descripcion b{
+    font-weight: bold !important;
+}
+.logoyape img{
+    width: 80% !important;
+    height: 80% !important;
+    max-height: 90% !important;
+    margin-right: 20% !important;
+    clear: both !important;
+	border-radius: 10px !important;
+	margin-bottom:10px !important;
+}
+.titularyapeplin{
+    display: block !important;
+    margin-right: 20% !important;
+    width: 80% !important;
+    color: #fff !important;
+    text-decoration: none !important;
+    line-height: 1.2 !important;
+    font-weight: bold !important;
+	font-size: 16px !important;
+    text-align: center !important;
+    text-transform: uppercase !important;
+}
+.marcayape{
+    width: 100% !important;
+    height: 100px !important;
+    background-image: url(https://i.postimg.cc/pd4ZB7SH/finalizaryape.png) !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+.marcaplin{
+    width: 100% !important;
+    height: 100px !important;
+    background-image: url(https://i.postimg.cc/15sKMDvf/finalizarplin.png) !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+.estiloyapeplin{
+	overflow: overlay !important;
+	padding: 15px 0 !important;
+}
+.contactoyape {
+    font-size: 15px !important;
+    display: grid !important;
+    background: #10cbb4 !important;
+    color: #fff !important;
+    border-radius: 8px !important;
+    line-height: 1.1 !important;
+    padding: 8px 1% !important;
+	  text-decoration:none !important;
+    text-transform: initial !important;
+    font-weight: bold !important;
+box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    transition: all 0.3s ease-in-out !important;
+    text-align: center !important;
+	margin-top: 10px !important;
+}
+.contactoyape:hover{
+	background: #24e0c9 !important;
+}
+.contactoplin {
+    font-size: 15px !important;
+    display: grid !important;
+    background: #fe57d9 !important;
+    color: #fff !important;
+    border-radius: 8px !important;
+    line-height: 1.1 !important;
+    padding: 8px 1% !important;
+	  text-decoration:none !important;
+    text-transform: initial !important;
+    font-weight: bold !important;
+box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    transition: all 0.3s ease-in-out !important;
+    text-align: center !important;
+	margin-top: 10px !important;
+}
+.contactoplin:hover{
+	background: #f977dc !important;
+}
+.selloseguridad{
+    width: 100% !important;
+    height: 40px !important;
+    background-image: url(https://i.postimg.cc/h4mB8wT8/pago-seguro-solutionmaker.png) !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+body.woocommerce-order-received .descriyape{
+width: 501px !important;
+margin-bottom: 4% !important;
+}
+body.woocommerce-order-received .descriplin{
+width: 501px !important;
+margin-bottom: 4% !important;
+}
+@media screen and (min-width: 5px) and (max-width: 500px){
+	.descriyape{
+text-align:center;
+	}
+.logoyape, .descripcion{
+    width: 100% !important;
+    float: none !important;
+}
+.logoyape img{
+    width: 70% !important;
+    height: 70% !important;
+    max-height: 90% !important;
+    margin-right: 15% !important;
+	margin-left:15% !important;
+	margin-bottom:10px !important;
+}
+.titularyapeplin{
+  width: 80% !important;
+	margin-right: 10% !important;
+	margin-left:10% !important;
+}
+body.woocommerce-order-received .descriyape{
+width: 100% !important;
+}
+body.woocommerce-order-received .descriplin{
+width: 100% !important;
+}
+}
 
+</style>
 <style>.bg{opacity: 0; transition: opacity 1s; -webkit-transition: opacity 1s;} .bg-loaded{opacity: 1;}</style><!--[if IE]><link rel="stylesheet" type="text/css" href="/View/wp-content/themes/flatsome/assets/css/ie-fallback.css"><script src="/View//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js"></script><script>var head = document.getElementsByTagName('head')[0],style = document.createElement('style');style.type = 'text/css';style.styleSheet.cssText = ':before,:after{content:none !important';head.appendChild(style);setTimeout(function(){head.removeChild(style);}, 0);</script><script src="/View/wp-content/themes/flatsome/assets/libs/ie-flexibility.js"></script><![endif]-->	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
 	<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-WXJP3HZ35K"></script>
@@ -214,13 +384,13 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
   gtag('js', new Date());
 
   gtag('config', 'G-WXJP3HZ35K');
-</script><link rel="icon" href="/View/wp-content/uploads/2023/04/Icono_1.png" sizes="32x32" />
+</script><link rel="icon" href="/View/wp-content/uploads/2023/04/ico-miluvas-100x100.png" sizes="32x32" />
 <link rel="icon" href="/View/wp-content/uploads/2023/04/Icono_1.png" sizes="192x192" />
 <link rel="apple-touch-icon" href="/View/wp-content/uploads/2023/04/Icono_1.png" />
 <meta name="msapplication-TileImage" content="/wp-content/uploads/2023/04/ico-miluvas.png" />
 <style id="custom-css" type="text/css">:root {--primary-color: #221177;}.header-main{height: 113px}#logo img{max-height: 113px}#logo{width:150px;}.header-bottom{min-height: 44px}.header-top{min-height: 35px}.transparent .header-main{height: 90px}.transparent #logo img{max-height: 90px}.has-transparent + .page-title:first-of-type,.has-transparent + #main > .page-title,.has-transparent + #main > div > .page-title,.has-transparent + #main .page-header-wrapper:first-of-type .page-title{padding-top: 140px;}.header.show-on-scroll,.stuck .header-main{height:70px!important}.stuck #logo img{max-height: 70px!important}.search-form{ width: 79%;}.header-bg-color, .header-wrapper {background-color: #99cc66}.header-bottom {background-color: #f1f1f1}.top-bar-nav > li > a{line-height: 16px }.header-main .nav > li > a{line-height: 16px }.stuck .header-main .nav > li > a{line-height: 50px }.header-bottom-nav > li > a{line-height: 40px }@media (max-width: 549px) {.header-main{height: 70px}#logo img{max-height: 70px}}.nav-dropdown{font-size:100%}.header-top{background-color:#221177!important;}/* Color */.accordion-title.active, .has-icon-bg .icon .icon-inner,.logo a, .primary.is-underline, .primary.is-link, .badge-outline .badge-inner, .nav-outline > li.active> a,.nav-outline >li.active > a, .cart-icon strong,[data-color='primary'], .is-outline.primary{color: #221177;}/* Color !important */[data-text-color="primary"]{color: #221177!important;}/* Background Color */[data-text-bg="primary"]{background-color: #221177;}/* Background */.scroll-to-bullets a,.featured-title, .label-new.menu-item > a:after, .nav-pagination > li > .current,.nav-pagination > li > span:hover,.nav-pagination > li > a:hover,.has-hover:hover .badge-outline .badge-inner,button[type="submit"], .button.wc-forward:not(.checkout):not(.checkout-button), .button.submit-button, .button.primary:not(.is-outline),.featured-table .title,.is-outline:hover, .has-icon:hover .icon-label,.nav-dropdown-bold .nav-column li > a:hover, .nav-dropdown.nav-dropdown-bold > li > a:hover, .nav-dropdown-bold.dark .nav-column li > a:hover, .nav-dropdown.nav-dropdown-bold.dark > li > a:hover, .is-outline:hover, .tagcloud a:hover,.grid-tools a, input[type='submit']:not(.is-form), .box-badge:hover .box-text, input.button.alt,.nav-box > li > a:hover,.nav-box > li.active > a,.nav-pills > li.active > a ,.current-dropdown .cart-icon strong, .cart-icon:hover strong, .nav-line-bottom > li > a:before, .nav-line-grow > li > a:before, .nav-line > li > a:before,.banner, .header-top, .slider-nav-circle .flickity-prev-next-button:hover svg, .slider-nav-circle .flickity-prev-next-button:hover .arrow, .primary.is-outline:hover, .button.primary:not(.is-outline), input[type='submit'].primary, input[type='submit'].primary, input[type='reset'].button, input[type='button'].primary, .badge-inner{background-color: #221177;}/* Border */.nav-vertical.nav-tabs > li.active > a,.scroll-to-bullets a.active,.nav-pagination > li > .current,.nav-pagination > li > span:hover,.nav-pagination > li > a:hover,.has-hover:hover .badge-outline .badge-inner,.accordion-title.active,.featured-table,.is-outline:hover, .tagcloud a:hover,blockquote, .has-border, .cart-icon strong:after,.cart-icon strong,.blockUI:before, .processing:before,.loading-spin, .slider-nav-circle .flickity-prev-next-button:hover svg, .slider-nav-circle .flickity-prev-next-button:hover .arrow, .primary.is-outline:hover{border-color: #221177}.nav-tabs > li.active > a{border-top-color: #221177}.widget_shopping_cart_content .blockUI.blockOverlay:before { border-left-color: #221177 }.woocommerce-checkout-review-order .blockUI.blockOverlay:before { border-left-color: #221177 }/* Fill */.slider .flickity-prev-next-button:hover svg,.slider .flickity-prev-next-button:hover .arrow{fill: #221177;}/* Background Color */[data-icon-label]:after, .secondary.is-underline:hover,.secondary.is-outline:hover,.icon-label,.button.secondary:not(.is-outline),.button.alt:not(.is-outline), .badge-inner.on-sale, .button.checkout, .single_add_to_cart_button, .current .breadcrumb-step{ background-color:#99cc66; }[data-text-bg="secondary"]{background-color: #99cc66;}/* Color */.secondary.is-underline,.secondary.is-link, .secondary.is-outline,.stars a.active, .star-rating:before, .woocommerce-page .star-rating:before,.star-rating span:before, .color-secondary{color: #99cc66}/* Color !important */[data-text-color="secondary"]{color: #99cc66!important;}/* Border */.secondary.is-outline:hover{border-color:#99cc66}@media screen and (max-width: 549px){body{font-size: 100%;}}body{font-family:"Noto Sans", sans-serif}body{font-weight: 0}.nav > li > a {font-family:"Noto Sans", sans-serif;}.mobile-sidebar-levels-2 .nav > li > ul > li > a {font-family:"Noto Sans", sans-serif;}.nav > li > a {font-weight: 700;}.mobile-sidebar-levels-2 .nav > li > ul > li > a {font-weight: 700;}h1,h2,h3,h4,h5,h6,.heading-font, .off-canvas-center .nav-sidebar.nav-vertical > li > a{font-family: "Noto Sans", sans-serif;}h1,h2,h3,h4,h5,h6,.heading-font,.banner h1,.banner h2{font-weight: 700;}.breadcrumbs{text-transform: none;}button,.button{text-transform: none;}.nav > li > a, .links > li > a{text-transform: none;}.section-title span{text-transform: none;}.alt-font{font-family: "Noto Sans", sans-serif;}.alt-font{font-weight: 0!important;}.header:not(.transparent) .header-nav-main.nav > li > a:hover,.header:not(.transparent) .header-nav-main.nav > li.active > a,.header:not(.transparent) .header-nav-main.nav > li.current > a,.header:not(.transparent) .header-nav-main.nav > li > a.active,.header:not(.transparent) .header-nav-main.nav > li > a.current{color: #000000;}.header-nav-main.nav-line-bottom > li > a:before,.header-nav-main.nav-line-grow > li > a:before,.header-nav-main.nav-line > li > a:before,.header-nav-main.nav-box > li > a:hover,.header-nav-main.nav-box > li.active > a,.header-nav-main.nav-pills > li > a:hover,.header-nav-main.nav-pills > li.active > a{color:#FFF!important;background-color: #000000;}.header:not(.transparent) .header-bottom-nav.nav > li > a:hover,.header:not(.transparent) .header-bottom-nav.nav > li.active > a,.header:not(.transparent) .header-bottom-nav.nav > li.current > a,.header:not(.transparent) .header-bottom-nav.nav > li > a.active,.header:not(.transparent) .header-bottom-nav.nav > li > a.current{color: #000000;}.header-bottom-nav.nav-line-bottom > li > a:before,.header-bottom-nav.nav-line-grow > li > a:before,.header-bottom-nav.nav-line > li > a:before,.header-bottom-nav.nav-box > li > a:hover,.header-bottom-nav.nav-box > li.active > a,.header-bottom-nav.nav-pills > li > a:hover,.header-bottom-nav.nav-pills > li.active > a{color:#FFF!important;background-color: #000000;}@media screen and (min-width: 550px){.products .box-vertical .box-image{min-width: 300px!important;width: 300px!important;}}.footer-1{background-color: #666463}.footer-2{background-color: #232323}.absolute-footer, html{background-color: #232323}button[name='update_cart'] { display: none; }/* Custom CSS */.row.row-small {max-width: 1200px;}.container-width, .full-width .ubermenu-nav, .container, .row {max-width: 1200px;}.footer-1 .row{ /* max-width: 100% !important;*/}.absolute-footer {/*border-top: 1px solid #ddd;*/}.pull-left { padding-top: 12px;}.phone-number {font-size: 1.2rem !important;}.form-row {text-align: left !important;}#billing_country_field{display:none;}.row-small>.flickity-viewport>.flickity-slider>.col, .row-small>.col {padding: 0 2.8px 19.6px;margin-bottom: 0;}a:hover {color: #99cc66;}.image-zoom a:hover {border: 1px solid #ff781e;}.nav>li.has-icon>a>i {color:#fff;}img.attachment-woocommerce_thumbnail.size-woocommerce_thumbnail {border: 1px solid #544e71;padding: 10px;border-radius:12px;}span.widget-title {font-size: 15px !important;font-weight: 600 !important;letter-spacing: .05em;}ul.menu>li>a{font-size: 13px;font-weight: 400;letter-spacing: .02em;}input[type='submit']:not(.is-form){background-color: #fff;}.dark .button, .dark input[type=submit]{color: #000;}.form-flat button, .form-flat input {border-radius: 0px;}.form-flat input:not([type=submit]){border-color: #ddd !important;border-radius: 0px;}.input[type=email]{height: 3.107em !important;}input.wpcf7-form-control.wpcf7-text.wpcf7-email.wpcf7-validates-as-required.wpcf7-validates-as-email {font-size: 13px;height: 2.907em;}.flex-col.ml-half {margin-left: 0px;}.wpcf7-spinner {display: none;}.copyright-footer{font-size: 12px;color:#ddd;}.section-title-normal span {margin-right: 15px;padding-bottom: 7.5px;border-bottom: 4px solid #99cc66;margin-bottom: -2px;}span.section-title-main {font-size: 20px;color: #0b0335;font-weight: 600;letter-spacing: -1px;}.button.is-outline{border: 1px solid #544e71;width: 100%; border-radius: 4px;/*padding: 6px;*/}a.button-continue-shopping.button.primary.is-outline {padding: 7px;}.header .nav-small a.icon:not(.button) {font-size: 1.4em;color: #000;}.header-top{background:#221177 !important;}p {margin-top: 0;font-size: 14px;}.product_meta {display: none;}.nav-pagination>li>span, .nav-pagination>li>a{font-weight: 400;border-radius: 0;border: 1px solid currentColor;}.widget_price_filter .price_slider_amount .button {border-radius: 0px;background-color: #000;}.woocommerce-ordering select { font-size: 13px;}ul.product_list_widget li a:not(.remove) { font-size: 13px;}.has-border {border: 1px solid #446084;}button.button.primary.mt-0.pull-left.small {border: 1px solid #544e71;/* width: 100%; */border-radius: 4px;padding: 6px;margin-left: 20px !important;margin-top: 10px !important;}.tinv-wishlist * {font-size: 12px;}.optional{display:none;}.woocommerce-shipping-fields {display: none;}.woocommerce-additional-fields__field-wrapper {margin-top: 20px;}a.plain {color: #000;}a.icon:not(.button) {font-size: 1.4em;}.single_add_to_cart_button.button {background-color: #221177 !important;}.checkout-button{background-color: #99cc66 !important;}/*Formulario CF7 a 2 columnas responsive*/#responsive-form{ max-width:1000px /*-- change this to get your desired form width --*/; margin:0 auto;width:100%;}.form-row{ width: 100%;}.column-half, .column-full{ float: left; position: relative; padding: 0.65rem; width:100%; -webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box}.clearfix:after { content: ""; display: table; clear: both;} .negro{background: #000;padding: 8px;color: #fff;}/**---------------- Media query ----------------**/@media only screen and (min-width: 48em) {.column-half{ width: 50%; }}.header-main {background: #221177;}input#woocommerce-product-search-field-0 {display: flex;height: 46px;justify-content: center;align-items: center;width: 100%;padding-left: 24px;border-radius: 35px;}button.ux-search-submit.submit-button.secondary.button.icon.mb-0 {/*background: #495867;*/border-radius: 35px !important;position: absolute;right: 0;box-sizing: border-box;z-index: 10;width: 46px;height: 46px;display: flex;justify-content: center;align-items: center;/*border: 1px solid #495867;*/top: 0px;}.nav>li.header-divider {border-left: 1px solid #fff;}span.header-account-title {color: #fff;}.nav>li>a>i.icon-menu {font-size: 2.7em;}span.menu-title.uppercase.hide-for-small {color: #fff;font-size: 22px;font-weight: 500;text-transform: capitalize;}.header.show-on-scroll, .stuck .header-main {height: 85px!important;}a.header-cart-link.is-small {color: #fff;}a.showcoupon {color: #221177;font-weight: 600;}a.wishlist-link.is-small {color: #FFF;}div#block_widget-3 {flex-basis: 34%;max-width: 34%;}div#block_widget-7 {max-width: 22% !important;flex-basis: 22%;}div#block_widget-5 {margin: 0px;}.footer-widgets.footer.footer-1 {padding: 10px;}.nav-spacing-xlarge>li {margin: 0 45px;}.nav-spacing-large>li {margin: 0 20px;}.row.row-large {max-width: 1200px;}.recent-blog-posts a {font-size: 13px;}.image-tools.is-small.top.right.show-on-hover {display: none;}a.primary.is-small.mb-0.button.wp-element-button.product_type_simple.add_to_cart_button.ajax_add_to_cart.is-outline {padding: 6px;}aside#woocommerce_price_filter-9 {background: #E4E4E457;padding: 10px;}aside#woocommerce_recently_viewed_products-8 {background: #E4E4E457;padding: 10px;}aside#woocommerce_product_categories-13 {background: #E4E4E457;padding: 10px;}.box-image {border-radius:12px;background-color: #f5f5f5;/*background: linear-gradient(0deg, rgba(210,210,210,1) 0%, rgba(245,245,245,1) 35%);*/}#block_widget-2, #block_widget-7, #nav_menu-3{max-width: 22%; flex-basis: 22%;} #block_widget-3{max-width: 34%; flex-basis: 34%;}input.wpcf7-form-control.has-spinner.wpcf7-submit {background: black;}li.cat-item.cat-item-149 {display: none;}/*fondo de imagen*/.image-fade_in_back {background: #fffbf4;}.box-image img, .image-and-addcart .img_ img {mix-blend-mode: multiply;}/*fin*/img.woocommerce-placeholder.wp-post-image {border: 1px solid #544e71;padding: 10px;border-radius: 12px;}#billing_address_2_field>label, #shipping_address_2_field>label{display:none;}i.icon-menu {margin-top: 8px;}input.wpcf7-form-control.has-spinner.wpcf7-submit.button {background: #fff;padding: 2px 6px;}input.wpcf7-form-control.has-spinner.wpcf7-submit.button { /* background: black;*/}.otrofon{background:#fff !important;}ul.wc-bacs-bank-details.order_details.bacs_details {FONT-SIZE: 14px;line-height: 14px;}address {font-size: 14px;}h2.wc-bacs-bank-details-heading {background: #99cc66;padding: 5px 15px;font-size: 21px;color: #fff;}h2.woocommerce-order-details__title{background: #99cc66;padding: 5px 15px;font-size: 21px;color: #fff;}h2.woocommerce-column__title{background: #99cc66;padding: 5px 15px;font-size: 21px;color: #fff;}li.bank_name {list-style: none;}li.sort_code {list-style: none;}.header-nav-main.nav-box > li > a:hover{background-color:transparent;}.widget .toggle {width: 1em;min-height: 1em;margin: 0 0 0 5px;float: right;}.widget .toggle i {top: 1px;font-size: 1.4em !important;font-weight: bolder !important;color: #000;}.nav-column li>a, .nav-dropdown>li>a {padding: 7px 20px; }/*personalizar registrate*/.dashboard-links a {background: #dad4f6;}li.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link--downloads {display: none;}li.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link--wishlist {display: none;}.header-nav-main.nav-box > li.active > a{background-color: transparent;}a.nav-top-link.nav-top-not-logged-in.is-small {color: #fff;}.message-container a {margin: 0 15px 0 0;background: #584597;padding: 7px 15px;border-radius: 5px;color: #fff;}.nav>li>a:hover, .nav>li.active>a{background: #584597;color: #fff;padding-left: 15px;}/* Personalización de tarjetas aceptadas para Woocommerce Legacy - Shortcode (< 8.4) */.payment_method_micuentawebstd img:not(.kr-header-logo,.kr-logo-izipay) {content: url("https://www.miluvas.pe/wp-content/uploads/2024/05/download.png");max-width: 200px!important;}/* Personalización de tarjetas aceptadas para Woocommerce Blocks (>= 8.4) */#radio-control-wc-payment-method-options-micuentawebstd__label img:not(.kr-header-logo,.kr-logo-izipay) {content: url("https://www.miluvas.pe/wp-content/uploads/2024/05/download.png");max-width: 200px!important;}/* Custom CSS Mobile */@media (max-width: 549px){input.wpcf7-form-control.has-spinner.wpcf7-submit {background: black;width:100%;}i.icon-menu {margin-top: 0px;}div#block_widget-5 {margin: 0px; /* padding: 0px;*/}#block_widget-2, #block_widget-7, #nav_menu-3{max-width: 100%; flex-basis: 100%;} #block_widget-3{max-width: 100%; flex-basis: 100%;}div#block_widget-3 {flex-basis: 100%;max-width: 100%;}div#block_widget-7 {max-width: 100% !important;flex-basis: 100%;}}.label-new.menu-item > a:after{content:"Nuevo";}.label-hot.menu-item > a:after{content:"Caliente";}.label-sale.menu-item > a:after{content:"Oferta";}.label-popular.menu-item > a:after{content:"Popular";}</style></head>
 
-<body class="archive tax-product_cat term-cerveza term-126 theme-flatsome woocommerce woocommerce-page woocommerce-no-js yith-wcbm-theme-flatsome tinvwl-theme-style lightbox nav-dropdown-has-shadow nav-dropdown-has-border">
+<body class="archive tax-product_cat term-espumantes term-133 theme-flatsome woocommerce woocommerce-page woocommerce-no-js yith-wcbm-theme-flatsome tinvwl-theme-style lightbox nav-dropdown-has-shadow nav-dropdown-has-border">
 
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P95HFJCP"
@@ -251,7 +421,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		
 		  <i class="icon-menu" ></i>
 		  		</a>
-	</li>		          </ul>
+	</li>		             </ul>
           </div>
 
           <!-- Left Elements -->
@@ -283,8 +453,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </li>            </ul>
           </div>
 
-                 <!-- Right Elements -->
-				 <div class="flex-col hide-for-medium flex-right">
+                  <!-- Right Elements -->
+				  <div class="flex-col hide-for-medium flex-right">
 					<ul class="header-nav header-nav-main nav nav-right  nav-box nav-uppercase">
 						<li class="account-item has-icon">
 		
@@ -336,14 +506,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                         <div class="flex-col hide-for-medium flex-left">
                 <ul class="nav header-nav header-bottom-nav nav-left  nav-box nav-spacing-large nav-uppercase">
-                    <li id="menu-item-390" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-390 menu-item-design-default"><a href="../../index.php" class="nav-top-link">INICIO</a></li>
-<li id="menu-item-3172" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3172 menu-item-design-default has-dropdown"><a href="/View/product-category/vinos/" class="nav-top-link">VINOS<i class="nav-top-link" ></i></a>
-
-</li>
-<li id="menu-item-3166" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3166 menu-item-design-default"><a href="/View/product-category/licores/" class="nav-top-link">LICORES</a></li>
-<li id="menu-item-3817" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3817 menu-item-design-default"><a href="/View/product-category/agua-tonica/" class="nav-top-link">AGUA TÓNICA</a></li>
-<li id="menu-item-3169" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat current-menu-item menu-item-3169 active menu-item-design-default"><a href="/View/product-category/cerveza/" aria-current="page" class="nav-top-link">CERVEZA</a></li>
-<li id="menu-item-3167" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-3167 menu-item-design-default has-dropdown"><a href="/View/product-category/espumantes/" class="nav-top-link">ESPUMANTES<i class="nav-top-link" ></i></a>
+                    <li id="menu-item-390" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-390 menu-item-design-default"><a href="index.php?controlador=inicio&accion=mostrarInicio" class="nav-top-link">INICIO</a></li>
+					<li id="menu-item-3172" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3172 menu-item-design-default has-dropdown"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=1" class="nav-top-link">VINOS<i class="nav-top-link" ></i></a></li>
+					<li id="menu-item-3166" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3166 menu-item-design-default"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=2" class="nav-top-link">LICORES</a></li>
+					<li id="menu-item-3817" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3817 menu-item-design-default"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=4" class="nav-top-link">AGUA TÓNICA</a></li>
+					<li id="menu-item-3169" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3169 menu-item-design-default"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=3" class="nav-top-link">CERVEZA</a></li>
+					<li id="menu-item-3167" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat current-menu-item menu-item-has-children menu-item-3167 active menu-item-design-default has-dropdown"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=5" aria-current="page" class="nav-top-link">ESPUMANTES<i class="nav-top-link" ></i></a>
 
 </li>
 <li id="menu-item-2782" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2782 menu-item-design-default"><a href="/View/ofertas/index.php" class="nav-top-link">OFERTAS</a></li>
@@ -390,7 +558,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<div class="page-title-inner flex-row  medium-flex-wrap container">
 	  <div class="flex-col flex-grow medium-text-center">
 	  	<div class="is-small">
-	<nav class="woocommerce-breadcrumb breadcrumbs uppercase"><a href="../../index.php">Inicio</a> <span class="divider">&#47;</span> Cerveza</nav></div>
+	<nav class="woocommerce-breadcrumb breadcrumbs uppercase"><a href="../../index.php">Inicio</a> <span class="divider">&#47;</span> Espumantes</nav></div>
 <div class="category-filtering category-filter-row show-for-medium">
 	<a href="#" data-open="#shop-sidebar" data-visible-after="true" data-pos="left" class="filter-button uppercase plain">
 		<i class="icon-equalizer"></i>
@@ -400,8 +568,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			</div>
 </div>
 	  </div>
-	  <div class="flex-col medium-text-center">
-	  		  </div>
+	
 	</div>
 </div>
 
@@ -410,7 +577,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 		<div class="col large-3 hide-for-medium ">
 						<div id="shop-sidebar" class="sidebar-inner col-inner">
-				<aside id="woocommerce_product_categories-13" class="widget woocommerce widget_product_categories"><span class="widget-title shop-sidebar">Categorias</span><div class="is-divider small"></div><ul class="product-categories"><li class="cat-item cat-item-126 current-cat"><a href="/View/product-category/cerveza/">Cerveza</a></li>
+				<aside id="woocommerce_product_categories-13" class="widget woocommerce widget_product_categories"><span class="widget-title shop-sidebar">Categorias</span><div class="is-divider small"></div><ul class="product-categories"><li class="cat-item cat-item-126"><a href="/View/product-category/cerveza/">Cerveza</a></li>
 <li class="cat-item cat-item-127 cat-parent"><a href="/View/product-category/vinos/">Vinos</a>
 </li>
 
@@ -418,17 +585,160 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <li class="cat-item cat-item-142 cat-parent"><a href="/View/product-category/licores/">Licores</a>
 </li>
 <li class="cat-item cat-item-149"><a href="/View/product-category/ofertas/">Ofertas</a></li>
-<li class="cat-item cat-item-133 cat-parent"><a href="/View/product-category/espumantes/">Espumantes</a>
+<li class="cat-item cat-item-133 current-cat cat-parent"><a href="/View/product-category/espumantes/">Espumantes</a>
 </li>
 <li class="cat-item cat-item-156"><a href="/View/product-category/agua-tonica/">Agua Tónica</a></li>
-</ul></aside>			</div>
+
+
+</aside>			</div>
 					</div>
 
 		<div class="col large-9">
 		<div class="shop-container">
 		
-		<p class="woocommerce-info woocommerce-no-products-found">No se encontraron productos que concuerden con la selección.</p>
+		<div class="woocommerce-notices-wrapper"></div><div class="products row row-small large-columns-3 medium-columns-3 small-columns-2 equalize-box">
 
+<div class="product-small col has-hover product type-product post-3229 status-publish first instock product_cat-espana product_cat-espumantes has-post-thumbnail shipping-taxable purchasable product-type-simple">
+	<div class="col-inner">
+	<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-above_thumb-add-to-cart tinvwl-loop-button-wrapper tinvwl-woocommerce_before_shop_loop_item"
+	 data-tinvwl_product_id="3229">
+	<!-- a role="button" tabindex="0" name="" aria-label="" class="tinvwl_add_to_wishlist_button tinvwl-icon-heart no-txt tinvwl-product-already-on-wishlist  tinvwl-position-above_thumb tinvwl-loop" data-tinv-wl-list="[]" data-tinv-wl-product="3229" data-tinv-wl-productvariation="0" data-tinv-wl-productvariations="[]" data-tinv-wl-producttype="simple" data-tinv-wl-action="add"></a -->		<div
+		class="tinvwl-tooltip"></div>
+</div>
+
+<div class="badge-container absolute left top z-1">
+</div>
+	<div class="product-small box ">
+		<div class="box-image">
+			<div class="image-fade_in_back">
+				<a href="/View/product/cava-juve-camps-brut-rose-pinot-noir/">
+					<img width="300" height="300" src="/View/wp-content/uploads/2023/05/Cava-Juve-Camps-Brut-Pinot-Noir@05x-300x300.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Cava Juvé &amp; Camps Brut Pinot Noir" decoding="async" loading="lazy"  sizes="(max-width: 300px) 100vw, 300px" />				</a>
+			</div>
+			<div class="image-tools is-small top right show-on-hover">
+							<div class="wishlist-icon">
+				<button class="wishlist-button button is-outline circle icon"
+						aria-label="Lista de deseos">
+					<i class="icon-heart-o" ></i>				</button>
+				<div
+					class="wishlist-popup dark ">
+					<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-shortcode-add-to-cart tinvwl-loop-button-wrapper tinvwl-flatsome_product_box_tools_top"
+	 data-tinvwl_product_id="3229">
+	<!-- a role="button" tabindex="0" name="" aria-label="" class="tinvwl_add_to_wishlist_button tinvwl-icon-heart no-txt tinvwl-product-already-on-wishlist  tinvwl-position-above_thumb tinvwl-loop" data-tinv-wl-list="[]" data-tinv-wl-product="3229" data-tinv-wl-productvariation="0" data-tinv-wl-productvariations="[]" data-tinv-wl-producttype="simple" data-tinv-wl-action="add"></a -->		<div
+		class="tinvwl-tooltip"></div>
+</div>
+				</div>
+			</div>
+						</div>
+			<div class="image-tools is-small hide-for-small bottom left show-on-hover">
+							</div>
+			<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+							</div>
+					</div>
+
+		<div class="box-text box-text-products text-center grid-style-2">
+			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+			España		</p>
+	<p class="name product-title woocommerce-loop-product__title"><a href="/View/product/cava-juve-camps-brut-rose-pinot-noir/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Cava Juvé &#038; Camps Brut Rosé Pinot Noir</a></p></div><div class="price-wrapper">
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">S/</span>&nbsp;110.00</bdi></span></span>
+</div><div class="add-to-cart-button"><a href="?add-to-cart=3229" data-quantity="1" class="primary is-small mb-0 button wp-element-button product_type_simple add_to_cart_button ajax_add_to_cart is-outline" data-product_id="3229" data-product_sku="" aria-label="Añade &ldquo;Cava Juvé &amp; Camps Brut Rosé Pinot Noir&rdquo; a tu carrito" rel="nofollow">Añadir al carrito</a></div>		</div>
+	</div>
+		</div>
+</div>
+
+<div class="product-small col has-hover product type-product post-3233 status-publish instock product_cat-espana product_cat-espumantes has-post-thumbnail shipping-taxable purchasable product-type-simple">
+	<div class="col-inner">
+	<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-above_thumb-add-to-cart tinvwl-loop-button-wrapper tinvwl-woocommerce_before_shop_loop_item"
+	 data-tinvwl_product_id="3233">
+	<!-- a role="button" tabindex="0" name="" aria-label="" class="tinvwl_add_to_wishlist_button tinvwl-icon-heart no-txt tinvwl-product-already-on-wishlist  tinvwl-position-above_thumb tinvwl-loop" data-tinv-wl-list="[]" data-tinv-wl-product="3233" data-tinv-wl-productvariation="0" data-tinv-wl-productvariations="[]" data-tinv-wl-producttype="simple" data-tinv-wl-action="add"></a -->		<div
+		class="tinvwl-tooltip"></div>
+</div>
+
+<div class="badge-container absolute left top z-1">
+</div>
+	<div class="product-small box ">
+		<div class="box-image">
+			<div class="image-fade_in_back">
+				<a href="/View/product/cava-juve-camps-cinta-purpura-reserva-2019/">
+					<img width="300" height="300" src="/View/wp-content/uploads/2023/05/Cava-Juve-Camps-Cinta-Purpura-Reserva-2019@05x-1-300x300.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Cava Juvé &amp; Camps Cinta Purpura Reserva 2019" decoding="async" loading="lazy"  sizes="(max-width: 300px) 100vw, 300px" />				</a>
+			</div>
+			<div class="image-tools is-small top right show-on-hover">
+							<div class="wishlist-icon">
+				<button class="wishlist-button button is-outline circle icon"
+						aria-label="Lista de deseos">
+					<i class="icon-heart-o" ></i>				</button>
+				<div
+					class="wishlist-popup dark ">
+					<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-shortcode-add-to-cart tinvwl-loop-button-wrapper tinvwl-flatsome_product_box_tools_top"
+	 data-tinvwl_product_id="3233">
+	<!-- a role="button" tabindex="0" name="" aria-label="" class="tinvwl_add_to_wishlist_button tinvwl-icon-heart no-txt tinvwl-product-already-on-wishlist  tinvwl-position-above_thumb tinvwl-loop" data-tinv-wl-list="[]" data-tinv-wl-product="3233" data-tinv-wl-productvariation="0" data-tinv-wl-productvariations="[]" data-tinv-wl-producttype="simple" data-tinv-wl-action="add"></a -->		<div
+		class="tinvwl-tooltip"></div>
+</div>
+				</div>
+			</div>
+						</div>
+			<div class="image-tools is-small hide-for-small bottom left show-on-hover">
+							</div>
+			<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+							</div>
+					</div>
+
+		<div class="box-text box-text-products text-center grid-style-2">
+			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+			España		</p>
+	<p class="name product-title woocommerce-loop-product__title"><a href="/View/product/cava-juve-camps-cinta-purpura-reserva-2019/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Cava Juvé &amp; Camps Cinta Purpura Reserva</a></p></div><div class="price-wrapper">
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">S/</span>&nbsp;65.00</bdi></span></span>
+</div><div class="add-to-cart-button"><a href="?add-to-cart=3233" data-quantity="1" class="primary is-small mb-0 button wp-element-button product_type_simple add_to_cart_button ajax_add_to_cart is-outline" data-product_id="3233" data-product_sku="" aria-label="Añade &ldquo;Cava Juvé &amp; Camps Cinta Purpura Reserva&rdquo; a tu carrito" rel="nofollow">Añadir al carrito</a></div>		</div>
+	</div>
+		</div>
+</div>
+
+<div class="product-small col has-hover product type-product post-4355 status-publish last instock product_cat-espumantes product_cat-italia has-post-thumbnail shipping-taxable purchasable product-type-simple">
+	<div class="col-inner">
+	<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-above_thumb-add-to-cart tinvwl-loop-button-wrapper tinvwl-woocommerce_before_shop_loop_item"
+	 data-tinvwl_product_id="4355">
+	<!-- a role="button" tabindex="0" name="" aria-label="" class="tinvwl_add_to_wishlist_button tinvwl-icon-heart no-txt tinvwl-product-already-on-wishlist  tinvwl-position-above_thumb tinvwl-loop" data-tinv-wl-list="[]" data-tinv-wl-product="4355" data-tinv-wl-productvariation="0" data-tinv-wl-productvariations="[]" data-tinv-wl-producttype="simple" data-tinv-wl-action="add"></a -->		<div
+		class="tinvwl-tooltip"></div>
+</div>
+
+<div class="badge-container absolute left top z-1">
+</div>
+	<div class="product-small box ">
+		<div class="box-image">
+			<div class="image-fade_in_back">
+				<a href="/View/product/espumante-asti-riccadonna-dogc-x-750-ml/">
+					<img width="300" height="300" src="/View/wp-content/uploads/2024/01/Asti-Riccadonna-DOGC@05x-300x300.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Asti Riccadonna DOGC" decoding="async" loading="lazy" sizes="(max-width: 300px) 100vw, 300px" />				</a>
+			</div>
+			<div class="image-tools is-small top right show-on-hover">
+							<div class="wishlist-icon">
+				<button class="wishlist-button button is-outline circle icon"
+						aria-label="Lista de deseos">
+					<i class="icon-heart-o" ></i>				</button>
+				<div
+					class="wishlist-popup dark ">
+					<div class="tinv-wraper woocommerce tinv-wishlist tinvwl-shortcode-add-to-cart tinvwl-loop-button-wrapper tinvwl-flatsome_product_box_tools_top"
+	 data-tinvwl_product_id="4355">
+	<!-- a role="button" tabindex="0" name="" aria-label="" class="tinvwl_add_to_wishlist_button tinvwl-icon-heart no-txt tinvwl-product-already-on-wishlist  tinvwl-position-above_thumb tinvwl-loop" data-tinv-wl-list="[]" data-tinv-wl-product="4355" data-tinv-wl-productvariation="0" data-tinv-wl-productvariations="[]" data-tinv-wl-producttype="simple" data-tinv-wl-action="add"></a -->		<div
+		class="tinvwl-tooltip"></div>
+</div>
+				</div>
+			</div>
+						</div>
+			<div class="image-tools is-small hide-for-small bottom left show-on-hover">
+							</div>
+			<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+							</div>
+					</div>
+
+		<div class="box-text box-text-products text-center grid-style-2">
+			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+			Espumantes		</p>
+	<p class="name product-title woocommerce-loop-product__title"><a href="/View/product/espumante-asti-riccadonna-dogc-x-750-ml/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Espumante Asti Riccadonna DOCG</a></p></div><div class="price-wrapper">
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">S/</span>&nbsp;57.00</bdi></span></span>
+</div><div class="add-to-cart-button"><a href="?add-to-cart=4355" data-quantity="1" class="primary is-small mb-0 button wp-element-button product_type_simple add_to_cart_button ajax_add_to_cart is-outline" data-product_id="4355" data-product_sku="" aria-label="Añade &ldquo;Espumante Asti Riccadonna DOCG&rdquo; a tu carrito" rel="nofollow">Añadir al carrito</a></div>		</div>
+	</div>
+		</div>
+</div>
+</div><!-- row -->
 		</div><!-- shop container -->		</div>
 </div>
 
@@ -443,7 +753,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	   		
 		<div id="block_widget-5" class="col pb-0 widget block_widget">
 		
-			<section class="section" id="section_315812717">
+			<section class="section" id="section_121955698">
 		<div class="bg section-bg fill bg-fill  bg-loaded" >
 
 			
@@ -455,21 +765,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<div class="section-content relative">
 			
 
-<div class="row row-collapse"  id="row-2058062261">
+<div class="row row-collapse"  id="row-137759065">
 
 
-	<div id="col-1560982334" class="col small-12 large-12"  >
+	<div id="col-472552105" class="col small-12 large-12"  >
 		<div class="col-inner text-center dark"  >
 			
 			
 
-	<div id="text-1018771511" class="text">
+	<div id="text-127447172" class="text">
 		
 
 <h3 class="uppercase"><span style="font-size: 120%;">TOMAR BEBIDAS ALCOHÓLICAS EN EXCESO ES DAÑINO. </span><br /><span style="font-size: 120%;">  </span></h3>
 		
 <style>
-#text-1018771511 {
+#text-127447172 {
   font-size: 0.75rem;
 }
 </style>
@@ -487,13 +797,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 		
 <style>
-#section_315812717 {
+#section_121955698 {
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: rgb(102, 100, 99);
 }
 @media (min-width:550px) {
-  #section_315812717 {
+  #section_121955698 {
     padding-top: 10px;
     padding-bottom: 10px;
   }
@@ -522,7 +832,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<div class="icon-box-img" style="width: 20px">
 				<div class="icon">
 					<div class="icon-inner" >
-						<img width="400" height="400" src="/View/wp-content/uploads/2023/04/headphones-400x400.png" class="attachment-medium size-medium" alt="" decoding="async" loading="lazy" srcset="https://www.miluvas.pe/wp-content/uploads/2023/04/headphones-400x400.png 400w, https://www.miluvas.pe/wp-content/uploads/2023/04/headphones-280x280.png 280w, https://www.miluvas.pe/wp-content/uploads/2023/04/headphones-300x300.png 300w, https://www.miluvas.pe/wp-content/uploads/2023/04/headphones-100x100.png 100w, https://www.miluvas.pe/wp-content/uploads/2023/04/headphones.png 512w" sizes="(max-width: 400px) 100vw, 400px" />					</div>
+						<img width="400" height="400" src="/View/wp-content/uploads/2023/04/headphones-400x400.png" class="attachment-medium size-medium" alt="" decoding="async" loading="lazy"  sizes="(max-width: 400px) 100vw, 400px" />					</div>
 				</div>
 			</div>
 				<div class="icon-box-text last-reset">
@@ -535,10 +845,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	</div>
 	
 	
-	<div id="gap-1304512051" class="gap-element clearfix" style="display:block; height:auto;">
+	<div id="gap-1883074439" class="gap-element clearfix" style="display:block; height:auto;">
 		
 <style>
-#gap-1304512051 {
+#gap-1883074439 {
   padding-top: 30px;
 }
 </style>
@@ -550,7 +860,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<div class="icon-box-img" style="width: 20px">
 				<div class="icon">
 					<div class="icon-inner" >
-						<img width="400" height="400" src="/View/wp-content/uploads/2023/04/message-400x400.png" class="attachment-medium size-medium" alt="" decoding="async" loading="lazy" srcset="https://www.miluvas.pe/wp-content/uploads/2023/04/message-400x400.png 400w, https://www.miluvas.pe/wp-content/uploads/2023/04/message-280x280.png 280w, https://www.miluvas.pe/wp-content/uploads/2023/04/message-300x300.png 300w, https://www.miluvas.pe/wp-content/uploads/2023/04/message-100x100.png 100w, https://www.miluvas.pe/wp-content/uploads/2023/04/message.png 512w" sizes="(max-width: 400px) 100vw, 400px" />					</div>
+						<img width="400" height="400" src="/View/wp-content/uploads/2023/04/message-400x400.png" class="attachment-medium size-medium" alt="" decoding="async" loading="lazy" sizes="(max-width: 400px) 100vw, 400px" />					</div>
 				</div>
 			</div>
 				<div class="icon-box-text last-reset">
@@ -572,10 +882,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<span class="widget-title">Boletín</span><div class="is-divider small"></div>
 		¡Suscríbete a nuestro newsletter y recibe las mejores ofertas!
 
-	<div id="gap-1133251756" class="gap-element clearfix" style="display:block; height:auto;">
+	<div id="gap-79511557" class="gap-element clearfix" style="display:block; height:auto;">
 		
 <style>
-#gap-1133251756 {
+#gap-79511557 {
   padding-top: 10px;
 }
 </style>
@@ -585,7 +895,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <div class="wpcf7 no-js" id="wpcf7-f15-o1" lang="en-US" dir="ltr">
 <div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
-<form action="/product-category/cerveza/#wpcf7-f15-o1" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
+<form action="/product-category/espumantes/#wpcf7-f15-o1" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
 <div style="display: none;">
 <input type="hidden" name="_wpcf7" value="15" />
 <input type="hidden" name="_wpcf7_version" value="5.9.8" />
@@ -601,10 +911,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 
-	<div id="gap-60978792" class="gap-element clearfix" style="display:block; height:auto;">
+	<div id="gap-2002125534" class="gap-element clearfix" style="display:block; height:auto;">
 		
 <style>
-#gap-60978792 {
+#gap-2002125534 {
   padding-top: 10px;
 }
 </style>
@@ -659,8 +969,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </li>
 <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3166"><a href="/View/product-category/licores/">LICORES</a></li>
 <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3817"><a href="/View/product-category/agua-tonica/">AGUA TÓNICA</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat current-menu-item menu-item-3169"><a href="/View/product-category/cerveza/" aria-current="page">CERVEZA</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-3167"><a href="/View/product-category/espumantes/">ESPUMANTES</a>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3169"><a href="/View/product-category/cerveza/">CERVEZA</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat current-menu-item menu-item-has-children menu-item-3167"><a href="/View/product-category/espumantes/" aria-current="page">ESPUMANTES</a>
 
 </li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2782"><a href="/View/ofertas/index.php">OFERTAS</a></li>
@@ -699,7 +1009,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<label class="woocommerce-form__label woocommerce-form__label-for-checkbox woocommerce-form-login__rememberme">
 							<input class="woocommerce-form__input woocommerce-form__input-checkbox" name="rememberme" type="checkbox" id="rememberme" value="forever" /> <span>Recuérdame</span>
 						</label>
-						<input type="hidden" id="woocommerce-login-nonce" name="woocommerce-login-nonce" value="3d9650e939" /><input type="hidden" name="_wp_http_referer" value="/product-category/cerveza/" />						<button type="submit" class="woocommerce-button button woocommerce-form-login__submit" name="login" value="Acceder">Acceder</button>
+						<input type="hidden" id="woocommerce-login-nonce" name="woocommerce-login-nonce" value="3d9650e939" /><input type="hidden" name="_wp_http_referer" value="/product-category/espumantes/" />						<button type="submit" class="woocommerce-button button woocommerce-form-login__submit" name="login" value="Acceder">Acceder</button>
 					</p>
 					<p class="woocommerce-LostPassword lost_password">
 						<a href="/View/my-account/lost-password/index.php">¿Olvidaste la contraseña?</a>
@@ -741,7 +1051,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<div class="woocommerce-privacy-policy-text"><p>Sus datos personales se utilizarán para respaldar su experiencia en este sitio web</p>
 </div>
 					<p class="woocommerce-form-row form-row">
-						<input type="hidden" id="woocommerce-register-nonce" name="woocommerce-register-nonce" value="b52a9bd973" /><input type="hidden" name="_wp_http_referer" value="/product-category/cerveza/" />						<button type="submit" class="woocommerce-Button woocommerce-button button woocommerce-form-register__submit" name="register" value="Regístrate">Regístrate</button>
+						<input type="hidden" id="woocommerce-register-nonce" name="woocommerce-register-nonce" value="b52a9bd973" /><input type="hidden" name="_wp_http_referer" value="/product-category/espumantes/" />						<button type="submit" class="woocommerce-Button woocommerce-button button woocommerce-form-register__submit" name="register" value="Regístrate">Regístrate</button>
 					</p>
 
 					
@@ -756,7 +1066,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
           </div>
-  <script type="application/ld+json">{"@context":"https:\/\/schema.org\/","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"name":"Inicio","@id":"https:\/\/www.miluvas.pe"}},{"@type":"ListItem","position":2,"item":{"name":"Cerveza","@id":"https:\/\/www.miluvas.pe\/product-category\/cerveza\/"}}]}</script><div id='pys_ajax_events'></div>        <script>
+  <script type="application/ld+json">{"@context":"https:\/\/schema.org\/","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"name":"Inicio","@id":"https:\/\/www.miluvas.pe"}},{"@type":"ListItem","position":2,"item":{"name":"Espumantes","@id":"https:\/\/www.miluvas.pe\/product-category\/espumantes\/"}}]}</script><div id='pys_ajax_events'></div>        <script>
             var node = document.getElementsByClassName('woocommerce-message')[0];
             if(node && document.getElementById('pys_late_event')) {
                 var messageText = node.textContent.trim();
@@ -850,6 +1160,81 @@ var flatsomeVars = {"ajaxurl":"https:\/\/www.La estación.pe\/wp-admin\/admin-aj
 /* ]]> */
 </script>
 <script type='text/javascript' src='/View/wp-content/themes/flatsome/assets/js/flatsome.js@ver=3.13.1' id='flatsome-js-js'></script>
-<script type='text/javascript' src='/View/wp-content/themes/flatsome/assets/js/woocommerce.js@ver=3.13.1' id='flatsome-theme-woocommerce-js-js'></script>
+<div id="mensaje-carrito" class="mensaje-oculto"></div>
+
+<style>
+#mensaje-carrito {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #4caf50;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    z-index: 9999;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-family: Arial, sans-serif;
+
+    pointer-events: none; 
+}
+
+#mensaje-carrito.mostrar {
+    opacity: 1;
+    pointer-events: auto; 
+}
+
+#mensaje-carrito.error {
+    background-color: #f44336;
+}
+
+#mensaje-carrito.error {
+    background-color: #f44336;
+}
+</style>
+
+<script>
+document.querySelectorAll('.form-agregar-carrito').forEach(form => {
+    form.addEventListener('submit', function(e) {
+        e.preventDefault(); // No recargar la página
+
+        const formData = new FormData(this);
+
+        fetch('index.php?controlador=cart&accion=agregarAlCarrito', {
+            method: 'POST',
+            body: formData
+        })
+        .then(res => res.text())
+        .then(data => {
+            mostrarMensaje("Producto añadido al carrito");
+            actualizarCarritoIcono(); 
+        })
+        .catch(err => {
+            console.error("Error:", err);
+            mostrarMensaje("Error al añadir producto", true);
+        });
+    });
+});
+
+function actualizarCarritoIcono() {
+    fetch('index.php?controlador=cart&accion=obtenerCantidadProductos')
+    .then(res => res.text())
+    .then(data => {
+        document.querySelector('#icono-carrito').setAttribute('data-icon-label', data);
+    });
+}
+
+function mostrarMensaje(texto, esError = false) {
+    const mensaje = document.getElementById("mensaje-carrito");
+    mensaje.textContent = texto;
+    mensaje.className = esError ? "mostrar error" : "mostrar";
+
+    setTimeout(() => {
+        mensaje.className = "mensaje-oculto";
+    }, 1000);
+}
+document.addEventListener('DOMContentLoaded', actualizarCarritoIcono);
+</script>
 </body>
 </html>

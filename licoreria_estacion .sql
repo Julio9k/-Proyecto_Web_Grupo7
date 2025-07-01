@@ -18,6 +18,7 @@ CREATE TABLE productos (
     imagen_url VARCHAR(255),
     categoria_id INT NOT NULL,
     stock INT NOT NULL DEFAULT 0,
+    activo TINYINT(1) NOT NULL DEFAULT 1,
     FOREIGN KEY (categoria_id) REFERENCES categorias(id)
 );
 
@@ -102,8 +103,7 @@ CREATE TABLE detalle_ventas (
     FOREIGN KEY (producto_id) REFERENCES productos(id)
 );
 -- Insertar usuario administrador
-INSERT INTO usuarios (nombre, correo, contrasena, es_admin) VALUES
-('Admin', 'admin@licoreria.pe', 'admin123', TRUE);
+
 
 -- Vinos (20)
 

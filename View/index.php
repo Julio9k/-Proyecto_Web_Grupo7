@@ -350,9 +350,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					<a href="/View/cart/index.php" title="Carrito" class="header-cart-link is-small">
 					<span class="header-cart-title">Carrito     </span>
 
-						<i class="icon-shopping-cart"
-						data-icon-label="0">
+						
+						<i id="icono-carrito"class="icon-shopping-cart"
+								data-icon-label="0">
 						</i>
+						
 					</a>
 
 				</li>
@@ -388,10 +390,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <ul class="nav header-nav header-bottom-nav nav-left  nav-box nav-spacing-large nav-uppercase">
                     <li id="menu-item-390" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-37 current_page_item menu-item-390 active menu-item-design-default"><a href="index.php?controlador=inicio&accion=mostrarInicio" aria-current="page" class="nav-top-link">INICIO</a></li>
 					<li id="menu-item-3172" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3172 menu-item-design-default has-dropdown"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=1" class="nav-top-link">VINOS<i class="nav-top-link" ></i></a></li>
-					<li id="menu-item-3166" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3166 menu-item-design-default"><a href="/View/product-category/licores/index.php" class="nav-top-link">LICORES</a></li>
-					<li id="menu-item-3817" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3817 menu-item-design-default"><a href="/View/product-category/agua-tonica/index.php" class="nav-top-link">AGUA TÓNICA</a></li>
-					<li id="menu-item-3169" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3169 menu-item-design-default"><a href="/View/product-category/cerveza/index.php" class="nav-top-link">CERVEZA</a></li>
-					<li id="menu-item-3167" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-3167 menu-item-design-default has-dropdown"><a href="/View/product-category/espumantes/" class="nav-top-link">ESPUMANTES<i class="nav-top-link" ></i></a></li>
+					<li id="menu-item-3166" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3166 menu-item-design-default"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=2" class="nav-top-link">LICORES</a></li>
+					<li id="menu-item-3817" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3817 menu-item-design-default"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=4" class="nav-top-link">AGUA TÓNICA</a></li>
+					<li id="menu-item-3169" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3169 menu-item-design-default"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=3" class="nav-top-link">CERVEZA</a></li>
+					<li id="menu-item-3167" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-3167 menu-item-design-default has-dropdown"><a href="index.php?controlador=products&accion=mostrarProductosPorCategoria&categoriaId=5" class="nav-top-link">ESPUMANTES<i class="nav-top-link" ></i></a></li>
 					<li id="menu-item-2782" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2782 menu-item-design-default"><a href="/View/ofertas/index.php" class="nav-top-link">OFERTAS</a></li>
 
                 </ul>
@@ -401,7 +403,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <div class="flex-col hide-for-medium flex-right flex-grow">
 						<ul class="nav header-nav header-bottom-nav nav-right  nav-box nav-spacing-large nav-uppercase">
 							<li class="html header-social-icons ml-0">
-									<div class="social-icons follow-icons" ><a href="https://www.facebook.com/La estaciónEIRL/" target="_blank" data-label="Facebook"  rel="noopener noreferrer nofollow" class="icon plain facebook tooltip" title="Síguenos en Facebook"><i class="icon-facebook" ></i></a><a href="https://www.instagram.com/La estación.EIRL/" target="_blank" rel="noopener noreferrer nofollow" data-label="Instagram" class="icon plain  instagram tooltip" title="Síguenos en Instagram"><i class="icon-instagram" ></i></a><a href="mailto:Laestacion@gmail.com" data-label="E-mail"  rel="nofollow" class="icon plain  email tooltip" title="Envíanos un email"><i class="icon-envelop" ></i></a>
+									<div class="social-icons follow-icons" ><a href="https://www.facebook.com" target="_blank" data-label="Facebook"  rel="noopener noreferrer nofollow" class="icon plain facebook tooltip" title="Síguenos en Facebook"><i class="icon-facebook" ></i></a><a href="https://www.instagram.com/La estación.EIRL/" target="_blank" rel="noopener noreferrer nofollow" data-label="Instagram" class="icon plain  instagram tooltip" title="Síguenos en Instagram"><i class="icon-instagram" ></i></a><a href="mailto:Laestacion@gmail.com" data-label="E-mail"  rel="nofollow" class="icon plain  email tooltip" title="Envíanos un email"><i class="icon-envelop" ></i></a>
 									</div>
 								</li>            
 						</ul>
@@ -593,7 +595,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </style>
 	</div>
 	
-<div class="container section-title-container" ><h2 class="section-title section-title-normal"><b></b><span class="section-title-main" >Cervesa</span><b></b></h2></div>
+<div class="container section-title-container" ><h2 class="section-title section-title-normal"><b></b><span class="section-title-main" >Cerveza</span><b></b></h2></div>
 
   
     <div class="row  equalize-box large-columns-4 medium-columns-3 small-columns-2 row-small slider row-slider slider-nav-simple slider-nav-outside slider-nav-push"  data-flickity-options='{"imagesLoaded": true, "groupCells": "100%", "dragThreshold" : 5, "cellAlign": "left","wrapAround": true,"prevNextButtons": true,"percentPosition": true,"pageDots": false, "rightToLeft": false, "autoPlay" : 4000}'>
@@ -669,10 +671,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 									
 									<!-- BOTON : Añadir al carrito -->
 									<div class="add-to-cart-button">
-											<a href="?add-to-cart=5329" data-quantity="1" class="primary is-small mb-0 button wp-element-button product_type_simple add_to_cart_button ajax_add_to_cart is-outline" data-product_id="5329" data-product_sku="" aria-label="Añade &ldquo;DG Familia Fernández Rivera&rdquo; a tu carrito" rel="nofollow">
-												Añadir al carrito
-											</a>
-									</div>		
+								<form id="form-vino-<?= $producto['id'] ?>" class="form-agregar-carrito">
+									<input type="hidden" name="producto_id" value="<?= $producto['id'] ?>">
+									<input type="hidden" name="cantidad" value="1">
+									<button type="submit" class="single_add_to_cart_button button alt wp-element-button">Añadir al carrito</button>
+								</form>
+							</div>	
 							</div>
 						</div>
 						</div>
@@ -888,11 +892,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 									</div>
 									
 									<!-- BOTON : Añadir al carrito -->
-									<div class="add-to-cart-button">
-											<a href="?add-to-cart=5329" data-quantity="1" class="primary is-small mb-0 button wp-element-button product_type_simple add_to_cart_button ajax_add_to_cart is-outline" data-product_id="5329" data-product_sku="" aria-label="Añade &ldquo;DG Familia Fernández Rivera&rdquo; a tu carrito" rel="nofollow">
-												Añadir al carrito
-											</a>
-									</div>		
+							<div class="add-to-cart-button">
+								<form id="form-vino-<?= $producto['id'] ?>" class="form-agregar-carrito">
+									<input type="hidden" name="producto_id" value="<?= $producto['id'] ?>">
+									<input type="hidden" name="cantidad" value="1">
+									<button type="submit" class="single_add_to_cart_button button alt wp-element-button">Añadir al carrito</button>
+								</form>
+							</div>
+
 							</div>
 						</div>
 						</div>
@@ -1000,10 +1007,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 									
 									<!-- BOTON : Añadir al carrito -->
 									<div class="add-to-cart-button">
-											<a href="?add-to-cart=5329" data-quantity="1" class="primary is-small mb-0 button wp-element-button product_type_simple add_to_cart_button ajax_add_to_cart is-outline" data-product_id="5329" data-product_sku="" aria-label="Añade &ldquo;DG Familia Fernández Rivera&rdquo; a tu carrito" rel="nofollow">
-												Añadir al carrito
-											</a>
-									</div>		
+								<form id="form-vino-<?= $producto['id'] ?>" class="form-agregar-carrito">
+										<input type="hidden" name="producto_id" value="<?= $producto['id'] ?>">
+										<input type="hidden" name="cantidad" value="1">
+										<button type="submit" class="single_add_to_cart_button button alt wp-element-button">Añadir al carrito</button>
+								</form>
+							</div>		
 							</div>
 						</div>
 						</div>
@@ -1110,10 +1119,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 									
 									<!-- BOTON : Añadir al carrito -->
 									<div class="add-to-cart-button">
-											<a href="?add-to-cart=5329" data-quantity="1" class="primary is-small mb-0 button wp-element-button product_type_simple add_to_cart_button ajax_add_to_cart is-outline" data-product_id="5329" data-product_sku="" aria-label="Añade &ldquo;DG Familia Fernández Rivera&rdquo; a tu carrito" rel="nofollow">
-												Añadir al carrito
-											</a>
-									</div>		
+								<form id="form-vino-<?= $producto['id'] ?>" class="form-agregar-carrito">
+									<input type="hidden" name="producto_id" value="<?= $producto['id'] ?>">
+									<input type="hidden" name="cantidad" value="1">
+									<button type="submit" class="single_add_to_cart_button button alt wp-element-button">Añadir al carrito</button>
+								</form>
+
+							</div>		
 							</div>
 						</div>
 						</div>
@@ -1579,6 +1591,82 @@ var flatsomeVars = {"ajaxurl":"https:\/\/www.La estación.pe\/wp-admin\/admin-aj
 /* ]]> */
 </script>
 <script type='text/javascript' src='/View/wp-content/themes/flatsome/assets/js/flatsome.js@ver=3.13.1' id='flatsome-js-js'></script>
-<script type='text/javascript' src='/View/wp-content/themes/flatsome/assets/js/woocommerce.js@ver=3.13.1' id='flatsome-theme-woocommerce-js-js'></script>
+
+<div id="mensaje-carrito" class="mensaje-oculto"></div>
+
+<style>
+#mensaje-carrito {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #4caf50;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    z-index: 9999;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-family: Arial, sans-serif;
+
+    pointer-events: none; 
+}
+
+#mensaje-carrito.mostrar {
+    opacity: 1;
+    pointer-events: auto; 
+}
+
+#mensaje-carrito.error {
+    background-color: #f44336;
+}
+
+#mensaje-carrito.error {
+    background-color: #f44336;
+}
+</style>
+
+<script>
+document.querySelectorAll('.form-agregar-carrito').forEach(form => {
+    form.addEventListener('submit', function(e) {
+        e.preventDefault(); // No recargar la página
+
+        const formData = new FormData(this);
+
+        fetch('index.php?controlador=cart&accion=agregarAlCarrito', {
+            method: 'POST',
+            body: formData
+        })
+        .then(res => res.text())
+        .then(data => {
+            mostrarMensaje("Producto añadido al carrito");
+            actualizarCarritoIcono(); 
+        })
+        .catch(err => {
+            console.error("Error:", err);
+            mostrarMensaje("Error al añadir producto", true);
+        });
+    });
+});
+
+function actualizarCarritoIcono() {
+    fetch('index.php?controlador=cart&accion=obtenerCantidadProductos')
+    .then(res => res.text())
+    .then(data => {
+        document.querySelector('#icono-carrito').setAttribute('data-icon-label', data);
+    });
+}
+
+function mostrarMensaje(texto, esError = false) {
+    const mensaje = document.getElementById("mensaje-carrito");
+    mensaje.textContent = texto;
+    mensaje.className = esError ? "mostrar error" : "mostrar";
+
+    setTimeout(() => {
+        mensaje.className = "mensaje-oculto";
+    }, 1000);
+}
+document.addEventListener('DOMContentLoaded', actualizarCarritoIcono);
+</script>
 </body>
 </html>
